@@ -1226,7 +1226,7 @@ a.link.link--text.list-menu__item.list-menu__item--link.list-menu__item--active:
   .header__icon--menu span {
     background: #3f51b5;
   }
-  .menu-drawer__navigation .menu-drawer__menu ..list-menu__item{
+  .menu-drawer__navigation .menu-drawer__menu .list-menu__item{
     color: #ffffff;
   }
 }
