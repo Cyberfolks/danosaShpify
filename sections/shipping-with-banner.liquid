@@ -4,7 +4,7 @@
   <div class="shipping-with-main">
     <div class="shipping-with-img">
       {% if section.settings.shipping_with_img != blank %}
-      <img src="{{ section.settings.shipping_with_img | img_url : 'master' }}" alt />
+      <img width="" height="" loading="lazy" src="{{ section.settings.shipping_with_img | image_url : 'master' }}" alt />
       {% endif %}
     </div>
     <div class="shipping-with-content">

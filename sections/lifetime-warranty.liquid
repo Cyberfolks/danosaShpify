@@ -5,7 +5,7 @@
         {%if section.settings.image != blank%}
         <div class="lifetime-block">
           <div class="lifetime-img">
-            <img src="{{ section.settings.image | img_url: 'master'}}" />
+            <img width="" height="" loading="lazy" src="{{ section.settings.image | image_url: 'master'}}" />
           </div>
         </div>
         {%endif%}

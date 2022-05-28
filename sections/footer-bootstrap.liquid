@@ -8,14 +8,14 @@
           <div class="row col-mb-50">
             <div class="col-md-4">
               <div class="widget clearfix">
-                <img
-                  src="{{ section.settings.footer_logo | img_url: 'master' }}"
+                <img width="" height="" loading="lazy"
+                  src="{{ section.settings.footer_logo | image_url: 'master' }}"
                   alt="Image"
                   class="footer-logo"
                 />
                 <p>{{ section.settings.footer_heading }}</p>
                 <p>{{ section.settings.subtext }}</p>
-                <div style="background: url({{ section.settings.footer_map_image | img_url: 'master'}}) no-repeat center center; background-size: 100%;">
+                <div style="background: url({{ section.settings.footer_map_image | image_url: 'master'}}) no-repeat center center; background-size: 100%;">
                   <address style="font-size: 14px;">
                     <strong>Headquarters:</strong><br />
                     {{ section.settings.footer_address }}
