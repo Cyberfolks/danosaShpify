@@ -1,0 +1,77 @@
+<div class="faq-section">
+  <div class="container">
+    <div class="main-heading">
+      <h6 class="subtitle">{{section.settings.subheading}}</h6>
+      <h2 class="heading">{{section.settings.heading}}</h2>
+    </div>
+    <div class="faq-wrapper">
+      <div class="faq-block">
+        {% for block in section.blocks %}         
+        {%if block.settings.question != blank%}
+        <div class="faq-general faq-que-ans">
+          <div class="faq-que">
+            <div class="plus">
+              <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M0 16H36V20H0V16Z" fill="#AA0000"/>
+                <path d="M20 1.74845e-07L20 36H16L16 0L20 1.74845e-07Z" fill="#AA0000"/>
+              </svg>
+            </div>
+            <div class="minus">
+              <svg width="36" height="4" viewBox="0 0 36 4" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M0 0H36V4H0V0Z" fill="#AA0000"/>
+              </svg>
+            </div>
+            <span>{{ block.settings.question }}</span>
+          </div>
+          <div class="faq-ans">
+            {{block.settings.answer}}
+          </div>
+        </div>
+        {%endif%}
+        {%endfor%}
+      </div>
+    </div>
+  </div>
+</div>  
+
+<script>
+  $(document).ready(function(){
+    $('.faq-que-ans .faq-que').click(function(){
+      $('.faq-que-ans').not($(this).parent()).removeClass('active');
+      $(this).parent().toggleClass('active');
+      $('.faq-ans').not($(this).siblings()).slideUp();
+      $(this).siblings().slideToggle();
+    });
+  });
+</script>
+{% schema %}
+{
+"name": "FAQ Section",
+"class":"content-faq",
+"settings":[
+{
+"type" : "text",
+"id" : "heading",
+"label" : "FAQ title"
+}
+],
+"blocks" :[
+{
+"type" : "faq",
+"name" : "Faq",
+"settings" : [
+{
+"type" : "text",
+"id" : "question",
+"label" : "Faq Question"
+},
+{
+"type" : "richtext",
+"id" : "answer",
+"label" : "Faq Answer"
+}
+]
+}
+]
+}
+{% endschema %}

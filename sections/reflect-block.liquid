@@ -1,0 +1,185 @@
+<div class="reflect-block-main mar-btm-40">
+  <div class="container">
+    <div class="row">
+      <div class="reflect-sub-block">
+        {% for block in section.blocks %}
+        <div class="check-our-content">
+          <div class="check-our-border">
+            <div class="check-our-subcontent">
+              {% if block.settings.check_our_title != blank %}
+              <h2 style="color:{{ block.settings.check_our_title_color }}">{{ block.settings.check_our_title }}</h2>
+              {% endif %}
+              {% if block.settings.check_our_subtitle != blank %}
+              <h3>{{ block.settings.check_our_subtitle }}</h3>
+              {% endif %}
+              {% if block.settings.check_our_desc != blank %}
+              <p>{{ block.settings.check_our_desc }}</p>
+              {% endif %}
+            </div>
+            <div class="check-our-proimg">
+              {% if block.settings.check_our_proimg != blank %}
+              <img src="{{ block.settings.check_our_proimg | img_url : 'master' }}" alt />
+              {% endif %}
+            </div>
+            <div class="check-our-icon check-block">
+              <ul>
+                {% if block.settings.check_our_txt_1 != blank %}
+                <li>
+                  <div class="check-icon-img">
+                    {% if block.settings.check_our_svg_1 != blank %}
+                    {{ block.settings.check_our_svg_1}}
+                    {% endif %}
+                    {% if block.settings.check_our_txt_1 != blank %}
+                    <h3>{{ block.settings.check_our_txt_1 }}</h3>
+                    {% endif %}
+                  </div>
+                </li>
+                {% endif %}
+                {% if block.settings.check_our_txt_2 != blank %}
+                <li>
+                  <div class="check-icon-img">
+                    {% if block.settings.check_our_svg_2 != blank %}
+                    {{ block.settings.check_our_svg_2 }}
+                    {% endif %}
+                    {% if block.settings.check_our_txt_2 != blank %}
+                    <h3>{{ block.settings.check_our_txt_2 }}</h3>
+                    {% endif %}
+                  </div>
+                </li>
+                {% endif %}
+                {% if block.settings.check_our_txt_3 != blank %}
+                <li>
+                  <div class="check-icon-img">
+                    {% if block.settings.check_our_svg_3 != blank %}
+                    {{ block.settings.check_our_svg_3 }}
+                    {% endif %}
+                    {% if block.settings.check_our_txt_3 != blank %}
+                    <h3>{{ block.settings.check_our_txt_3 }}</h3>
+                    {% endif %}
+                  </div>
+                </li>
+                {% endif %}
+                {% if block.settings.check_our_txt_4 != blank %}
+                <li>
+                  <div class="check-icon-img">
+                    {% if block.settings.check_our_svg_4 != blank %}
+                    {{ block.settings.check_our_svg_4 }}
+                    {% endif %}
+                    {% if block.settings.check_our_txt_4 != blank %}
+                    <h3>{{ block.settings.check_our_txt_4 }}</h3>
+                    {% endif %}
+                  </div>
+                </li>
+                {% endif %}
+              </ul>
+            </div>
+          </div>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+    <div class="reflect-sub-btn">
+      <a href="{{ section.settings.buy_now_url }}" class="def-btn">{{ section.settings.buy_now }}</a>
+    </div>
+  </div>
+</div>
+{% schema %}
+{
+"name": "Reflect Block",
+"settings": [
+{
+"type": "text",
+"id": "buy_now",
+"label": "Buy Now Btn"
+},{
+"type": "url",
+"id": "buy_now_url",
+"label": "Buy Now URL"
+}
+],
+"blocks": [
+{
+"type": "reflect-block-content",
+"name": "Reflect Block Content",
+"settings": [
+{
+"type": "color",
+"id": "check_our_title_color",
+"label": "Check Our Title Color"
+},
+{
+"type": "text",
+"id": "check_our_title",
+"label": "Check Our Title"
+},
+{
+"type": "text",
+"id": "check_our_subtitle",
+"label": "Check Our Subtitle"
+},
+{
+"type": "textarea",
+"id": "check_our_desc",
+"label": "Check Our Desc"
+},
+{
+"type": "image_picker",
+"id": "check_our_proimg",
+"label": "Check Our Pro Img"
+},
+{
+"type": "textarea",
+"id": "check_our_svg_1",
+"label": "Check Our SVG 1"
+},
+{
+"type": "text",
+"id": "check_our_txt_1",
+"label": "Check Our Text 1"
+},
+{
+"type": "textarea",
+"id": "check_our_svg_2",
+"label": "Check Our SVG 2"
+},
+{
+"type": "text",
+"id": "check_our_txt_2",
+"label": "Check Our Text 2"
+},
+{
+"type": "textarea",
+"id": "check_our_svg_3",
+"label": "Check Our SVG 3"
+},
+{
+"type": "text",
+"id": "check_our_txt_3",
+"label": "Check Our Text 3"
+},
+{
+"type": "textarea",
+"id": "check_our_svg_4",
+"label": "Check Our SVG 4"
+},
+{
+"type": "text",
+"id": "check_our_txt_4",
+"label": "Check Our Text 4"
+}
+]
+}
+],
+"presets": [
+{
+"name": "Reflect Block"
+}
+]
+}
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

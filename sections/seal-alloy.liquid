@@ -1,0 +1,113 @@
+<div class="reflect-block-main seal-alloy-main mar-btm-70">
+  <div class="container">
+    {% if section.settings.heading != blank %}
+    <div class="main-heading">
+      <h2 class="heading">{{section.settings.heading}}</h2>
+    </div>
+    {% endif %}
+    <div class="row">
+      <div class="reflect-sub-block">
+        {% for block in section.blocks %}
+        <div class="check-our-content">
+          <div class="check-our-border">
+            <div class="check-our-subcontent">
+              {% if block.settings.check_our_title != blank %}
+              <h2 style="color:{{ block.settings.check_our_title_color }}">{{ block.settings.check_our_title }}</h2>
+              {% endif %}
+              {% if block.settings.check_our_subtitle != blank %}
+              <h3>{{ block.settings.check_our_subtitle }}</h3>
+              {% endif %}
+            </div>
+            <div class="check-our-proimg">
+              {% if block.settings.check_our_proimg != blank %}
+              <a href="{{ block.settings.product_url }}">
+              <img src="{{ block.settings.check_our_proimg | img_url : 'master' }}" alt />
+              </a>
+              {% endif %}
+            </div>
+            <div class="check-our-subcontent-desc">
+              {% if block.settings.check_our_desc != blank %}
+              <p>{{ block.settings.check_our_desc }}</p>
+              {% endif %}
+            </div>
+          </div>
+        </div>
+        {% endfor %}
+      </div>
+      <div class="reflect-sub-btn">
+      <a href="{{ section.settings.buy_now_url }}" class="def-btn">{{ section.settings.buy_now }}</a>
+    </div>
+    </div>
+  </div>
+</div>
+{% schema %}
+{
+"name": "Seal Alloy",
+"settings": [
+{
+"type" : "text",
+"id" : "heading",
+"label" : "Main Title"
+},
+{
+"type" : "text",
+"id" : "buy_now",
+"label" : "Buy Now"
+},
+{
+"type" : "url",
+"id" : "buy_now_url",
+"label" : "Buy Now URL"
+}
+],
+"blocks": [
+{
+"type": "seal-alloy-content",
+"name": "Seal Alloy Content",
+"settings": [
+{
+"type": "color",
+"id": "check_our_title_color",
+"label": "Check Our Title Color"
+},
+{
+"type": "text",
+"id": "check_our_title",
+"label": "Check Our Title"
+},
+{
+"type": "text",
+"id": "check_our_subtitle",
+"label": "Check Our Subtitle"
+},
+{
+"type": "image_picker",
+"id": "check_our_proimg",
+"label": "Check Our Pro Img"
+},
+{
+"type": "url",
+"id": "product_url",
+"label": "Product URL"
+},
+{
+"type": "textarea",
+"id": "check_our_desc",
+"label": "Check Our Desc"
+}
+]
+}
+],
+"presets": [
+{
+"name": "Seal Alloy"
+}
+]
+}
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

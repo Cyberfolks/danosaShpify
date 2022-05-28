@@ -1,0 +1,131 @@
+{%- comment -%}
+
+<div class="container-fluid p-0 m-0 parallex-section">
+    <div class="col-12 p-0 m-0">
+        <img class="parallex-section-img" id="p_img" src="{{ section.settings.section_image | img_url: 'master' }}" />
+    </div>
+</div>
+
+<div class="container-fluid parallax p-0 m-0">
+    <div class="parallex-section-img" id="p_img"
+    style="background:linear-gradient(0deg, rgb(10 10 10 / 30%), rgb(9 1 6 / 30%)) 0px -579.357px, url({{ section.settings.section_image | img_url: 'master' }}); padding: 200px 0;" 
+    data-bottom-top="background-position:0px 0px;" 
+    data-top-bottom="background-position:0px -800px;"
+    >
+    <div class="row">
+        <div class="col-md-1"></div>
+        <div class="col-md-4">
+            <h3>WATERPROOFING SOLUTIONS AVAILABLE TO EVERYONE</h3>
+            <p>Roofing and waterproofing solutions that are tailored to the specific requirements of every one of our customers.</p>
+        </div>
+        <div class="col-md-7"></div>
+    </div>
+</div>
+</div>
+  {%- endcomment -%}
+<section class="sections parallax" style="background-image: url({{ section.settings.section_image | img_url: 'master' }});"  data-parallax-speed="5">
+        {%- if section.settings.position != blank -%}
+            {%- if section.settings.position == 'center' -%}
+            <div class="parallax-container text-center">
+                <h2>{{ section.settings.section_title }}</h2>
+                <p>{{ section.settings.section_des }}</p>
+            </div>
+            {%endif%}
+            {%- if section.settings.position == 'right' -%}
+            <div class="parallax-container text-md-right">
+                <h2 style="margin-right: 50px;">{{ section.settings.section_title }}</h2>
+                <p style="margin-right: 50px;">{{ section.settings.section_des }}</p>
+            </div>
+            {%endif%}
+            {%- if section.settings.position == 'left' -%}
+            <div class="parallax-container text-md-left">
+                <h2 style="margin-left: 50px;">{{ section.settings.section_title }}</h2>
+                <p style="margin-left: 50px;">{{ section.settings.section_des }}</p>
+            </div>
+            {%endif%}
+        {%endif%}
+  </section>
+  
+  {% schema %}
+  {
+  "name": "Parallex Image Section",
+  "settings": [
+  {
+  "type": "image_picker",
+  "id": "section_image",
+  "label": "Image"
+  },
+  {
+  "type": "text",
+  "id": "section_title",
+  "label": "Heading",
+  "default": "Heading"
+  },
+  {
+  "type": "textarea",
+  "id": "section_des",
+  "label": "Description",
+  "default": "Description"
+  },
+  {
+    "type": "select",
+    "id": "position",
+    "label": "Text Position",
+    "options": [
+      {
+        "value": "",
+        "label": "Select"
+      },
+      {
+        "value": "left",
+        "label": "Left"
+      },
+      {
+        "value": "center",
+        "label": "Center"
+      },
+      {
+        "value": "right",
+        "label": "Right"
+      }
+    ],
+    "default": ""
+  },
+  {
+    "type": "number",
+    "id": "image_height",
+    "label": "Image Height",
+    "default": 250
+  }
+  ],
+  "presets": [
+  {
+  "name": "Parallex Image Section"
+  }
+  ]
+  }
+  {% endschema %}
+  
+  {% stylesheet %}
+
+
+  {% endstylesheet %}
+  
+  {% javascript %}
+  $( document ).ready(function() {
+    $('.parallax').sparallax();
+
+    //var img =  document.getElementById('p_img');
+    //console.log( "ready!" , img.style.transform); -->
+    //window.addEventListener('scroll', function(){
+        //var value = window.scrollY;
+        // value = value + 500;
+        //img.style.transform = `translateY(-${value * 0.3}px)`;
+        // scale(1.5)`;
+     // img.style.transform = `translateY(-${value * 0.5}px)`; 
+   // })
+});
+    
+
+  {% endjavascript %}
+  

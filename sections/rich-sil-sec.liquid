@@ -1,0 +1,246 @@
+<div class="check-our-product-main rich-sil-sec-main mar-btm-40">
+  <div class="container">
+    <div class="row">
+      <div class="check-our-mainpro">
+      {% for block in section.blocks %}
+      <div class="check-our-subpro">
+        {% if block.type == 'check-our-img' %}
+        <div class="check-our-img">
+          <div class="our-main-img">
+          {% if block.settings.check_our_img != blank %}
+          <img src="{{ block.settings.check_our_img | img_url : 'master' }}" alt />
+          {% endif %}
+          </div>
+          <div class="check-our-icontent">
+            {% if block.settings.check_our_subtitle != blank %}
+            <h3>{{ block.settings.check_our_subtitle }}</h3>
+            {% endif %}
+            {% if block.settings.check_our_title != blank %}
+            <h2>{{ block.settings.check_our_title }}</h2>
+            {% endif %}
+            {% if block.settings.check_our_desc != blank %}
+            <p>{{ block.settings.check_our_desc }}</p>
+            {% endif %}
+            {% if block.settings.check_our_link != blank %}
+            <a href="{{ block.settings.check_our_link_url }}" class="def-btn">{{ block.settings.check_our_link }}</a>
+            {% endif %}
+          </div>
+        </div>
+        {% elsif block.type == 'check-our-content' %}
+        <div class="check-our-content">
+          <div class="check-our-border">
+          <div class="check-our-subcontent">
+            {% if block.settings.check_our_title != blank %}
+            <h2 style="color:{{ block.settings.check_our_title_color }}">{{ block.settings.check_our_title }}</h2>
+            {% endif %}
+            {% if block.settings.check_our_subtitle != blank %}
+            <h3>{{ block.settings.check_our_subtitle }}</h3>
+            {% endif %}
+            {% if block.settings.check_our_desc != blank %}
+            <p>{{ block.settings.check_our_desc }}</p>
+            {% endif %}
+          </div>
+          <div class="check-our-proimg">
+            {% if block.settings.check_our_proimg != blank %}
+            <img src="{{ block.settings.check_our_proimg | img_url : 'master' }}" alt />
+            {% endif %}
+          </div>
+         <div class="check-our-icon check-block">
+            <ul>
+              <li>
+                <div class="check-icon-img">
+                  {% if block.settings.check_our_svg_1 != blank %}
+                  {{ block.settings.check_our_svg_1 }}
+                  {% endif %}
+                  {% if block.settings.check_our_txt_1 != blank %}
+                  <h3>{{ block.settings.check_our_txt_1 }}</h3>
+                  {% endif %}
+                </div>
+              </li>
+              <li>
+                <div class="check-icon-img">
+                  {% if block.settings.check_our_svg_2 != blank %}
+                  {{ block.settings.check_our_svg_2 }}
+                  {% endif %}
+                  {% if block.settings.check_our_txt_2 != blank %}
+                  <h3>{{ block.settings.check_our_txt_2 }}</h3>
+                  {% endif %}
+                </div>
+              </li>
+              <li>
+                <div class="check-icon-img">
+                  {% if block.settings.check_our_svg_3 != blank %}
+                  {{ block.settings.check_our_svg_3 }}
+                  {% endif %}
+                  {% if block.settings.check_our_txt_3 != blank %}
+                  <h3>{{ block.settings.check_our_txt_3 }}</h3>
+                  {% endif %}
+                </div>
+              </li>
+              <li>
+                <div class="check-icon-img">
+                  {% if block.settings.check_our_svg_4 != blank %}
+                  {{ block.settings.check_our_svg_4 }}
+                  {% endif %}
+                  {% if block.settings.check_our_txt_4 != blank %}
+                  <h3>{{ block.settings.check_our_txt_4 }}</h3>
+                  {% endif %}
+                </div>
+              </li>
+              <li>
+                <div class="check-icon-img">
+                  {% if block.settings.check_our_svg_5 != blank %}
+                  {{ block.settings.check_our_svg_5 }}
+                  {% endif %}
+                  {% if block.settings.check_our_txt_5 != blank %}
+                  <h3>{{ block.settings.check_our_txt_5 }}</h3>
+                  {% endif %}
+                </div>
+              </li>
+            </ul>
+          </div>
+          </div>
+        </div>
+        {% endif %}
+      </div>
+      {% endfor %}
+      </div>
+    </div>
+  </div>
+</div>
+{% schema %}
+{
+"name": "Rich Sil",
+"settings": [],
+"blocks": [
+{
+"type": "check-our-img",
+"name": "Check Our Img",
+"settings": [
+{
+"type": "image_picker",
+"id": "check_our_img",
+"label": "Check Our Img"
+},
+{
+"type": "text",
+"id": "check_our_subtitle",
+"label": "Check Our Subtitle"
+},
+{
+"type": "text",
+"id": "check_our_title",
+"label": "Check Our Title"
+},
+{
+"type": "textarea",
+"id": "check_our_desc",
+"label": "Check Our Desc"
+},
+{
+"type": "text",
+"id": "check_our_link",
+"label": "Check Our Link"
+},
+{
+"type": "url",
+"id": "check_our_link_url",
+"label": "Check Our Link URL"
+}
+]
+},
+{
+"type": "check-our-content",
+"name": "Check Our Content",
+"settings": [
+{
+"type": "color",
+"id": "check_our_title_color",
+"label": "Check Our Title Color"
+},
+{
+"type": "text",
+"id": "check_our_title",
+"label": "Check Our Title"
+},
+{
+"type": "text",
+"id": "check_our_subtitle",
+"label": "Check Our Subtitle"
+},
+{
+"type": "textarea",
+"id": "check_our_desc",
+"label": "Check Our Desc"
+},
+{
+"type": "image_picker",
+"id": "check_our_proimg",
+"label": "Check Our Pro Img"
+},
+{
+"type": "textarea",
+"id": "check_our_svg_1",
+"label": "Check Our SVG 1"
+},
+{
+"type": "text",
+"id": "check_our_txt_1",
+"label": "Check Our Text 1"
+},
+{
+"type": "textarea",
+"id": "check_our_svg_2",
+"label": "Check Our SVG 2"
+},
+{
+"type": "text",
+"id": "check_our_txt_2",
+"label": "Check Our Text 2"
+},
+{
+"type": "textarea",
+"id": "check_our_svg_3",
+"label": "Check Our SVG 3"
+},
+{
+"type": "text",
+"id": "check_our_txt_3",
+"label": "Check Our Text 3"
+},
+{
+"type": "textarea",
+"id": "check_our_svg_4",
+"label": "Check Our SVG 4"
+},
+{
+"type": "text",
+"id": "check_our_txt_4",
+"label": "Check Our Text 4"
+},
+{
+"type": "textarea",
+"id": "check_our_svg_5",
+"label": "Check Our SVG 5"
+},
+{
+"type": "text",
+"id": "check_our_txt_5",
+"label": "Check Our Text 5"
+}
+]
+}
+],
+"presets": [
+{
+"name": "Rich Sil Section"
+}
+]
+}
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

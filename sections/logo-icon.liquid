@@ -1,0 +1,49 @@
+<div class="logo-icon-main mar-btm-48">
+  <div class="container">
+    <div class="row">
+      <div class="logo-icon-sub">
+        <ul>
+          {% for block in section.blocks %}
+          <li>
+            <div class="logo-icon-img">
+              {% if block.settings.logo_icon_img != blank %}
+              <img src="{{ block.settings.logo_icon_img | img_url : 'master' }}" alt />
+              {% endif %}
+            </div>
+          </li>
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+{% schema %}
+{
+"name": "Logo Icon",
+"settings": [],
+"blocks": [
+{
+"type": "Image",
+"name": "Logo Icon",
+"settings": [
+{
+"type": "image_picker",
+"id": "logo_icon_img",
+"label": "Logo Icon IMG"
+}
+]
+}
+],
+"presets": [
+{
+"name": "Logo Icon"
+}
+]
+}
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

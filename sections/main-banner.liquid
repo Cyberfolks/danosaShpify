@@ -1,0 +1,87 @@
+<div class="main-banner mar-btm-48">
+  <div class="main-subbanner">
+    {% if section.settings.main_banner_video != blank %}
+    <!-- <img src="{{ section.settings.main_banner_img | img_url : 'master' }}" class="desktop-banner" alt /> -->
+    <video style="width: 100%;" id="slide-video" poster="https://cdn.shopify.com/s/files/1/0645/7861/7571/files/explore-poster.jpg?v=1653223575" preload="auto" loop autoplay muted class="desktop-banner">
+      <!-- <source src='http://www.danosapr.com/english/img/video2.webm' type='video/webm' /> -->
+      <source src='{{ section.settings.main_banner_video }}' type='video/mp4' />
+    </video>
+    {% endif %}
+     {% if section.settings.main_banner_video != blank %}
+    <!-- <img src="{{ section.settings.main_banner_mimg | img_url : 'master' }}" class="mobile-banner" alt /> -->
+    <video style="width: 100%;" id="slide-video" poster="https://cdn.shopify.com/s/files/1/0645/7861/7571/files/explore-poster.jpg?v=1653223575" preload="auto" loop autoplay muted class="mobile-banner">
+      <!-- <source src='http://www.danosapr.com/english/img/video2.webm' type='video/webm' /> -->
+      <source src='{{ section.settings.main_banner_video }}' type='video/mp4' />
+    </video>
+    {% endif %}
+  </div>
+
+  <div class="main-banner-content">
+    <div class="container">
+      <div class="main-banner-subcontent">
+        {% if section.settings.main_banner_title != blank %}
+        <h2>{{ section.settings.main_banner_title }}</h2>
+        {% endif %}
+        {% if section.settings.main_banner_desc != blank %}
+        <p>{{ section.settings.main_banner_desc }}</p>
+        {% endif %}
+        {% if section.settings.main_banner_link != blank %}
+        <a href="{{ section.settings.main_banner_link_url }}" class="def-btn main-banner-btn">{{ section.settings.main_banner_link }}</a>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+</div>
+{% schema %}
+{
+"name": "Main Banner",
+"settings": [
+{
+"type": "image_picker",
+"id": "main_banner_img",
+"label": "Main Banner Desktop Image"
+},
+{
+"type": "image_picker",
+"id": "main_banner_mimg",
+"label": "Main Banner Mobile Image"
+},
+{
+"type": "text",
+"id": "main_banner_video",
+"label": "Main Banner Video MP4"
+},
+{
+"type": "html",
+"id": "main_banner_title",
+"label": "Main Banner Title"
+},
+{
+"type": "textarea",
+"id": "main_banner_desc",
+"label": "Main Banner Desc"
+},
+{
+"type": "text",
+"id": "main_banner_link",
+"label": "Main Banner Link"
+},
+{
+"type": "url",
+"id": "main_banner_link_url",
+"label": "Main Banner Link URL"
+}
+],
+"presets": [
+{
+"name": "Main Banner"
+}
+]
+}
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

@@ -1,0 +1,261 @@
+<div class="video-banner-main mar-btm-40">
+  <div class="video-banner-sub">
+    {% for block in section.blocks %}
+    <div class="video-banner-block">
+      {% if block.settings.video_banner_img != blank %}
+      <div class="video-banner">
+        <img src="{{ block.settings.video_banner_img | img_url : 'master' }}" alt />
+      </div>
+      {% endif %}
+      <div class="video-banner-txt">
+        <div class="video-icon-txt">
+          <div class="video-play modal-toggle" data-val="video-popup--{{forloop.index}}">
+            <svg width="57" height="56" viewBox="0 0 57 56" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M56 28C56 42.8951 43.7046 55 28.5 55C13.2954 55 1 42.8951 1 28C1 13.1049 13.2954 1 28.5 1C43.7046 1 56 13.1049 56 28Z" stroke="white" stroke-width="2"/>
+              <path d="M44 28L20.75 40.9904L20.75 15.0096L44 28Z" fill="white"/>
+            </svg>
+          </div>
+          {% if block.settings.video_banner_text != blank %}
+          <h2>{{ block.settings.video_banner_text }}</h2>
+          {% endif %}
+        </div>
+      </div>
+    </div>
+
+
+    {% endfor %}
+  </div>
+  {% comment %}
+  {% for block in section.blocks %}
+  <div class="video-popup" data-val="video-popup--{{forloop.index}}">
+    <div class="modal-overlay"></div>
+    <div class="modal-close modal-toggle"> 	
+      <svg viewBox="0 0 311 311.07733" xmlns="http://www.w3.org/2000/svg"><path d="m16.035156 311.078125c-4.097656 0-8.195312-1.558594-11.308594-4.695313-6.25-6.25-6.25-16.382812 0-22.632812l279.0625-279.0625c6.25-6.25 16.382813-6.25 22.632813 0s6.25 16.382812 0 22.636719l-279.058594 279.058593c-3.136719 3.117188-7.234375 4.695313-11.328125 4.695313zm0 0"/><path d="m295.117188 311.078125c-4.097657 0-8.191407-1.558594-11.308594-4.695313l-279.082032-279.058593c-6.25-6.253907-6.25-16.386719 0-22.636719s16.382813-6.25 22.636719 0l279.058594 279.0625c6.25 6.25 6.25 16.382812 0 22.632812-3.136719 3.117188-7.230469 4.695313-11.304687 4.695313zm0 0"/></svg>
+    </div>
+    <div class="modal-wrapper">
+      <div class="modal-transition">
+        {% assign youtubeId = block.settings.youtube_video_url | split: '?v=' %}
+        <div class="youtube-video">
+          <iframe src="https://www.youtube.com/embed/{{ youtubeId[1] }}" autoplay width="100%"  height="400" embedded ></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+  {% endfor %}
+  {% endcomment %}
+
+  {% for block in section.blocks %}
+  <div class="modal_main" data-val="video-popup--{{forloop.index}}">
+    <div class="modal_flex">
+      <div class="modal">
+        <div class="modal-overlay modal-toggle"></div>
+        <div class="modal-wrapper modal-transition">
+          <div class="modal-header">
+            <button class="modal-close-pop modal-toggle">
+              <svg viewBox="0 0 311 311.07733" xmlns="http://www.w3.org/2000/svg"><path d="m16.035156 311.078125c-4.097656 0-8.195312-1.558594-11.308594-4.695313-6.25-6.25-6.25-16.382812 0-22.632812l279.0625-279.0625c6.25-6.25 16.382813-6.25 22.632813 0s6.25 16.382812 0 22.636719l-279.058594 279.058593c-3.136719 3.117188-7.234375 4.695313-11.328125 4.695313zm0 0"/><path d="m295.117188 311.078125c-4.097657 0-8.191407-1.558594-11.308594-4.695313l-279.082032-279.058593c-6.25-6.253907-6.25-16.386719 0-22.636719s16.382813-6.25 22.636719 0l279.058594 279.0625c6.25 6.25 6.25 16.382812 0 22.632812-3.136719 3.117188-7.230469 4.695313-11.304687 4.695313zm0 0"/></svg>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="modal-content">
+              <div class="modal-img">
+                {% assign youtubeId = block.settings.youtube_video_url | split: '?v=' %}
+                <div class="youtube-video">
+                  <iframe src="https://www.youtube.com/embed/{{ youtubeId[1] }}" autoplay width="100%"  height="400" embedded ></iframe>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  {% endfor %}
+
+</div>
+{% schema %}
+{
+"name": "video-with-banner",
+"class":"video-with-banner",
+"settings": [],
+"blocks" : [
+{
+"type": "video",
+"name": "Video Text",
+"settings": [
+{
+"type" : "image_picker",
+"id" : "video_banner_img",
+"label" : "Video with Banner"					
+},
+{
+"type" : "text",
+"id" : "video_banner_text",
+"label" : "Video Text"					
+},
+{
+"type": "video_url",
+"id": "youtube_video_url",
+"label": "Youtube Video",
+"accept": ["youtube"],
+"default": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc"
+}
+]
+}
+],
+"presets": [
+{
+"name": "Video Section"
+}
+]
+}
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+
+<script>
+  $(document).ready(function(){
+    $('.video-play').click(function(){
+      var video_ply = $(this).data('val');
+      $('.modal_main[data-val='+video_ply+'] .modal').addClass('is-visible');
+      $('body').addClass('is-visible');
+    });
+    $('.modal .modal-close-pop, .modal .modal-overlay').unbind().click(function(){            
+      $('.modal_main .modal').removeClass('is-visible');
+      $('body').removeClass('is-visible');
+    });
+  });
+</script> 
+<style>
+  .modal_main .modal {
+    visibility: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    z-index: 99;
+    bottom: 0;
+    top: 0;
+    background:none;
+  }
+  .modal_main .modal_flex{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+  }
+  .modal_main .modal.is-visible {
+    visibility: visible;
+  }
+  body.is-visible {
+    overflow: hidden;
+    position: relative;
+    height: 100%;
+  }
+  .modal_main .modal-overlay {
+    display:block;
+    position: fixed;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: hsla(0, 0%, 0%, 0.5);
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s linear 0.3s, opacity 0.3s;
+  }
+  .modal_main .modal.is-visible .modal-overlay {
+    opacity: 1;
+    visibility: visible;
+    transition-delay: 0s;
+  }
+  .modal_main .modal-wrapper {
+    z-index: 9999;
+    width: 600px;
+    margin-left: 0;
+    background-color: #fff;
+    box-shadow: 0 0 1.5em hsla(0, 0%, 0%, 0.35);
+  }
+  .modal_main .modal-transition {
+    transition: all 0.3s 0.12s;
+    opacity: 0;
+    -webkit-transition: opacity .2s,-webkit-transform .4s ease;
+    transition: opacity .2s,-webkit-transform .4s ease;
+    -o-transition: transform .4s ease,opacity .2s;
+    transition: transform .4s ease,opacity .2s;
+    transition: transform .4s ease,opacity .2s,-webkit-transform .4s ease;
+    -webkit-transition-delay: .2s;
+    -o-transition-delay: .2s;
+    transition-delay: .2s;
+    -webkit-transform: translateY(80px);
+    -ms-transform: translateY(80px);
+    transform: translateY(80px);
+  }
+  .modal_main .modal.is-visible .modal-transition {
+    opacity: 1;
+    -webkit-transform: translateY(20px);
+    -ms-transform: translateY(20px);
+    transform: translateY(20px);
+    -webkit-transition: opacity .2s,-webkit-transform .6s ease;
+    transition: opacity .2s,-webkit-transform .6s ease;
+    -o-transition: transform .6s ease,opacity .2s;
+    transition: transform .6s ease,opacity .2s;
+    transition: transform .6s ease,opacity .2s,-webkit-transform .6s ease;
+  }
+  .modal_main .modal-header {
+    position: relative;
+    background-color: #fff;
+    box-shadow: 0 1px 2px hsla(0, 0%, 0%, 0.06);
+    border-bottom: 1px solid #e8e8e8;
+  }
+  .modal_main .modal-close-pop {
+    position: absolute;
+    top: -30px;
+    right: 0;
+    padding:0 0 15px;
+    color: #aaa;
+    background: none;
+    cursor:pointer;
+    border: 0;
+    -webkit-transition: opacity .2s,-webkit-transform .4s ease;
+    transition: opacity .2s,-webkit-transform .4s ease;
+  }
+
+  .modal_main .modal-close-pop:hover {
+    color: #777;
+  }
+  .modal_main .modal-heading {
+    font-size: 1.125em;
+    margin: 0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  .modal_main .modal-close-pop svg {
+    width: 15px;
+    height: 15px;
+    fill:#fff;
+  }
+  .modal_main .modal-close-pop:hover {
+    background: none;
+  }
+  .modal_main .modal-content > *:first-child {
+    margin-top: 0;
+  }
+  .modal_main .modal-content > *:last-child {
+    margin-bottom: 0;
+  }
+  .modal-body .modal-content .modal-img {
+    line-height: 0;
+  }
+  @media(min-width: 481px) and (max-width: 620px){
+    .modal_main .modal-wrapper{
+      width: 450px;
+    }
+  }
+  @media(max-width: 480px){
+    .modal_main .modal-wrapper{
+      width: 300px;
+    }
+  }
+</style>

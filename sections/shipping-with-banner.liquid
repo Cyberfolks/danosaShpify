@@ -1,0 +1,115 @@
+{% comment %}
+
+<div class="shipping-with-banner mar-btm-67">
+  <div class="shipping-with-main">
+    <div class="shipping-with-img">
+      {% if section.settings.shipping_with_img != blank %}
+      <img src="{{ section.settings.shipping_with_img | img_url : 'master' }}" alt />
+      {% endif %}
+    </div>
+    <div class="shipping-with-content">
+      <div class="main-heading">
+        <h2>{{ section.settings.main_heading }}</h2>
+      </div>
+      <ul>
+        {% for block in section.blocks %}
+        <li>
+          <div class="shipping-with-sub">
+            {% if block.settings.shipp_icon_svg != blank %}
+            {{ block.settings.shipp_icon_svg }}
+            {% endif %}
+            {% if block.settings.shipp_icon_txt != blank %}
+            <h3>{{ block.settings.shipp_icon_txt }}</h3>
+            {% endif %}
+          </div>
+        </li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+</div>
+{% endcomment %}
+<div class="container">
+  <div class="heading-block topmargin-lg center animate__animated animate__bounce animate__delay-3s">
+    <h2>ALL UNDER ONE ROOF!</h2>
+    <span class="mx-auto">We provide customized solutions and advice to each of our clients.</span>
+  </div>
+  <div class="row">
+    {% for block in section.blocks %}
+    {% comment %}
+      <div class="col-4">
+        {% if block.settings.shipp_icon_svg != blank %}
+        {{ block.settings.shipp_icon_svg }}
+        {% endif %}
+        {% if block.settings.shipp_icon_txt != blank %}
+          <h3>{{ block.settings.shipp_icon_txt }}</h3>
+        {% endif %}
+      </div>
+      icon-line2-screen-desktop
+      {% endcomment %} 
+      <div class="col-md-6 col-lg-4 center animate__animated animate__fadeInRight animate__delay-3s">
+        <i style="margin-bottom: 15px; float: unset !important; font-size: 40px;" 
+        class="i-plain color i-large inline-block {% if section.settings.cover_image != blank %}{{ block.settings.shipp_icon_svg }}{% else %}icon-line2-screen-desktop{% endif %}"></i>
+        <div class="heading-block border-bottom-0" style="margin-bottom: 15px;">
+          <h3>{{ block.settings.shipp_title }}</h3>
+        </div>
+        <p>{{ block.settings.shipp_icon_txt }}</p>
+      </div>
+    {% endfor %}
+  </div>
+</div>
+
+{% schema %}
+{
+"name": "Services Blocks",
+"settings": [
+{
+"type": "image_picker",
+"id": "shipping_with_img",
+"label": "Shipp Banner Image"
+},
+{
+"type": "html",
+"id": "main_heading",
+"label": "Main Heading"
+}
+],
+"blocks": [
+{
+"type": "text",
+"name": "Service Block",
+"settings": [
+{
+"type": "text",
+"id": "shipp_icon_svg",
+"label": "Icon",
+"default":"icon-line2-screen-desktop"
+},
+{
+"type": "text",
+"id": "shipp_title",
+"label": "Title",
+"default":"Title"
+},
+{
+"type": "text",
+"id": "shipp_icon_txt",
+"label": "Description",
+"default":"Description"
+}
+]
+}
+],
+"presets": [
+{
+"name": "Services Blocks"
+}
+]
+}
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}
