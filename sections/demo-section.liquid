@@ -1,6 +1,6 @@
 <div class="row m-2">
     <div class="col-lg-6 center col-padding">
-        <img width="" height="" loading="lazy" src="{{section.settings.single_image | image_url : 'master'}}" alt />
+        <img width="" height="" loading="lazy" src="{{ section.settings.single_image | image_url : 'master' }}" alt />
     </div>
     <div class="col-lg-6 center col-padding" style="background-color: #F5F5F5;">
         <div class="heading-block border-bottom-0">
@@ -21,7 +21,7 @@
                 {% endif %}
                 <div class="video-banner-txt">
                     <div class="video-icon-txt">
-                        <div class="video-play modal-toggle" data-val="video-popup--{{youtubeId[1]}}">
+                        <div class="video-play modal-toggle" data-val="video-popup--{{ youtubeId[1] }}">
                             <svg width="57" height="56" viewBox="0 0 57 56" fill="none"
                                 xmlns="http://www.w3.org/2000/svg">
                                 <path
@@ -37,10 +37,10 @@
                 </div>
             </div>
         </div>
-        <p class="lead mb-0">{{section.settings.demo_desc}}</p>
+        <p class="lead mb-0">{{ section.settings.demo_desc }}</p>
     </div>
     {% assign youtubeId = section.settings.youtube_video_url | split: '?v=' %}
-    <div class="modal_main" data-val="video-popup--{{youtubeId[1]}}">
+    <div class="modal_main" data-val="video-popup--{{ youtubeId[1] }}">
         <div class="modal_flex">
             <div class="modal">
                 <div class="modal-overlay modal-toggle"></div>
@@ -74,45 +74,51 @@
 
 {% schema %}
 {
-"name": "Video with Image",
-"settings": [
-{
-"type": "image_picker",
-"id": "single_image",
-"label": "Large Image"
-},
-{
-"type": "image_picker",
-"id": "video_image",
-"label": "Image"
-},
-{
-"type": "video_url",
-"id": "youtube_video_url",
-"label": "Youtube Video",
-"accept": ["youtube"],
-"default": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc"
-},
-{
-"type": "text",
-"id": "demo_tagline",
-"label": "Tagline",
-"default": "Easily Understandable & Customizable."
-},
-{
-"type": "text",
-"id": "demo_heading",
-"label": "Heading",
-"default": "Walkthrough Videos & Demos."
-},
-{
-"type": "textarea",
-"id": "demo_desc",
-"label": "Description",
-"default":"Democracy inspire breakthroughs, Rosa Parks; inspiration raise awareness natural resources. Governance impact transformative donation philanthropy, respect reproductive."
-}
-],
-"presets": [ { "name": "Video with Image" } ]
+  "name": "Video with Image",
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "single_image",
+      "label": "Large Image"
+    },
+    {
+      "type": "image_picker",
+      "id": "video_image",
+      "label": "Image"
+    },
+    {
+      "type": "video_url",
+      "id": "youtube_video_url",
+      "label": "Youtube Video",
+      "accept": [
+        "youtube"
+      ],
+      "default": "https://www.youtube.com/watch?v=_9VUPq3SxOc"
+    },
+    {
+      "type": "text",
+      "id": "demo_tagline",
+      "label": "Tagline",
+      "default": "Easily Understandable & Customizable."
+    },
+    {
+      "type": "text",
+      "id": "demo_heading",
+      "label": "Heading",
+      "default": "Walkthrough Videos & Demos."
+    },
+    {
+      "type": "textarea",
+      "id": "demo_desc",
+      "label": "Description",
+      "default": "Democracy inspire breakthroughs, Rosa Parks; inspiration raise awareness natural resources. Governance impact transformative donation philanthropy, respect reproductive."
+    }
+  ],
+  "presets": [
+    {
+      "name": "Video with Image"
+    }
+  ]
 }
 {% endschema %}
 

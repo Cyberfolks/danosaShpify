@@ -30,81 +30,81 @@
                 <h2>{{ section.settings.section_title }}</h2>
                 <p>{{ section.settings.section_des }}</p>
             </div>
-            {%endif%}
+            {% endif %}
             {%- if section.settings.position == 'right' -%}
             <div class="parallax-container text-md-right">
                 <h2 style="margin-right: 50px;">{{ section.settings.section_title }}</h2>
                 <p style="margin-right: 50px;">{{ section.settings.section_des }}</p>
             </div>
-            {%endif%}
+            {% endif %}
             {%- if section.settings.position == 'left' -%}
             <div class="parallax-container text-md-left">
                 <h2 style="margin-left: 50px;">{{ section.settings.section_title }}</h2>
                 <p style="margin-left: 50px;">{{ section.settings.section_des }}</p>
             </div>
-            {%endif%}
-        {%endif%}
+            {% endif %}
+        {% endif %}
   </section>
   
   {% schema %}
-  {
+{
   "name": "Parallex Image Section",
   "settings": [
-  {
-  "type": "image_picker",
-  "id": "section_image",
-  "label": "Image"
-  },
-  {
-  "type": "text",
-  "id": "section_title",
-  "label": "Heading",
-  "default": "Heading"
-  },
-  {
-  "type": "textarea",
-  "id": "section_des",
-  "label": "Description",
-  "default": "Description"
-  },
-  {
-    "type": "select",
-    "id": "position",
-    "label": "Text Position",
-    "options": [
-      {
-        "value": "",
-        "label": "Select"
-      },
-      {
-        "value": "left",
-        "label": "Left"
-      },
-      {
-        "value": "center",
-        "label": "Center"
-      },
-      {
-        "value": "right",
-        "label": "Right"
-      }
-    ],
-    "default": ""
-  },
-  {
-    "type": "number",
-    "id": "image_height",
-    "label": "Image Height",
-    "default": 250
-  }
+    {
+      "type": "image_picker",
+      "id": "section_image",
+      "label": "Image"
+    },
+    {
+      "type": "text",
+      "id": "section_title",
+      "label": "Heading",
+      "default": "Heading"
+    },
+    {
+      "type": "textarea",
+      "id": "section_des",
+      "label": "Description",
+      "default": "Description"
+    },
+    {
+      "type": "select",
+      "id": "position",
+      "label": "Text Position",
+      "options": [
+        {
+          "value": "",
+          "label": "Select"
+        },
+        {
+          "value": "left",
+          "label": "Left"
+        },
+        {
+          "value": "center",
+          "label": "Center"
+        },
+        {
+          "value": "right",
+          "label": "Right"
+        }
+      ],
+      "default": ""
+    },
+    {
+      "type": "number",
+      "id": "image_height",
+      "label": "Image Height",
+      "default": 250
+    }
   ],
   "presets": [
-  {
-  "name": "Parallex Image Section"
-  }
+    {
+      "name": "Parallex Image Section"
+    }
   ]
-  }
-  {% endschema %}
+}
+{% endschema %}
   
   {% stylesheet %}
 

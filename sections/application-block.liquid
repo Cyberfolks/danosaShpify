@@ -2,12 +2,12 @@
   <div class="container">
     <div class="application-wrapper">
       <div class="application-bg">
-        {%if section.settings.desktop_bg != blank%}
+        {% if section.settings.desktop_bg != blank %}
         <div class="application-main-img">          
-          <img width="" height="" loading="lazy" src="{{ section.settings.desktop_bg | image_url: 'master'}}" class="desktop-banner" alt="">                
-          {%if section.settings.mobile_bg != blank%}<img width="" height="" loading="lazy" src="{{ section.settings.mobile_bg | image_url: 'master'}}" class="mobile-banner" alt="">{%endif%}         
+          <img width="" height="" loading="lazy" src="{{ section.settings.desktop_bg | image_url: 'master' }}" class="desktop-banner" alt="">                
+          {% if section.settings.mobile_bg != blank %}<img width="" height="" loading="lazy" src="{{ section.settings.mobile_bg | image_url: 'master' }}" class="mobile-banner" alt="">{% endif %}         
         </div>
-        {%endif%}
+        {% endif %}
         <div class="banner-content">
           <p>{{ section.settings.banner_content }}</p>
         </div>
@@ -16,18 +16,18 @@
         {% for block in section.blocks %}         
         <div class="application-block">
           <div class="application-sub">
-            {%if block.settings.image != blank%}
+            {% if block.settings.image != blank %}
             <div class="application-img">
-              <img width="" height="" loading="lazy" src="{{ block.settings.image | image_url: 'master'}}" />
+              <img width="" height="" loading="lazy" src="{{ block.settings.image | image_url: 'master' }}" />
             </div>
-            {%endif%}
+            {% endif %}
             <div class="application-details">
-              {%if block.settings.title != blank%}<h4 class="application-title">{{block.settings.title}}</h4>{%endif%}
-              {%if block.settings.text != blank%}<p class="application-text">{{block.settings.text}}</p>{%endif%}
+              {% if block.settings.title != blank %}<h4 class="application-title">{{block.settings.title}}</h4>{% endif %}
+              {% if block.settings.text != blank %}<p class="application-text">{{block.settings.text}}</p>{% endif %}
             </div>
           </div>
         </div>
-        {%endfor%}
+        {% endfor %}
       </div>
     </div>
   </div>  
@@ -35,47 +35,47 @@
 
 {% schema %}
 {
-"name": "Application Block",
-"class":"application-block",
-"settings":[
-{
-"type":"image_picker",
-"id":"desktop_bg",
-"label":"select Desktop Banner"
-},
-{
-"type":"image_picker",
-"id":"mobile_bg",
-"label":"select Mobile Banner"
-},
-{
-"type" : "textarea",
-"id" : "banner_content",
-"label" : "Banner Discription"
-}
-],
-"blocks" :[
-{
-"type" : "application",
-"name" : "Application Block",
-"settings" : [
-{
-"type":"image_picker",
-"id":"image",
-"label":"select image"
-},
-{
-"type" : "text",
-"id" : "title",
-"label" : "Application Title"
-},
-{
-"type" : "textarea",
-"id" : "text",
-"label" : "Application Content"
-}
-]
-}
-]
+  "name": "Application Block",
+  "class": "application-block",
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "desktop_bg",
+      "label": "select Desktop Banner"
+    },
+    {
+      "type": "image_picker",
+      "id": "mobile_bg",
+      "label": "select Mobile Banner"
+    },
+    {
+      "type": "textarea",
+      "id": "banner_content",
+      "label": "Banner Discription"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "application",
+      "name": "Application Block",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "select image"
+        },
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Application Title"
+        },
+        {
+          "type": "textarea",
+          "id": "text",
+          "label": "Application Content"
+        }
+      ]
+    }
+  ]
 }
 {% endschema %}

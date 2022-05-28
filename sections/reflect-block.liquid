@@ -27,7 +27,7 @@
                 <li>
                   <div class="check-icon-img">
                     {% if block.settings.check_our_svg_1 != blank %}
-                    {{ block.settings.check_our_svg_1}}
+                    {{ block.settings.check_our_svg_1 }}
                     {% endif %}
                     {% if block.settings.check_our_txt_1 != blank %}
                     <h3>{{ block.settings.check_our_txt_1 }}</h3>
@@ -85,96 +85,97 @@
 </div>
 {% schema %}
 {
-"name": "Reflect Block",
-"settings": [
-{
-"type": "text",
-"id": "buy_now",
-"label": "Buy Now Btn"
-},{
-"type": "url",
-"id": "buy_now_url",
-"label": "Buy Now URL"
-}
-],
-"blocks": [
-{
-"type": "reflect-block-content",
-"name": "Reflect Block Content",
-"settings": [
-{
-"type": "color",
-"id": "check_our_title_color",
-"label": "Check Our Title Color"
-},
-{
-"type": "text",
-"id": "check_our_title",
-"label": "Check Our Title"
-},
-{
-"type": "text",
-"id": "check_our_subtitle",
-"label": "Check Our Subtitle"
-},
-{
-"type": "textarea",
-"id": "check_our_desc",
-"label": "Check Our Desc"
-},
-{
-"type": "image_picker",
-"id": "check_our_proimg",
-"label": "Check Our Pro Img"
-},
-{
-"type": "textarea",
-"id": "check_our_svg_1",
-"label": "Check Our SVG 1"
-},
-{
-"type": "text",
-"id": "check_our_txt_1",
-"label": "Check Our Text 1"
-},
-{
-"type": "textarea",
-"id": "check_our_svg_2",
-"label": "Check Our SVG 2"
-},
-{
-"type": "text",
-"id": "check_our_txt_2",
-"label": "Check Our Text 2"
-},
-{
-"type": "textarea",
-"id": "check_our_svg_3",
-"label": "Check Our SVG 3"
-},
-{
-"type": "text",
-"id": "check_our_txt_3",
-"label": "Check Our Text 3"
-},
-{
-"type": "textarea",
-"id": "check_our_svg_4",
-"label": "Check Our SVG 4"
-},
-{
-"type": "text",
-"id": "check_our_txt_4",
-"label": "Check Our Text 4"
-}
-]
-}
-],
-"presets": [
-{
-"name": "Reflect Block"
-}
-]
+  "name": "Reflect Block",
+  "settings": [
+    {
+      "type": "text",
+      "id": "buy_now",
+      "label": "Buy Now Btn"
+    },
+    {
+      "type": "url",
+      "id": "buy_now_url",
+      "label": "Buy Now URL"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "reflect-block-content",
+      "name": "Reflect Block Content",
+      "settings": [
+        {
+          "type": "color",
+          "id": "check_our_title_color",
+          "label": "Check Our Title Color"
+        },
+        {
+          "type": "text",
+          "id": "check_our_title",
+          "label": "Check Our Title"
+        },
+        {
+          "type": "text",
+          "id": "check_our_subtitle",
+          "label": "Check Our Subtitle"
+        },
+        {
+          "type": "textarea",
+          "id": "check_our_desc",
+          "label": "Check Our Desc"
+        },
+        {
+          "type": "image_picker",
+          "id": "check_our_proimg",
+          "label": "Check Our Pro Img"
+        },
+        {
+          "type": "textarea",
+          "id": "check_our_svg_1",
+          "label": "Check Our SVG 1"
+        },
+        {
+          "type": "text",
+          "id": "check_our_txt_1",
+          "label": "Check Our Text 1"
+        },
+        {
+          "type": "textarea",
+          "id": "check_our_svg_2",
+          "label": "Check Our SVG 2"
+        },
+        {
+          "type": "text",
+          "id": "check_our_txt_2",
+          "label": "Check Our Text 2"
+        },
+        {
+          "type": "textarea",
+          "id": "check_our_svg_3",
+          "label": "Check Our SVG 3"
+        },
+        {
+          "type": "text",
+          "id": "check_our_txt_3",
+          "label": "Check Our Text 3"
+        },
+        {
+          "type": "textarea",
+          "id": "check_our_svg_4",
+          "label": "Check Our SVG 4"
+        },
+        {
+          "type": "text",
+          "id": "check_our_txt_4",
+          "label": "Check Our Text 4"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Reflect Block"
+    }
+  ]
 }
 {% endschema %}
 

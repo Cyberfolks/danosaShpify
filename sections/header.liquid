@@ -228,7 +228,7 @@
                     <div class="menu-drawer__social_login">
                       <div class="menu-drawer__contact">
                         <span class="drawer__contact_text">Contact Us:</span>
-                        <a href="mailto:{{section.settings.mail_menu}}">{{section.settings.mail_menu}}</a>
+                        <a href="mailto:{{  section.settings.mail_menu  }}">{{section.settings.mail_menu}}</a>
                       </div>
                       <ul class="list list-social list-unstyled" role="list">
                         {%- if settings.social_twitter_link != blank -%}
@@ -713,98 +713,98 @@
   {%- endif -%}
 
   {% schema %}
-  {
+{
   "name": "t:sections.header.name",
   "settings": [
-  {
-  "type": "select",
-  "id": "color_scheme",
-  "options": [
-  {
-  "value": "accent-1",
-  "label": "t:sections.header.settings.color_scheme.options__1.label"
-  },
-  {
-  "value": "accent-2",
-  "label": "t:sections.header.settings.color_scheme.options__2.label"
-  },
-  {
-  "value": "background-1",
-  "label": "t:sections.header.settings.color_scheme.options__3.label"
-  },
-  {
-  "value": "background-2",
-  "label": "t:sections.header.settings.color_scheme.options__4.label"
-  },
-  {
-  "value": "inverse",
-  "label": "t:sections.header.settings.color_scheme.options__5.label"
-  }
-  ],
-  "default": "background-1",
-  "label": "t:sections.header.settings.color_scheme.label"
-  },
-  {
-  "type": "image_picker",
-  "id": "logo",
-  "label": "t:sections.header.settings.logo.label"
-  },
-  {
-  "type": "range",
-  "id": "logo_width",
-  "min": 50,
-  "max": 250,
-  "step": 10,
-  "default": 100,
-  "unit": "t:sections.header.settings.logo_width.unit",
-  "label": "t:sections.header.settings.logo_width.label"
-  },
-  {
-  "type": "select",
-  "id": "logo_position",
-  "options": [
-  {
-  "value": "middle-left",
-  "label": "t:sections.header.settings.logo_position.options__1.label"
-  },
-  {
-  "value": "top-left",
-  "label": "t:sections.header.settings.logo_position.options__2.label"
-  },
-  {
-  "value": "top-center",
-  "label": "t:sections.header.settings.logo_position.options__3.label"
-  }
-  ],
-  "default": "middle-left",
-  "label": "t:sections.header.settings.logo_position.label",
-  "info": "t:sections.header.settings.logo_position.info"
-  },
-  {
-  "type": "link_list",
-  "id": "menu",
-  "default": "main-menu",
-  "label": "t:sections.header.settings.menu.label"
-  },
-  {
-  "type": "checkbox",
-  "id": "show_line_separator",
-  "default": true,
-  "label": "t:sections.header.settings.show_line_separator.label"
-  },
-  {
-  "type": "checkbox",
-  "id": "enable_sticky_header",
-  "default": true,
-  "label": "t:sections.header.settings.enable_sticky_header.label",
-  "info": "t:sections.header.settings.enable_sticky_header.info"
-  },
-  {
-  "type": "text",
-  "id": "mail_menu",
-  "label": "t:sections.header.settings.mail_menu.label",
-  "info": "t:sections.header.settings.mail_menu.info"
-  }
+    {
+      "type": "select",
+      "id": "color_scheme",
+      "options": [
+        {
+          "value": "accent-1",
+          "label": "t:sections.header.settings.color_scheme.options__1.label"
+        },
+        {
+          "value": "accent-2",
+          "label": "t:sections.header.settings.color_scheme.options__2.label"
+        },
+        {
+          "value": "background-1",
+          "label": "t:sections.header.settings.color_scheme.options__3.label"
+        },
+        {
+          "value": "background-2",
+          "label": "t:sections.header.settings.color_scheme.options__4.label"
+        },
+        {
+          "value": "inverse",
+          "label": "t:sections.header.settings.color_scheme.options__5.label"
+        }
+      ],
+      "default": "background-1",
+      "label": "t:sections.header.settings.color_scheme.label"
+    },
+    {
+      "type": "image_picker",
+      "id": "logo",
+      "label": "t:sections.header.settings.logo.label"
+    },
+    {
+      "type": "range",
+      "id": "logo_width",
+      "min": 50,
+      "max": 250,
+      "step": 10,
+      "default": 100,
+      "unit": "t:sections.header.settings.logo_width.unit",
+      "label": "t:sections.header.settings.logo_width.label"
+    },
+    {
+      "type": "select",
+      "id": "logo_position",
+      "options": [
+        {
+          "value": "middle-left",
+          "label": "t:sections.header.settings.logo_position.options__1.label"
+        },
+        {
+          "value": "top-left",
+          "label": "t:sections.header.settings.logo_position.options__2.label"
+        },
+        {
+          "value": "top-center",
+          "label": "t:sections.header.settings.logo_position.options__3.label"
+        }
+      ],
+      "default": "middle-left",
+      "label": "t:sections.header.settings.logo_position.label",
+      "info": "t:sections.header.settings.logo_position.info"
+    },
+    {
+      "type": "link_list",
+      "id": "menu",
+      "default": "main-menu",
+      "label": "t:sections.header.settings.menu.label"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_line_separator",
+      "default": true,
+      "label": "t:sections.header.settings.show_line_separator.label"
+    },
+    {
+      "type": "checkbox",
+      "id": "enable_sticky_header",
+      "default": true,
+      "label": "t:sections.header.settings.enable_sticky_header.label",
+      "info": "t:sections.header.settings.enable_sticky_header.info"
+    },
+    {
+      "type": "text",
+      "id": "mail_menu",
+      "label": "t:sections.header.settings.mail_menu.label",
+      "info": "t:sections.header.settings.mail_menu.info"
+    }
   ]
-  }
-  {% endschema %}
+}
+{% endschema %}

@@ -2,7 +2,7 @@
   <div class="container">
     {% if section.settings.heading != blank %}
     <div class="main-heading">
-      <h2 class="heading">{{section.settings.heading}}</h2>
+      <h2 class="heading">{{ section.settings.heading }}</h2>
     </div>
     {% endif %}
     <div class="row">
@@ -42,67 +42,67 @@
 </div>
 {% schema %}
 {
-"name": "Seal Alloy",
-"settings": [
-{
-"type" : "text",
-"id" : "heading",
-"label" : "Main Title"
-},
-{
-"type" : "text",
-"id" : "buy_now",
-"label" : "Buy Now"
-},
-{
-"type" : "url",
-"id" : "buy_now_url",
-"label" : "Buy Now URL"
-}
-],
-"blocks": [
-{
-"type": "seal-alloy-content",
-"name": "Seal Alloy Content",
-"settings": [
-{
-"type": "color",
-"id": "check_our_title_color",
-"label": "Check Our Title Color"
-},
-{
-"type": "text",
-"id": "check_our_title",
-"label": "Check Our Title"
-},
-{
-"type": "text",
-"id": "check_our_subtitle",
-"label": "Check Our Subtitle"
-},
-{
-"type": "image_picker",
-"id": "check_our_proimg",
-"label": "Check Our Pro Img"
-},
-{
-"type": "url",
-"id": "product_url",
-"label": "Product URL"
-},
-{
-"type": "textarea",
-"id": "check_our_desc",
-"label": "Check Our Desc"
-}
-]
-}
-],
-"presets": [
-{
-"name": "Seal Alloy"
-}
-]
+  "name": "Seal Alloy",
+  "settings": [
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "Main Title"
+    },
+    {
+      "type": "text",
+      "id": "buy_now",
+      "label": "Buy Now"
+    },
+    {
+      "type": "url",
+      "id": "buy_now_url",
+      "label": "Buy Now URL"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "seal-alloy-content",
+      "name": "Seal Alloy Content",
+      "settings": [
+        {
+          "type": "color",
+          "id": "check_our_title_color",
+          "label": "Check Our Title Color"
+        },
+        {
+          "type": "text",
+          "id": "check_our_title",
+          "label": "Check Our Title"
+        },
+        {
+          "type": "text",
+          "id": "check_our_subtitle",
+          "label": "Check Our Subtitle"
+        },
+        {
+          "type": "image_picker",
+          "id": "check_our_proimg",
+          "label": "Check Our Pro Img"
+        },
+        {
+          "type": "url",
+          "id": "product_url",
+          "label": "Product URL"
+        },
+        {
+          "type": "textarea",
+          "id": "check_our_desc",
+          "label": "Check Our Desc"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Seal Alloy"
+    }
+  ]
 }
 {% endschema %}
 

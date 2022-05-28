@@ -1,24 +1,24 @@
 <div class="warnings-section mar-100">
   <div class="container">
     <div class="main-heading">
-      <h2 class="heading">{{section.settings.heading}}</h2>
+      <h2 class="heading">{{ section.settings.heading }}</h2>
     </div>
     <div class="warnings-wrapper">
       <div class="warnings-main">
         {% for block in section.blocks %}         
         <div class="precautions-block">
           <div class="precautions-sub">
-            {%if block.settings.image != blank%}
+            {% if block.settings.image != blank %}
             <div class="precautions-img">
-              <img width="" height="" loading="lazy" src="{{ block.settings.image | image_url: 'master'}}" />
+              <img width="" height="" loading="lazy" src="{{ block.settings.image | image_url: 'master' }}" />
             </div>
-            {%endif%}
-            {%if block.settings.title != blank%}<h4 class="precautions-title">{{block.settings.title}}</h4>{%endif%}
-            {%if block.settings.text != blank%}<p class="precautions-text">{{block.settings.text}}</p>{%endif%}
-            {%if block.settings.desc != blank%}<p class="precautions-content">{{block.settings.desc}}</p> {%endif%} 
+            {% endif %}
+            {% if block.settings.title != blank %}<h4 class="precautions-title">{{block.settings.title}}</h4>{% endif %}
+            {% if block.settings.text != blank %}<p class="precautions-text">{{block.settings.text}}</p>{% endif %}
+            {% if block.settings.desc != blank %}<p class="precautions-content">{{block.settings.desc}}</p> {% endif %} 
           </div>
         </div>
-        {%endfor%}
+        {% endfor %}
       </div>
     </div>
   </div>  
@@ -26,42 +26,42 @@
 
 {% schema %}
 {
-"name": "Warnings Precautions",
-"class":"warnings-precautions",
-"settings":[
-{
-"type" : "text",
-"id" : "heading",
-"label" : "Warnings Precautions title"
-}
-],
-"blocks" :[
-{
-"type" : "Warnings",
-"name" : "Warnings Precautions",
-"settings" : [
-{
-"type":"image_picker",
-"id":"image",
-"label":"icon"
-},
-{
-"type" : "text",
-"id" : "title",
-"label" : "Precautions Title"
-},
-{
-"type" : "textarea",
-"id" : "text",
-"label" : "Precautions Content"
-},
-{
-"type" : "textarea",
-"id" : "desc",
-"label" : "Precautions desc"
-}
-]
-}
-]
+  "name": "Warnings Precautions",
+  "class": "warnings-precautions",
+  "settings": [
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "Warnings Precautions title"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "Warnings",
+      "name": "Warnings Precautions",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "icon"
+        },
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Precautions Title"
+        },
+        {
+          "type": "textarea",
+          "id": "text",
+          "label": "Precautions Content"
+        },
+        {
+          "type": "textarea",
+          "id": "desc",
+          "label": "Precautions desc"
+        }
+      ]
+    }
+  ]
 }
 {% endschema %}

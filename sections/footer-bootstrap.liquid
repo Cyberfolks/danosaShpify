@@ -15,7 +15,7 @@
                 />
                 <p>{{ section.settings.footer_heading }}</p>
                 <p>{{ section.settings.subtext }}</p>
-                <div style="background: url({{ section.settings.footer_map_image | image_url: 'master'}}) no-repeat center center; background-size: 100%;">
+                <div style="background: url({{ section.settings.footer_map_image | image_url: 'master' }}) no-repeat center center; background-size: 100%;">
                   <address style="font-size: 14px;">
                     <strong>Headquarters:</strong><br />
                     {{ section.settings.footer_address }}
@@ -32,7 +32,7 @@
 
             <div class="col-md-4">
               <div class="widget widget_links clearfix">
-                <h4>{{section.settings.heading_links}}</h4>
+                <h4>{{ section.settings.heading_links }}</h4>
                 <ul>
                     {%- for link in section.settings.menu.links -%}
                         <li>
@@ -47,7 +47,7 @@
 
             <div class="col-md-4">
               <div class="widget clearfix">
-                <h4>{{section.settings.heading_links_two}}</h4>
+                <h4>{{ section.settings.heading_links_two }}</h4>
                 <ul>
                     {%- for link in section.settings.menu2.links -%}
                         <li>
@@ -71,17 +71,17 @@
                         {%- if section.settings.project_number_enable -%}
                     <div class="col-lg-6 bottommargin-sm">
                         <div class="counter counter-small">
-                        <span>{{section.settings.project_number}}</span>
+                        <span>{{ section.settings.project_number }}</span>
                         </div>
-                        <h5 class="mb-0">{{section.settings.project_number_heading}}</h5>
+                        <h5 class="mb-0">{{ section.settings.project_number_heading }}</h5>
                     </div>
                     {%- endif -%}
                     {%- if section.settings.client_number_enable -%}
                     <div class="col-lg-6 bottommargin-sm">
                         <div class="counter counter-small">
-                        <span>{{section.settings.client_number}}</span>
+                        <span>{{ section.settings.client_number }}</span>
                         </div>
-                        <h5 class="mb-0">{{section.settings.client_number_heading}}</h5>
+                        <h5 class="mb-0">{{ section.settings.client_number_heading }}</h5>
                     </div>
                     {%- endif -%}
                     </div>
@@ -196,7 +196,7 @@
           <div class="col-md-6 text-center text-md-start">
             Copyrights &copy; {{ 'now' | date: "%Y" }} All Rights Reserved by {{ shop.name | link_to: routes.root_url }}.<br />
             <div class="copyright-links">
-              <a href="{{section.settings.term_page}}">Terms of Use</a> / <a href="{{section.settings.privacy_page}}">Privacy Policy</a>
+              <a href="{{ section.settings.term_page }}">Terms of Use</a> / <a href="{{ section.settings.privacy_page }}">Privacy Policy</a>
             </div>
           </div>
 
@@ -260,160 +260,159 @@
 
 {% schema %}
 {
-    "name": "t:sections.footer.name",
-    "settings": [
+  "name": "t:sections.footer.name",
+  "settings": [
     {
-    "type": "header",
-    "content": "Colmun One",
-    "info": "t:sections.footer.settings.header__1.info"
+      "type": "header",
+      "content": "Colmun One",
+      "info": "t:sections.footer.settings.header__1.info"
     },
     {
-    "type": "text",
-    "id": "heading_footer",
-    "default": "Heading",
-    "label": "t:sections.footer.blocks.text.settings.heading.label"
+      "type": "text",
+      "id": "heading_footer",
+      "default": "Heading",
+      "label": "t:sections.footer.blocks.text.settings.heading.label"
     },
     {
-    "type": "richtext",
-    "id": "subtext",
-    "default": "<p>Share store details, promotions, or brand content with your customers.</p>",
-    "label": "About Compnay"
+      "type": "richtext",
+      "id": "subtext",
+      "default": "<p>Share store details, promotions, or brand content with your customers.</p>",
+      "label": "About Compnay"
     },
     {
-    "type": "image_picker",
-    "id": "footer_map_image",
-    "label": "Footer Background Image"
+      "type": "image_picker",
+      "id": "footer_map_image",
+      "label": "Footer Background Image"
     },
     {
-    "type": "image_picker",
-    "id": "footer_logo",
-    "label": "Looter Logo"
+      "type": "image_picker",
+      "id": "footer_logo",
+      "label": "Looter Logo"
     },
     {
-    "type": "header",
-    "content": "Colmun Two",
-    "info": "t:sections.footer.settings.header__1.info"
+      "type": "header",
+      "content": "Colmun Two",
+      "info": "t:sections.footer.settings.header__1.info"
     },
     {
-    "type": "text",
-    "id": "heading_links",
-    "default": "Quick links",
-    "label": "t:sections.footer.blocks.link_list.settings.heading.label",
-    "info": "t:sections.footer.blocks.link_list.settings.heading.info"
+      "type": "text",
+      "id": "heading_links",
+      "default": "Quick links",
+      "label": "t:sections.footer.blocks.link_list.settings.heading.label",
+      "info": "t:sections.footer.blocks.link_list.settings.heading.info"
     },
     {
-    "type": "link_list",
-    "id": "menu",
-    "default": "footer",
-    "label": "t:sections.footer.blocks.link_list.settings.menu.label",
-    "info": "t:sections.footer.blocks.link_list.settings.menu.info"
-    },
-
-    {
-    "type": "header",
-    "content": "Colmun Three",
-    "info": "t:sections.footer.settings.header__1.info"
+      "type": "link_list",
+      "id": "menu",
+      "default": "footer",
+      "label": "t:sections.footer.blocks.link_list.settings.menu.label",
+      "info": "t:sections.footer.blocks.link_list.settings.menu.info"
     },
     {
-    "type": "text",
-    "id": "heading_links_two",
-    "default": "Quick links",
-    "label": "t:sections.footer.blocks.link_list.settings.heading.label",
-    "info": "t:sections.footer.blocks.link_list.settings.heading.info"
+      "type": "header",
+      "content": "Colmun Three",
+      "info": "t:sections.footer.settings.header__1.info"
     },
     {
-    "type": "link_list",
-    "id": "menu2",
-    "default": "footer",
-    "label": "t:sections.footer.blocks.link_list.settings.menu.label",
-    "info": "t:sections.footer.blocks.link_list.settings.menu.info"
+      "type": "text",
+      "id": "heading_links_two",
+      "default": "Quick links",
+      "label": "t:sections.footer.blocks.link_list.settings.heading.label",
+      "info": "t:sections.footer.blocks.link_list.settings.heading.info"
     },
     {
-    "type": "header",
-    "content": "Other Setting",
-    "info": "Conatct settings"
+      "type": "link_list",
+      "id": "menu2",
+      "default": "footer",
+      "label": "t:sections.footer.blocks.link_list.settings.menu.label",
+      "info": "t:sections.footer.blocks.link_list.settings.menu.info"
     },
     {
-    "type": "text",
-    "id": "footer_email_address",
-    "default": "support@danosapr.com",
-    "label": "Contact Email"
+      "type": "header",
+      "content": "Other Setting",
+      "info": "Conatct settings"
     },
     {
-    "type": "text",
-    "id": "footer_number",
-    "default": "+1000000000",
-    "label": "Contact Number"
+      "type": "text",
+      "id": "footer_email_address",
+      "default": "support@danosapr.com",
+      "label": "Contact Email"
     },
     {
-    "type": "richtext",
-    "id": "footer_address",
-    "default": "<p>House #, Street #, City , State, Country.</p>",
-    "label": "Contact Address"
+      "type": "text",
+      "id": "footer_number",
+      "default": "+1000000000",
+      "label": "Contact Number"
     },
     {
-    "type": "checkbox",
-    "id": "client_number_enable",
-    "default": true,
-    "label": "Do you want to show Clients?"
+      "type": "richtext",
+      "id": "footer_address",
+      "default": "<p>House #, Street #, City , State, Country.</p>",
+      "label": "Contact Address"
     },
     {
-    "type": "text",
-    "id": "client_number_heading",
-    "default": "Clients",
-    "label": "Heading of Clients"
+      "type": "checkbox",
+      "id": "client_number_enable",
+      "default": true,
+      "label": "Do you want to show Clients?"
     },
     {
-    "type": "number",
-    "id": "client_number",
-    "default": 300,
-    "label": "Number of Clients"
+      "type": "text",
+      "id": "client_number_heading",
+      "default": "Clients",
+      "label": "Heading of Clients"
     },
     {
-    "type": "checkbox",
-    "id": "project_number_enable",
-    "default": true,
-    "label": "Do you want to show Projects?"
+      "type": "number",
+      "id": "client_number",
+      "default": 300,
+      "label": "Number of Clients"
     },
     {
-    "type": "text",
-    "id": "project_number_heading",
-    "default": "Projects",
-    "label": "Heading of Projects"
+      "type": "checkbox",
+      "id": "project_number_enable",
+      "default": true,
+      "label": "Do you want to show Projects?"
     },
     {
-    "type": "number",
-    "id": "project_number",
-    "default": 300,
-    "label": "Number of Clients"
+      "type": "text",
+      "id": "project_number_heading",
+      "default": "Projects",
+      "label": "Heading of Projects"
     },
     {
-    "type": "header",
-    "content": "t:sections.footer.settings.header__1.content",
-    "info": "t:sections.footer.settings.header__1.info"
+      "type": "number",
+      "id": "project_number",
+      "default": 300,
+      "label": "Number of Clients"
     },
     {
-    "type": "checkbox",
-    "id": "newsletter_enable",
-    "default": true,
-    "label": "t:sections.footer.settings.newsletter_enable.label"
+      "type": "header",
+      "content": "t:sections.footer.settings.header__1.content",
+      "info": "t:sections.footer.settings.header__1.info"
     },
     {
-    "type": "text",
-    "id": "newsletter_heading",
-    "default": "Subscribe to our emails",
-    "label": "t:sections.footer.settings.newsletter_heading.label"
+      "type": "checkbox",
+      "id": "newsletter_enable",
+      "default": true,
+      "label": "t:sections.footer.settings.newsletter_enable.label"
     },
     {
-    "type": "page",
-    "id": "privacy_page",
-    "label": "Select Privacy Page"
+      "type": "text",
+      "id": "newsletter_heading",
+      "default": "Subscribe to our emails",
+      "label": "t:sections.footer.settings.newsletter_heading.label"
     },
     {
-    "type": "page",
-    "id": "term_page",
-    "label": "Select Terms & Conditions Page"
+      "type": "page",
+      "id": "privacy_page",
+      "label": "Select Privacy Page"
+    },
+    {
+      "type": "page",
+      "id": "term_page",
+      "label": "Select Terms & Conditions Page"
     }
-    ]
-    }
+  ]
+}
 {% endschema %}

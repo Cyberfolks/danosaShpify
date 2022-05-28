@@ -21,28 +21,32 @@
 </div>
   
   {% schema %}
-  {
+{
   "name": "About Company",
   "settings": [
-  {
-  "type": "image_picker",
-  "id": "about_image",
-  "label": "Image"
-  },
-  {
-  "type": "text",
-  "id": "about_heading",
-  "label": "Heading"
-  },
-  {
-  "type": "textarea",
-  "id": "about_desc",
-  "label": "Description"
-  }
+    {
+      "type": "image_picker",
+      "id": "about_image",
+      "label": "Image"
+    },
+    {
+      "type": "text",
+      "id": "about_heading",
+      "label": "Heading"
+    },
+    {
+      "type": "textarea",
+      "id": "about_desc",
+      "label": "Description"
+    }
   ],
-  "presets": [ { "name": "About Company" } ]
-  }
-  {% endschema %}
+  "presets": [
+    {
+      "name": "About Company"
+    }
+  ]
+}
+{% endschema %}
   
   {% stylesheet %}
   {% endstylesheet %}

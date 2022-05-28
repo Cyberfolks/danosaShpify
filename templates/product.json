@@ -1,1 +1,463 @@
-{"sections":{"main":{"type":"main-product","blocks":{"title":{"type":"title","settings":{}},"price":{"type":"price","disabled":true,"settings":{}},"description":{"type":"description","settings":{}},"quantity_selector":{"type":"quantity_selector","settings":{}},"buy_buttons":{"type":"buy_buttons","settings":{"show_dynamic_checkout":false}}},"block_order":["title","price","description","quantity_selector","buy_buttons"],"settings":{"enable_sticky_info":false,"gallery_layout":"stacked","media_size":"large","mobile_thumbnails":"hide","hide_variants":false,"enable_video_looping":false,"back_catalog_title":"BACK TO CATALOG","back_catalog_url":"shopify:\/\/collections","check_our_svg_1":"<svg xmlns=\"http:\/\/www.w3.org\/2000\/svg\" viewbox=\"0 0 152.34 170.05\" xmlns:xlink=\"http:\/\/www.w3.org\/1999\/xlink\"><defs><style>.svg-1{fill:none;}.svg-2{clip-path:url(#clip-path-s1);}.svg-3{clip-path:url(#clip-path-s2);}.svg-4{fill:#5aafdc;}.svg-5{fill:#3289c6;}.svg-6{fill:#fdfeff;}<\/style>\n<clippath id=\"clip-path-s1\" transform=\"translate(-2.73 0)\"><rect class=\"svg-1\" width=\"157.25\" height=\"170.05\"><\/rect><\/clippath><clippath id=\"clip-path-s2\" transform=\"translate(-2.73 0)\"><rect class=\"svg-1\" width=\"157.25\" height=\"170.05\"><\/rect><\/clippath><\/defs><title>Asset 5<\/title>\n<g id=\"Layer_2\" data-name=\"Layer 2\"><g id=\"Layer_1-2\" data-name=\"Layer 1\"><g class=\"svg-2\"><g class=\"svg-3\"><path class=\"svg-4\" d=\"M148.51,90.75c-3.3,11.91-9.31,22.46-16.25,32.54-11.06,16-26.49,27.45-41.69,39.1-2.82,2.17-5.79,4.15-8.58,6.35-2.09,1.63-4,1.79-6.18.2-12.41-8.89-24.66-18-35.73-28.51-14.65-13.9-25.53-30.3-31.4-49.8a3.1,3.1,0,0,1-.08-2.22c4.6-2.46,5-2.34,6.9,2.39.44,1.06.8,2.14,1.22,3.2,5.92,14.94,14.18,28.56,25.69,39.65,10.56,10.18,22.42,19,34.24,27.72,1.63,1.2,2.84.93,4.38-.21,9.79-7.24,19.48-14.64,28.53-22.79a126,126,0,0,0,19.09-22.15A109.62,109.62,0,0,0,141.1,91.59c1.47-4,.29-5.42-4-5.45-8,0-16,0-24.06,0-1,0-2.14-.19-2.9.63-2.31,2.47-3.2,0-4.46-1.2-.24-.24.24-1.22-.62-.74-.29.16-.24.93-.35,1.43a81.35,81.35,0,0,0-2.41-8C96.93,65.14,88.33,54,79.9,42.73c-2.77-3.71-3.85-3.79-6.6.05C65,54.43,56.37,66,50.63,79.26c-.07-.24-.13-.65-.22-.66-.52,0-.52,0-.52,2.24H50c-1.41,0-1.49,1-1.81,2-.37,1.15-2,1.16-2.09.7-.77-3.15-2.37-1.18-3.82-.88-2.21.47-4.88-.79-6.57,0-5.11,2.29-10.26,1-15.34,1.06s-8-2.77-8.65-7.5A203.43,203.43,0,0,1,9.3,42.12c.07-2.9,1.34-3.8,3.73-4.11,13.9-1.8,23.45-9.64,29.65-21.78C46,9.71,51.44,6.89,58.26,6.76q19.47-.37,38.95,0c7.24.12,12.9,3.4,16.21,10.1C120,30,130.91,36.86,145.18,38.6c2.75.33,3.27,1.19,3.31,3.68a145.86,145.86,0,0,1-2.93,34c-.83,3.8-1.73,7.76,2.92,10.09.44.22.54,1.11.8,1.69a2.13,2.13,0,0,1-.44,1.94c-.45.11-1.06.15-.33.76M123.33,47.59c-1.14-5.48-5.19-10.53-9.06-15.66-1-1.29-1.83-.28-2.42.53-3,4.1-6.17,8.11-8.06,12.88-1.75,4.41.51,11.46,4.44,13,8.21,3.21,15.12-2.63,15.1-10.74M40.79,64.68c-1.11-5.79-5.25-10.89-9.43-16-.76-.92-1.35-.21-1.8.38-3.19,4.22-6.67,8.32-8.44,13.39-1.62,4.62.25,8.35,3.67,11.54,3.09,2.88,6.39,2.45,9.77.84,3.83-1.83,6.23-4.71,6.23-10.18\" transform=\"translate(-2.73 0)\"><\/path><path class=\"svg-5\" d=\"M104.75,86.24c.11-.49.06-1.26.35-1.42.86-.48.38.5.62.74,1.25,1.24,2.16,3.68,4.46,1.19.76-.82,1.89-.62,2.9-.62,8,0,16,0,24.06,0,4.25,0,5.43,1.47,4,5.44a109.48,109.48,0,0,1-12.45,24.64,126,126,0,0,1-19.1,22.15c-9,8.15-18.73,15.55-28.52,22.79-1.54,1.14-2.75,1.41-4.38.21C64.83,152.63,53,143.82,42.41,133.65,30.9,122.56,22.64,108.94,16.72,94c-.42-1.06-.79-2.14-1.22-3.2-1.94-4.73-2.3-4.85-6.9-2.39-2.87-5.24-3.48-11.1-4.4-16.83C2.22,59.46,2.86,47.2,2.74,35c0-2.43.92-3.32,3.43-3.26,14.31.37,24.19-6.46,30.6-19C40.9,4.7,47.69.36,56.67.19c14-.27,28-.22,42,0,9.17.12,16.15,4.41,20.29,12.62,6.89,13.64,17.84,19.94,33,18.76,2.58-.2,3.14,1,3.06,3.12-.47,11.63.53,23.27-1.73,34.93-1.2,6.2-2,12.45-4.07,18.47-.25-.58-.35-1.47-.79-1.69-4.65-2.33-3.75-6.3-2.92-10.1a145.68,145.68,0,0,0,2.93-34c-.05-2.49-.56-3.35-3.32-3.69C130.91,36.86,120,30,113.43,16.85c-3.32-6.7-9-10-16.22-10.1q-19.47-.35-38.95,0c-6.82.12-12.25,3-15.58,9.47C36.48,28.37,26.93,36.21,13,38c-2.38.31-3.66,1.21-3.73,4.11A203.43,203.43,0,0,0,11.69,76.2c.67,4.73,3.51,7.56,8.65,7.5s10.23,1.23,15.33-1.06c1.7-.77,4.37.49,6.58,0,1.45-.3,3-2.27,3.82.88.11.47,1.72.45,2.09-.7.32-1,.4-2.06,1.81-2-1.44,6.6-1.19,13,2.08,19.11,5.78,10.86,16.88,16.5,28.29,14.83C95,112.61,104,102,104.75,86.24\" transform=\"translate(-2.73 0)\"><\/path><path class=\"svg-5\" d=\"M148.51,90.75c-.73-.61-.11-.65.33-.76l-.33.76\" transform=\"translate(-2.73 0)\"><\/path><path class=\"svg-6\" d=\"M104.75,86.24C104,102,95,112.62,80.34,114.77c-11.41,1.67-22.51-4-28.29-14.83C48.78,93.81,48.53,87.43,50,80.83h-.08a1.79,1.79,0,0,0,.74-1.58C56.37,66,65,54.43,73.3,42.78c2.75-3.84,3.83-3.76,6.6-.05,8.43,11.25,17,22.41,22.44,35.56a82.85,82.85,0,0,1,2.41,7.95M55.2,96.84c1.78,5.75,5.83,9.34,11.12,11.78.9.42,1.71.81,2.29-.19s-.4-1.29-1-1.7a29.29,29.29,0,0,1-10-13.51c-.51-5.36-1.46-10.68-1.53-16.11-2.7,6.52-4.19,13-.93,19.73\" transform=\"translate(-2.73 0)\"><\/path><path class=\"svg-6\" d=\"M123.33,47.59c0,8.11-6.9,13.95-15.1,10.74-3.93-1.53-6.19-8.58-4.44-13,1.89-4.77,5.08-8.78,8.06-12.88.59-.81,1.44-1.82,2.41-.53,3.88,5.13,7.93,10.18,9.07,15.66\" transform=\"translate(-2.73 0)\"><\/path><path class=\"svg-6\" d=\"M40.79,64.68c0,5.47-2.4,8.35-6.23,10.18-3.38,1.61-6.68,2-9.77-.84-3.42-3.19-5.29-6.92-3.67-11.54,1.77-5.07,5.25-9.17,8.44-13.39.45-.59,1-1.3,1.8-.38,4.18,5.08,8.32,10.18,9.43,16\" transform=\"translate(-2.73 0)\"><\/path><path class=\"svg-5\" d=\"M50.63,79.25a1.8,1.8,0,0,1-.74,1.59c0-2.24,0-2.28.52-2.24.09,0,.15.43.22.65\" transform=\"translate(-2.73 0)\"><\/path><path class=\"svg-5\" d=\"M57.66,93.22a29.24,29.24,0,0,0,10,13.51c.56.42,1.49.8,1,1.7s-1.39.61-2.28.19c-5.3-2.44-9.35-6-11.13-11.78,0-1.72,2.84-1.59,2.46-3.62\" transform=\"translate(-2.73 0)\"><\/path><path class=\"svg-4\" d=\"M57.66,93.22c.38,2-2.41,1.9-2.46,3.62-3.26-6.69-1.77-13.21.93-19.73.07,5.43,1,10.75,1.53,16.11\" transform=\"translate(-2.73 0)\"><\/path><\/g><\/g><\/g><\/g><\/svg>","check_our_txt_1":"100% <br>  Waterproof","check_our_svg_2":"<svg xmlns=\"http:\/\/www.w3.org\/2000\/svg\" viewbox=\"0 0 162.93 162.93\" xmlns:xlink=\"http:\/\/www.w3.org\/1999\/xlink\"><defs><style>.svg-01{fill:none;}.svg-02{clip-path:url(#clip-path-s01);}.svg-03{clip-path:url(#clip-path-s02);}.svg-04{fill:#a91e22;}.svg-05{fill:#fff;}.svg-06{clip-path:url(#clip-path-s03);}.svg-07{fill:url(#linear-gradient);}.svg-08{clip-path:url(#clip-path-s05);}.svg-09{fill:url(#linear-gradient-2);}<\/style>\n<clippath id=\"clip-path-s01\" transform=\"translate(-2.75 0)\"><rect class=\"svg-01\" width=\"166.24\" height=\"162.93\"><\/rect><\/clippath><clippath id=\"clip-path-s02\" transform=\"translate(-2.75 0)\"><rect class=\"svg-01\" width=\"166.24\" height=\"162.93\"><\/rect><\/clippath><clippath id=\"clip-path-s03\" transform=\"translate(-2.75 0)\"><path class=\"svg-01\" d=\"M79.93,128.25c-.88-.39-1.29-.84-1.37-1.14a1.51,1.51,0,0,1,.37-1.06,32.69,32.69,0,0,1,5.7-5.75,42.83,42.83,0,0,1,3.66-2.58,45,45,0,0,0,4.09-2.9,38.86,38.86,0,0,0,12.9-19.55c2.64,13.35-3,25.76-11.62,31.42a14.92,14.92,0,0,1-8.26,2.76,13.73,13.73,0,0,1-5.47-1.2M83.4,27.65a2.53,2.53,0,0,0-2.13,1.17l-.63,1c-.41.62-.74,1.14-1,1.67-1,1.71-2,3.41-3,5.12-2.37,4-4.83,8.19-7.13,12.37C62.62,61.37,55.61,74.7,51.37,89c-4.53,15.32-1.62,29.17,8.65,41.15,6.17,7.2,14.41,11.17,23.18,11.17,8.24,0,16.22-3.56,22.48-10,6.79-7,10.69-16.12,11.58-27.07.64-7.84-1.58-15.12-4.08-21.83C108,68.52,101.26,55.75,92.71,40.84c-1.54-2.67-3.13-5.31-4.78-8.05l-2.36-3.91a2.53,2.53,0,0,0-2.13-1.23Z\"><\/path><\/clippath><lineargradient id=\"linear-gradient\" x1=\"82.48\" y1=\"-113.95\" x2=\"85.7\" y2=\"-113.95\" gradienttransform=\"matrix(21.09, 0, 0, -21.09, -1692.48, -2318.14)\" gradientunits=\"userSpaceOnUse\"><stop offset=\"0\" stop-color=\"#6fccdd\"><\/stop><stop offset=\"1\" stop-color=\"#03b3c7\"><\/stop><\/lineargradient><clippath id=\"clip-path-s05\" transform=\"translate(-2.75 0)\"><path class=\"svg-01\" d=\"M22.08,108.67a1.83,1.83,0,0,1,.28-.65,4.26,4.26,0,0,1,3.15-1.1,7.92,7.92,0,0,1,2.71.5,18.26,18.26,0,0,0-5.91,1.27l-.23,0m-3.66-4.06a9.31,9.31,0,0,0-3.22,12.21,9.63,9.63,0,0,0,9,5.77,12.5,12.5,0,0,0,2.54-.28,21.38,21.38,0,0,1,4.36-.54,9,9,0,0,1,2.59.34,113.07,113.07,0,0,1,10.66,4.16c1.45.62,2.91,1.25,4.37,1.84a1.58,1.58,0,0,0,.61.12,1.64,1.64,0,0,0,1.21-.54,1.61,1.61,0,0,0,.19-1.86l-1.11-2c-.89-1.63-1.82-3.36-2.87-5-3.4-5.4-7.38-10.87-13.34-14.36a14.9,14.9,0,0,0-7.53-2.23,13.16,13.16,0,0,0-7.42,2.4\"><\/path><\/clippath><lineargradient id=\"linear-gradient-2\" x1=\"78.29\" y1=\"-124.4\" x2=\"81.52\" y2=\"-124.4\" gradienttransform=\"matrix(11.39, 0, 0, -11.39, -880.25, -1301.5)\" xlink:href=\"#linear-gradient\"><\/lineargradient><\/defs><title>Asset 4<\/title>\n<g id=\"Layer_2\" data-name=\"Layer 2\"><g id=\"Layer_1-2\" data-name=\"Layer 1\"><g class=\"svg-02\"><g class=\"svg-03\"><path class=\"svg-04\" d=\"M141.82,139.07a81.47,81.47,0,1,1,0-115.21,81.47,81.47,0,0,1,0,115.21\" transform=\"translate(-2.75 0)\"><\/path><path class=\"svg-05\" d=\"M131.62,128.87a67,67,0,1,1,0-94.81,67,67,0,0,1,0,94.81\" transform=\"translate(-2.75 0)\"><\/path><\/g><g class=\"svg-06\"><rect class=\"svg-07\" x=\"44.09\" y=\"27.65\" width=\"71.06\" height=\"113.67\"><\/rect><\/g><g class=\"svg-03\"><path class=\"svg-05\" d=\"M83.4,30.18c2.5,4.18,4.87,8,7.11,11.91,7.64,13.31,14.94,26.78,20.3,41.2,2.49,6.68,4.53,13.47,3.93,20.75-.79,9.71-4,18.43-10.88,25.51-6,6.16-13.34,9.24-20.66,9.24-7.72,0-15.38-3.42-21.25-10.28-9.7-11.31-12.4-24.42-8.15-38.79,4.14-14,10.87-26.84,17.85-39.55,3.24-5.89,6.73-11.63,10.12-17.44.44-.76.94-1.48,1.63-2.55m2,101.8A17.46,17.46,0,0,0,95,128.8c11.26-7.39,18.14-25.81,9.5-43.57-.11,1-.17,1.43-.21,1.87-1.15,10.36-5.45,19.1-13.55,25.77-2.45,2-5.32,3.47-7.76,5.48a34.75,34.75,0,0,0-6.14,6.22c-1.76,2.43-.73,4.8,2.05,6A16.09,16.09,0,0,0,85.39,132m-2-106.86a5.06,5.06,0,0,0-4.27,2.34l-.62,1c-.43.65-.78,1.19-1.11,1.76-1,1.7-2,3.4-3,5.1-2.39,4-4.86,8.23-7.18,12.44-6.88,12.54-14,26-18.27,40.56-4.73,16-1.56,31,9.15,43.51,6.67,7.77,15.57,12,25.1,12,8.93,0,17.56-3.83,24.29-10.78,7.22-7.45,11.35-17.08,12.29-28.62.68-8.33-1.63-15.94-4.23-22.92-5.22-14-12-26.92-20.65-41.95-1.55-2.71-3.14-5.33-4.82-8.1-.77-1.28-1.55-2.57-2.34-3.9a5.09,5.09,0,0,0-4.27-2.46Zm-1.46,101.2a35.35,35.35,0,0,1,4.29-4.06,38.17,38.17,0,0,1,3.44-2.42A47.3,47.3,0,0,0,94,116.77a41.87,41.87,0,0,0,8.9-10c-1,7.07-4.4,13.71-10.63,17.81a12.43,12.43,0,0,1-6.87,2.34,10.41,10.41,0,0,1-3.45-.6\" transform=\"translate(-2.75 0)\"><\/path><\/g><g class=\"svg-08\"><rect class=\"svg-09\" x=\"10.24\" y=\"102.21\" width=\"38.04\" height=\"26.02\"><\/rect><\/g><g class=\"svg-03\"><path class=\"svg-05\" d=\"M25.85,103.83a13.27,13.27,0,0,1,6.7,2c5.64,3.3,9.39,8.43,12.79,13.82,1.48,2.35,2.75,4.83,3.95,7-5-2.05-10-4.42-15.16-6.05a10.26,10.26,0,0,0-3.07-.42,23,23,0,0,0-4.7.58,10.6,10.6,0,0,1-2.21.24,8.08,8.08,0,0,1-7.5-4.85A7.69,7.69,0,0,1,19.32,106a11.51,11.51,0,0,1,6.53-2.12m-3.54,6.47a1.73,1.73,0,0,0,.61-.09,15.88,15.88,0,0,1,5.6-1.18,10.26,10.26,0,0,1,4.89,1.22l.24-.5a25.63,25.63,0,0,0-2.12-2.28,9.62,9.62,0,0,0-6-2.16,5.82,5.82,0,0,0-4.34,1.62c-.66.73-.76,2-1.11,3a21.25,21.25,0,0,0,2.25.39m3.54-9.7h0a14.8,14.8,0,0,0-8.34,2.67,10.88,10.88,0,0,0-3.76,14.26,11.31,11.31,0,0,0,10.4,6.67,14.43,14.43,0,0,0,2.89-.31,18.81,18.81,0,0,1,4-.51,7.21,7.21,0,0,1,2.11.27c3.53,1.11,7.08,2.64,10.51,4.11,1.47.62,2.92,1.25,4.38,1.85a3.27,3.27,0,0,0,1.22.24A3.23,3.23,0,0,0,52.1,125c-.36-.64-.72-1.31-1.1-2-.91-1.67-1.84-3.39-2.93-5.11-3.51-5.57-7.63-11.22-13.89-14.89a16.48,16.48,0,0,0-8.33-2.44\" transform=\"translate(-2.75 0)\"><\/path><rect class=\"svg-04\" x=\"10.33\" y=\"74.45\" width=\"147.76\" height=\"14.04\" transform=\"translate(-35.69 83.41) rotate(-45)\"><\/rect><\/g><\/g><\/g><\/g><\/svg>","check_our_txt_2":"Stop Leaks","check_our_svg_3":"<svg xmlns=\"http:\/\/www.w3.org\/2000\/svg\" viewbox=\"0 0 158.89 169.25\" xmlns:xlink=\"http:\/\/www.w3.org\/1999\/xlink\"><defs><style>.svg-a{fill:none;}.svg-b{clip-path:url(#clip-path-sa);}.svg-c{clip-path:url(#clip-path-sb);}.svg-d{fill:url(#linear-gradient);}.svg-e{clip-path:url(#clip-path-sc);}.svg-f{fill:#fff;}.svg-g{clip-path:url(#clip-path-sd);}.svg-h{fill:url(#linear-gradient-2);}.svg-i{fill:#bcbec0;}.svg-a0{fill:#2a2c2b;}.svg-a1{fill:#2b2c2b;}.svg-a2{fill:#2d2f2e;}.svg-a3{fill:#e59325;}.svg-a4{fill:#d1882b;}.svg-a5{fill:#8d5f28;}.svg-a6{fill:#1b2a2b;}.svg-a7{fill:#e6e7e8;}.svg-a8{fill:#f9a01d;}<\/style>\n<clippath id=\"clip-path-sa\" transform=\"translate(-6.29 0)\"><rect class=\"svg-a\" width=\"171.99\" height=\"179.77\"><\/rect><\/clippath><clippath id=\"clip-path-sb\" transform=\"translate(-6.29 0)\"><path class=\"svg-a\" d=\"M6.29,89.8A79.44,79.44,0,1,0,85.73,10.36,79.44,79.44,0,0,0,6.29,89.8\"><\/path><\/clippath><lineargradient id=\"linear-gradient\" x1=\"-142.87\" y1=\"-91.18\" x2=\"-139.64\" y2=\"-91.18\" gradienttransform=\"matrix(49.22, 0, 0, -49.22, 7031.17, -4397.61)\" gradientunits=\"userSpaceOnUse\"><stop offset=\"0\" stop-color=\"#6fccdd\"><\/stop><stop offset=\"1\" stop-color=\"#03b3c7\"><\/stop><\/lineargradient><clippath id=\"clip-path-s3\" transform=\"translate(-6.29 0)\"><rect class=\"svg-a\" width=\"171.99\" height=\"179.78\"><\/rect><\/clippath><clippath id=\"clip-path-sd\" transform=\"translate(-6.29 0)\"><path class=\"svg-a\" d=\"M34.37,162.65c1.55-1.93,3.75-3.47,3.9-5.18s-1.74-3.64-3.05-6.07c3.22-.41,6.49-.78,9.75-1.24A23.17,23.17,0,0,0,50.9,149c1.45-.63,3.36-2.06,3.51-3.32s-1.22-3.28-2.48-4.26c-1.83-1.43-4.15-2.23-7-3.69,5.39-2.64,10.81-4.25,16-4.25a22.44,22.44,0,0,1,4.26.4c5.94,1.12,11.3,5.38,16.71,8.91-1.93-.07-3.84-.19-5.71-.19-4.58,0-9,.73-13,4.74l6.69,6.39a20.81,20.81,0,0,1-5.19.57c-2.83,0-5.66-.36-8.47-.36a16.78,16.78,0,0,0-8.36,1.87L51,160.62c-4.36,1.09-8.61,2.33-13,2.33a21.22,21.22,0,0,1-3.62-.3M44.56,137l-1.45.71,1.44.73c.92.46,1.78.87,2.59,1.24a22.27,22.27,0,0,1,4.29,2.37c1.24,1,2.28,2.64,2.18,3.53s-1.53,2-3,2.66a15.37,15.37,0,0,1-4.37.92l-1.36.18c-2.3.32-4.62.6-6.92.88l-2.81.35-1.17.14.56,1c.44.81.92,1.55,1.39,2.26.88,1.32,1.63,2.47,1.56,3.36s-1.05,1.89-2.08,2.95c-.55.56-1.12,1.15-1.64,1.79l-.85,1.06,1.34.24a21,21,0,0,0,3.76.32,47.56,47.56,0,0,0,11.55-1.94l1.63-.42,1.09-.27-.61-.95-1.07-1.64L49,156.14a16.5,16.5,0,0,1,7.2-1.37c1.37,0,2.79.09,4.17.17s2.86.19,4.3.19a21.41,21.41,0,0,0,5.39-.6l1.41-.37-1-1-2.89-2.75-3.19-3c3.77-3.45,7.88-3.94,11.78-3.94,1.29,0,2.59.06,3.91.12l1.77.07,2.91.11-2.44-1.59-2.88-1.92c-4.45-3-9.07-6.15-14.12-7.11a23.64,23.64,0,0,0-4.41-.4c-5,0-10.47,1.45-16.32,4.33\"><\/path><\/clippath><lineargradient id=\"linear-gradient-2\" x1=\"-135.42\" y1=\"-102.28\" x2=\"-132.19\" y2=\"-102.28\" gradienttransform=\"matrix(16.06, 0, 0, -16.06, 2201.02, -1494.09)\" xlink:href=\"#linear-gradient\"><\/lineargradient><\/defs><title>Asset 3<\/title>\n<g id=\"Layer_2\" data-name=\"Layer 2\"><g id=\"Layer_1-2\" data-name=\"Layer 1\"><g class=\"svg-b\"><g class=\"svg-c\"><rect class=\"svg-d\" y=\"10.36\" width=\"158.89\" height=\"158.89\"><\/rect><\/g><g class=\"svg-e\"><path class=\"svg-f\" d=\"M35.22,151.4c3.22-.41,6.49-.78,9.75-1.24A23.17,23.17,0,0,0,50.9,149c1.45-.63,3.36-2.06,3.51-3.32s-1.23-3.28-2.48-4.26c-1.83-1.43-4.15-2.23-7-3.69,6.89-3.38,13.84-5.06,20.22-3.86,6,1.13,11.31,5.39,16.71,8.92-6.63-.24-13-1.11-18.65,4.55l6.68,6.39c-7.39,1.89-14.88-1.81-22,2.07,1,1.56,1.93,3,3.11,4.8-5.56,1.39-10.93,3-16.6,2,1.55-1.92,3.75-3.46,3.9-5.16s-1.74-3.65-3.05-6.08\" transform=\"translate(-6.29 0)\"><\/path><\/g><g class=\"svg-g\"><rect class=\"svg-h\" x=\"26.6\" y=\"132.7\" width=\"51.84\" height=\"31.06\"><\/rect><\/g><g class=\"svg-e\"><path class=\"svg-i\" d=\"M95.85,126.45c-7.42-3.58-16.2-2.26-21.94-9.16L88,110.56c6.44-3.09,13-6,19.24-9.42,2-1.12,3.29-3.72,4.9-5.64-2-1.52-3.87-3.79-6.15-4.4-7.71-2-15.6-3.38-23.37-5.22a86.24,86.24,0,0,1-13.66-4.06c-5-2.11-5.57-6.26-1.19-9.36a55.58,55.58,0,0,1,14.69-7.87c11.1-3.56,22.49-6.2,33.77-9.19a4.59,4.59,0,0,1,2.12-.22,8.77,8.77,0,0,1,2.12,1.15C120,57,119.61,58,119,58.2c-5.27,1.89-10.73,3.32-15.87,5.5s-10,5-14.91,7.64a11.12,11.12,0,0,0-2.94,2.59c-2.36,2.75-2.15,4.35,1.16,5.74a67.14,67.14,0,0,0,9.21,2.81c5.65,1.47,11.35,2.78,17,4.26a23.8,23.8,0,0,1,4.64,1.86c7,3.54,7.94,8.49,2.21,13.79-4.89,4.52-10.44,8.32-15.6,12.55-3.6,3-7.28,5.93-8,11.51\" transform=\"translate(-6.29 0)\"><\/path><path class=\"svg-a0\" d=\"M53.43,96c-1.52.22-3,.46-4.56.67a1.35,1.35,0,0,0-1.11.76c-.28,0-.24.24-.28.4q-.72,3.68-1.43,7.35c-.47,2.38-.93,4.76-1.4,7.14,0,.17-.15.37.11.47a1.25,1.25,0,0,0,.77,1.13c0,.23.15.24.31.27.81.16,1.62.33,2.43.47.23,0,.26.12.22.33-.1.44-.16.9-.27,1.34a3,3,0,0,1-.33,1.16L45,116.87c-.06-.31-.21-.31-.42-.13a2.28,2.28,0,0,1-.92-.42,4.06,4.06,0,0,1-1.93-3.72c.33-.14,0-.3,0-.45q1.53-7.89,3.08-15.78A5.81,5.81,0,0,1,46,94.68a5,5,0,0,1,2.84-1.16q11.47-1.6,22.94-3.24l20.44-2.89c.88-.12,1.16-.39,1.33-1.24q3.12-16.05,6.27-32.08c0-.14.07-.28.09-.43l2.79.55q-3.18,16.29-6.37,32.56a2.5,2.5,0,0,1,0,.29.15.15,0,0,0,.12.19,4.1,4.1,0,0,1-3.24,3.1,3.6,3.6,0,0,1-.93.13c-.1,0-.21-.1-.28.05l-1.61.22c-.08-.11-.12,0-.15,0-1.15.17-2.29.36-3.45.47-.1-.15-.17-.11-.23,0-1.25.21-2.5.4-3.75.53-.09-.14-.12-.07-.16,0l-5.92.85L75,92.9c-.11,0-.23-.1-.29,0-1.74.25-3.47.53-5.21.72-.09-.15-.17-.12-.23,0q-1.86.33-3.75.54c-.1-.16-.18-.12-.23,0-.79.15-1.59.26-2.38.34-.1-.13-.17-.12-.23,0a5.63,5.63,0,0,1-1.08.16c-.15-.16-.27-.09-.38.06l-7.51,1.07a.11.11,0,0,1-.08,0c-.09-.13-.16-.11-.22,0\" transform=\"translate(-6.29 0)\"><\/path><path class=\"svg-a1\" d=\"M126.37,135.93a1.28,1.28,0,0,1-1.59.57,8.17,8.17,0,0,0-.86-.17c.1-.55.21-1.1.32-1.65.61-3.18,1.24-6.35,1.85-9.53a1.42,1.42,0,0,1,.07-.22,8.52,8.52,0,0,0,.88.16,1.25,1.25,0,0,1,1.24,1.08c-.63,3.25-1.27,6.51-1.91,9.76\" transform=\"translate(-6.29 0)\"><\/path><path class=\"svg-a2\" d=\"M41.75,112.6a.06.06,0,0,0-.07,0l.09-.43c0,.15.31.32,0,.45\" transform=\"translate(-6.29 0)\"><\/path><path class=\"svg-i\" d=\"M126.15,124.93l-.06.21a1,1,0,0,1-.18-.1,6.31,6.31,0,0,0-2.26-1.05L60.86,111.71a5.07,5.07,0,0,0-1.78,0,6.13,6.13,0,0,0-5.23,5c-.77,3.76-1.48,7.53-2.22,11.3a6,6,0,0,1-2.28-4.72c0-.51.13-1,.15-1.52,0-.15.07-.31.1-.46.64-3.29,1.29-6.58,1.93-9.86.07-.36.16-.71.24-1.07A6,6,0,0,1,56,106.05a5.74,5.74,0,0,1,2.91-.16l34,6.66c9.35,1.82,18.7,3.68,28.06,5.47a6.27,6.27,0,0,1,5.18,6.91\" transform=\"translate(-6.29 0)\"><\/path><path class=\"svg-a3\" d=\"M117.16,4.27l-.09.5Q112.65,27.36,108.23,50l-.43-.07c-3.06-.61-6.13-1.16-9.17-1.84,0-.18.08-.36.11-.54q3.93-20.11,7.87-40.23c.31-1.62.64-3.25,1-4.87l.46.08Zm-7.08,22.2q1.86-9.48,3.7-18.94c0-.1,0-.19.06-.29a.64.64,0,0,0-.31-.62.62.62,0,0,0-.68,0,.88.88,0,0,0-.43.67q-2.83,14.54-5.68,29.06L105,45.07a.74.74,0,0,0,0,.53.7.7,0,0,0,.65.5c.4,0,.6-.21.7-.66q1.84-9.49,3.7-19\" transform=\"translate(-6.29 0)\"><\/path><path class=\"svg-a4\" d=\"M107.57,2.41l-1,4.87q-3.93,20.12-7.87,40.23c0,.18-.08.36-.11.53a.73.73,0,0,1-.39,0c-.51-.1-1-.18-1.53-.3-.34-.09-.51,0-.55.35s-.18,1-.28,1.49a9.75,9.75,0,0,1,.3-1.86,4.48,4.48,0,0,1,.11-.5q4.38-22.44,8.77-44.86c.13-.64.24-1.29.37-1.93a.6.6,0,0,1,.14-.41c-.1.5-.17,1-.3,1.49-.08.33,0,.47.34.53.66.1,1.3.25,2,.39\" transform=\"translate(-6.29 0)\"><\/path><path class=\"svg-a5\" d=\"M95.88,49.56c.09-.49.22-1,.28-1.49s.21-.44.55-.35c.5.12,1,.2,1.52.3a.78.78,0,0,0,.4,0c3,.69,6.11,1.24,9.16,1.85l.44.07a8.79,8.79,0,0,1-.72,2.62,3.51,3.51,0,0,1-3.64,1.69l-.71-.14c-.1,0-.2-.05-.24.08-.06,0,0-.12-.1-.13l-2.88-.57a9,9,0,0,1-2.28-.61,3.51,3.51,0,0,1-1.78-3.34\" transform=\"translate(-6.29 0)\"><\/path><path class=\"svg-a2\" d=\"M51.77,110.38c-.08.35-.17.71-.24,1.07-.64,3.28-1.29,6.57-1.93,9.86,0,.16-.07.31-.1.46-.38-.07-.76-.14-1.15-.23a1,1,0,0,1-.85-1.32c.15-.82.32-1.64.47-2.46,0-.12.13-.27-.08-.32a3,3,0,0,0,.33-1.16c.11-.45.17-.9.27-1.34,0-.21,0-.29-.22-.33-.81-.14-1.62-.31-2.43-.47-.16,0-.33,0-.31-.27.92.18,1.84.35,2.76.54.25.06.35,0,.4-.26.18-1,.4-2.08.6-3.12a1,1,0,0,1,1.3-.88l1.18.23\" transform=\"translate(-6.29 0)\"><\/path><path class=\"svg-a2\" d=\"M102.82,54.08c.07,0,.05.1.09.13s0,.29-.07.43L96.57,86.71a1.63,1.63,0,0,1-.15.52A.15.15,0,0,1,96.3,87c0-.09,0-.19,0-.29q3.18-16.27,6.37-32.56c.06,0,.08,0,.1-.11\" transform=\"translate(-6.29 0)\"><\/path><path class=\"svg-a2\" d=\"M44.76,112.74c-.26-.1-.14-.3-.11-.47.46-2.38.93-4.76,1.39-7.14s1-4.9,1.45-7.35c0-.17,0-.39.27-.4q-1.29,6.65-2.59,13.28c-.14.69-.27,1.39-.41,2.08\" transform=\"translate(-6.29 0)\"><\/path><path class=\"svg-a6\" d=\"M102.82,54.08c0,.06,0,.1-.1.11l-2.79-.54a.66.66,0,0,0,0-.14l2.88.57\" transform=\"translate(-6.29 0)\"><\/path><path class=\"svg-a2\" d=\"M61.24,94.86c.11-.15.23-.22.38-.06l-.38.06\" transform=\"translate(-6.29 0)\"><\/path><path class=\"svg-a2\" d=\"M53.43,96c.06-.14.13-.16.22,0a.25.25,0,0,1-.22,0\" transform=\"translate(-6.29 0)\"><\/path><path class=\"svg-a2\" d=\"M62.7,94.64c.06-.15.13-.16.23,0a.24.24,0,0,1-.23,0\" transform=\"translate(-6.29 0)\"><\/path><path class=\"svg-a2\" d=\"M65.31,94.27c0-.15.12-.19.23,0a.27.27,0,0,1-.23,0\" transform=\"translate(-6.29 0)\"><\/path><path class=\"svg-a2\" d=\"M69.29,93.7c.06-.15.14-.18.23,0-.07.07-.15,0-.23,0\" transform=\"translate(-6.29 0)\"><\/path><path class=\"svg-a2\" d=\"M86.53,91.27c.06-.15.13-.19.23,0-.07.07-.15,0-.23,0\" transform=\"translate(-6.29 0)\"><\/path><path class=\"svg-a2\" d=\"M74.73,93c.06-.15.18-.08.29-.06l-.29.06\" transform=\"translate(-6.29 0)\"><\/path><path class=\"svg-a2\" d=\"M92,90.51c.07-.15.18-.08.29-.05l-.29.05\" transform=\"translate(-6.29 0)\"><\/path><path class=\"svg-a2\" d=\"M82.62,91.83c0-.1.07-.17.16,0a.13.13,0,0,1-.16,0\" transform=\"translate(-6.29 0)\"><\/path><path class=\"svg-a2\" d=\"M90.21,90.76c0-.08.07-.14.15,0Z\" transform=\"translate(-6.29 0)\"><\/path><path class=\"svg-a2\" d=\"M45,116.87a.78.78,0,0,1-.43-.13c.22-.19.37-.18.43.13\" transform=\"translate(-6.29 0)\"><\/path><path class=\"svg-a7\" d=\"M51.63,128c.74-3.77,1.45-7.54,2.22-11.3a6.13,6.13,0,0,1,5.23-5,5.32,5.32,0,0,1,1.78,0L123.65,124a6.39,6.39,0,0,1,2.26,1.05l.19.11-1.86,9.53c-.11.55-.21,1.1-.32,1.65a6.06,6.06,0,0,1-3.07,4.46,5.91,5.91,0,0,1-4,.73l-.71-.14L54.47,129.32A5.89,5.89,0,0,1,51.63,128m35.13,4,26.15,5.12a3.75,3.75,0,0,0,3.84-1.44,6.27,6.27,0,0,0,1.1-3.69,3.93,3.93,0,0,0-3.43-4.12l-51.05-10a8.63,8.63,0,0,0-1.44-.22,3.77,3.77,0,0,0-3.55,1.8,6.76,6.76,0,0,0-.9,3.68,3.92,3.92,0,0,0,3.2,3.76c8.69,1.67,17.39,3.39,26.08,5.08\" transform=\"translate(-6.29 0)\"><\/path><path class=\"svg-a8\" d=\"M110.08,26.47q-1.86,9.48-3.7,19c-.1.45-.3.65-.7.66a.7.7,0,0,1-.65-.5.74.74,0,0,1,0-.53l1.71-8.75q2.85-14.54,5.68-29.06a.88.88,0,0,1,.43-.67.62.62,0,0,1,.68,0,.64.64,0,0,1,.31.62c0,.1,0,.19-.06.29q-1.84,9.47-3.7,18.94\" transform=\"translate(-6.29 0)\"><\/path><path class=\"svg-f\" d=\"M86.76,132c-8.69-1.69-17.39-3.41-26.08-5.08a3.92,3.92,0,0,1-3.2-3.76,6.76,6.76,0,0,1,.9-3.68,3.77,3.77,0,0,1,3.55-1.8,8.63,8.63,0,0,1,1.44.22l51.05,10a3.93,3.93,0,0,1,3.43,4.12,6.27,6.27,0,0,1-1.1,3.69,3.75,3.75,0,0,1-3.84,1.44L86.76,132\" transform=\"translate(-6.29 0)\"><\/path><\/g><\/g><\/g><\/g><\/svg>","check_our_txt_3":"Stop and  Seals Cracks","check_our_svg_4":"<svg xmlns=\"http:\/\/www.w3.org\/2000\/svg\" viewbox=\"0 0 119.04 156.48\" xmlns:xlink=\"http:\/\/www.w3.org\/1999\/xlink\"><defs><style>.svg-001{fill:none;}.svg-002{clip-path:url(#clip-path-s001);}.svg-003{clip-path:url(#clip-path-s002);}.svg-004{fill:#fcee21;}.svg-005{fill:#feffff;}.svg-006{fill:#43b3e6;}<\/style>\n<clippath id=\"clip-path-s001\" transform=\"translate(-11.21)\"><rect class=\"svg-001\" width=\"133.89\" height=\"156.47\"><\/rect><\/clippath><clippath id=\"clip-path-s002\" transform=\"translate(-11.21)\"><rect class=\"svg-001\" width=\"133.89\" height=\"156.47\"><\/rect><\/clippath><\/defs><title>Asset 2<\/title>\n<g id=\"Layer_2\" data-name=\"Layer 2\"><g id=\"Layer_1-2\" data-name=\"Layer 1\"><g class=\"svg-002\"><g class=\"svg-003\"><path class=\"svg-004\" d=\"M34.23,28.26c-6.14,0-12.29,0-18.43,0-3,0-4.62-1.23-4.58-3.41s1.69-3.4,4.67-3.4q18.57,0,37.15,0c.28,0,.57,0,.85,0,2.29.14,3.89,1.15,3.78,3.63-.1,2.31-1.68,3.19-3.87,3.19q-9.78,0-19.57,0\" transform=\"translate(-11.21)\"><\/path><path class=\"svg-004\" d=\"M34.54,62.34c-6.24,0-12.48,0-18.73,0-3,0-4.62-1.22-4.6-3.4s1.69-3.41,4.66-3.41q18.71,0,37.43,0c3.07,0,4.74,1.52,4.37,3.89s-2,3-4.13,2.94c-6.33,0-12.67,0-19,0\" transform=\"translate(-11.21)\"><\/path><path class=\"svg-004\" d=\"M42.85,45.3c-3.69,0-7.37,0-11,0-2.34,0-4-.94-4.06-3.33s1.64-3.49,4-3.5q11,0,22.1,0c2.29,0,3.94,1,3.88,3.51s-1.75,3.32-4.05,3.31c-3.59,0-7.18,0-10.77,0\" transform=\"translate(-11.21)\"><\/path><path class=\"svg-004\" d=\"M42.73,79.37c-3.68,0-7.37,0-11,0-2.35,0-3.95-1-3.93-3.44s1.6-3.36,3.77-3.37q11.19-.07,22.39,0c2.15,0,3.73,1,3.76,3.34,0,2.47-1.55,3.46-3.88,3.46H42.73\" transform=\"translate(-11.21)\"><\/path><path class=\"svg-005\" d=\"M68.32,54.23c0-10.31-.07-20.63,0-30.95.1-11.44,9-21.68,20-23,12.64-1.6,23.58,5.37,26.83,17.11a28,28,0,0,1,.89,7.58c0,20,0,39.94-.06,59.91a8.31,8.31,0,0,0,2.8,6.67,37.28,37.28,0,0,1,8.82,40.72c-6,14.83-17.23,23.37-33.28,24.2-23.22,1.19-41.15-16.86-40.11-39.93a35.94,35.94,0,0,1,11.5-25.14,7.71,7.71,0,0,0,2.68-6.17c-.14-10.32-.06-20.63-.06-31Zm38.6,3.49c0-11.16,0-22.32,0-33.48a14.4,14.4,0,0,0-5.12-11.52c-4.65-3.89-9.92-4.93-15.59-2.36C80.37,13,77.44,17.74,77.41,24q-.12,33.35,0,66.68a4.92,4.92,0,0,1-2.34,4.58,28.77,28.77,0,0,0-11,30.35A28.92,28.92,0,0,0,119,129.32a28.62,28.62,0,0,0-10.09-34.23,4.13,4.13,0,0,1-2-3.89c.09-11.16,0-22.32,0-33.48\" transform=\"translate(-11.21)\"><\/path><path class=\"svg-006\" d=\"M100.1,59.31c0,11.64.05,23.28,0,34.92a5.29,5.29,0,0,0,3,5.2,21.93,21.93,0,0,1,9.48,27.7,22.23,22.23,0,0,1-25.57,13A22,22,0,0,1,70.1,116.45,20.76,20.76,0,0,1,80.81,99.67c2.59-1.47,3.46-3.24,3.45-6.13-.1-23-.06-46,0-69,0-5.35,3.41-8.89,8.26-8.69,4.5.19,7.59,3.59,7.61,8.53,0,11.65,0,23.29,0,34.93\" transform=\"translate(-11.21)\"><\/path><\/g><\/g><\/g><\/g><\/svg>","check_our_txt_4":"Temperature  Reducing","check_our_svg_5":"<svg xmlns=\"http:\/\/www.w3.org\/2000\/svg\" viewbox=\"0 0 160.71 170.37\" xmlns:xlink=\"http:\/\/www.w3.org\/1999\/xlink\"><defs><style>.svg-aa{fill:none;}.svg-bb{clip-path:url(#clip-path-saa);}.svg-cc{clip-path:url(#clip-path-sbb);}.svg-dd{fill:#8cc540;}.svg-ee{fill:#faaf41;}<\/style>\n<clippath id=\"clip-path-saa\" transform=\"translate(-5.37 0)\"><rect class=\"svg-aa\" width=\"171.99\" height=\"179.56\"><\/rect><\/clippath><clippath id=\"clip-path-sbb\" transform=\"translate(-5.37 0)\"><rect class=\"svg-aa\" width=\"171.99\" height=\"179.56\"><\/rect><\/clippath><\/defs><title>Asset 1<\/title>\n<g id=\"Layer_2\" data-name=\"Layer 2\"><g id=\"Layer_1-2\" data-name=\"Layer 1\"><g class=\"svg-bb\"><g class=\"svg-cc\"><path class=\"svg-dd\" d=\"M71.93,100.37c7.6-42.92,30.5-61.18,30.5-61.18C72.36,59,65.92,102,65.92,102,49.69,53.83,88,34.34,102.78,11.49A80.36,80.36,0,1,0,84.26,170.36c-33.1-26.14-12.33-70-12.33-70M60.41,124.11S54.26,96.8,34.05,85.5c0,0,15.54,10.64,22.42,37.82-8.31-2-27.36-8.84-33-28.89a40.75,40.75,0,0,1,5.35-33.82c5.15,18.19,41.1,26.69,31.62,63.5\" transform=\"translate(-5.37 0)\"><\/path><path class=\"svg-ee\" d=\"M127,21.06C122.67,8.22,107.77,0,107.77,0a63.36,63.36,0,0,1,12.12,51.84c-3.65,17.77-14.28,29.56-25.15,37.22A53.25,53.25,0,0,0,72,128.26a59.44,59.44,0,0,0,13,42.11h.75A80.36,80.36,0,0,0,127,21.06m3.65,93.13c-8.43,28.18-35.47,37.36-47.26,40.07,10.3-38.22,32.47-52.91,32.47-52.91-28.78,15.52-38,53.94-38,53.94-12.59-52.17,38.34-63.4,46-89a57.59,57.59,0,0,1,6.83,47.87\" transform=\"translate(-5.37 0)\"><\/path><\/g><\/g><\/g><\/g><\/svg>","check_our_txt_5":"Eco-Friendly"}},"commercial-product":{"type":"commercial-product","blocks":{"2a8e8cf7-ec23-4600-861c-e2a52d966c65":{"type":"Information","settings":{"product":"rich-sil","title1":"Appearance","info1":"WHITE","title2":"Solids Content (%)","info2":"92%","title3":"Solids Per Volume (%)","info3":"92%","title4":"Volatile Organic <br> Compounds","info4":"<span><50 grams\/liter<\/span>","title5":"Tensile Strength(psi), <br> ASTM D-412","info5":"250","title6":"Elongation(%), <br> ASTM D-412","info6":"240","title7":"Permeability(perms), <br> ASTM E-96","info7":"10.7","title8":"Temperature Stability <br> Range, °C (°F)","info8":"<span>-37 to 100<br>\n(-93 to 212)<\/span>","title9":"Initial\/3 Years Solar  <br>Reflectivity ASTM C-1549","info9":"89\/73","title10":"Initial\/3 Years Solar  <br>Emissivity ASTM C-1371","info10":"90\/88","title11":"Initial\/3 Years SRI Value","info11":"113\/90","title12":"Cure Time","info12":"1-4 hours","title13":"","info13":"","title14":"","info14":"","title15":"","info15":""}}},"block_order":["2a8e8cf7-ec23-4600-861c-e2a52d966c65"],"settings":{"heading":"Commercial <br> Product information","desc":"Designed for use in concrete, metal, existing built-up system, granulated roof membrane, polyurethane foam or lining already existing to the ceiling well adhered."}},"application-block":{"type":"application-block","blocks":{"c86d44de-932c-4d9e-a1ec-751b494822b7":{"type":"application","settings":{"image":"shopify:\/\/shop_images\/Self_Leveling.jpg","title":"SURFACE PREPARATION","text":"All surfaces must be clean, dry, free of material, grease, or poorly adhered oils."}},"ae68921c-16c9-4fbf-a231-f769f4b3fd05":{"type":"application","settings":{"image":"shopify:\/\/shop_images\/richsil_img1.png","title":"APPLICATION","text":"Roller, brush, airless <br>\nspray machine."}},"fb7a0796-b3ee-4065-9073-b86374053af6":{"type":"application","settings":{"image":"shopify:\/\/shop_images\/Storage_Pail.jpg","title":"STORAGE","text":"Shelf life of 12 months from the date of manufacture when stored in unopened containers and between 40F°& 80F°."}}},"block_order":["c86d44de-932c-4d9e-a1ec-751b494822b7","ae68921c-16c9-4fbf-a231-f769f4b3fd05","fb7a0796-b3ee-4065-9073-b86374053af6"],"settings":{"desktop_bg":"shopify:\/\/shop_images\/mobile-banner.png","mobile_bg":"shopify:\/\/shop_images\/application_banner.png","banner_content":"<b>Provides long-term protection<\/b> because it resists weathering, aging, oxidation, sand, rain, the effects of ozone, ultraviolet radiation and the extreme temperatures usually found on roofs. With its high solids content and absence of hydrocarbon solvents, maintaining maximum adhesion."}},"testimonial":{"type":"testimonial","disabled":true,"blocks":{"a9bd062c-1fbd-4060-b3a4-ed09c35ecfe6":{"type":"Testimonial","settings":{"content":"I didn't know anything I about roofing so I googled and found rich port. I saw that they offered and called. it was an easy decision after that.","name":"Jeff Bridges","position":"32, Homeowner"}},"b26c104c-6375-4191-924f-1227f6e9b5ec":{"type":"Testimonial","settings":{"content":"This is not just a product, its a team that backs their products and are always available to help you out through the whole process.","name":"SAM PORTER","position":"45, Roof contractor"}},"d1d98566-e012-4ab2-9753-93de59976fdc":{"type":"Testimonial","settings":{"content":"In manufacturing we cannot stop our production line but not everyone understands. Rich port did. They worked fast, efficient and knew exactly what they  are doing.","name":"GLEN JONES","position":"45, Manufacturer"}}},"block_order":["a9bd062c-1fbd-4060-b3a4-ed09c35ecfe6","b26c104c-6375-4191-924f-1227f6e9b5ec","d1d98566-e012-4ab2-9753-93de59976fdc"],"settings":{"heading":"WHAT OUR CLIENTS THINK ABOUT OUR PRODUCTS?","subheading":""}},"warnings-precautions":{"type":"warnings-precautions","blocks":{"6c8ebccb-773e-4701-b169-2debe2700fba":{"type":"Warnings","settings":{"image":"shopify:\/\/shop_images\/1.png","title":"SKIN CONTACT","text":"Prolonged skin contact may cause irritation.","desc":"Wash skin well after handling. Seek medical attention if irritation develops and persists. Take off contaminated clothing. Wash the contaminated clothing before using it again."}},"5c929775-eb11-4962-85e1-be672acc7326":{"type":"Warnings","settings":{"image":"shopify:\/\/shop_images\/Vector_1.png","title":"INGESTION","text":"Ingestion may cause irritation of the mucous membranes and\ngastrointestinal irritation, nausea, vomiting and diarrhea.","desc":"If the product is swallowed, call the doctor or poison control center for the\nmost up-to-date information. If no professional advice is available, do not induce vomiting. Never induce vomiting or administer diluents (milk or water) to someone who is unconscious, has seizures or cannot swallow. Seek medical help."}},"dacae99e-0cf8-4bca-b224-b4381d6ae1cc":{"type":"Warnings","settings":{"image":"shopify:\/\/shop_images\/3.png","title":"INHALATION","text":"This product does not present any danger when aspirated.","desc":"If breathing becomes difficult, take the victim to fresh air. If necessary, use artificial respiration to support vital functions. Seek medical attention if breathing difficulties\ncontinue."}},"29106cdf-71b5-4a20-a1e3-8edcb07823fb":{"type":"Warnings","settings":{"image":"shopify:\/\/shop_images\/4.png","title":"EYE CONTACT","text":"Does not cause eye problems under normal conditions of use. Direct contact in the eyes may cause irritation.","desc":"If the product enters the eyes, open the eyes with mild running water for at least 15 minutes. Seek medical attention if irritation develops. Consult your doctor for treatment according to the symptoms you present. In case of intoxication, take the patient to the doctor and consult this label."}}},"block_order":["6c8ebccb-773e-4701-b169-2debe2700fba","5c929775-eb11-4962-85e1-be672acc7326","dacae99e-0cf8-4bca-b224-b4381d6ae1cc","29106cdf-71b5-4a20-a1e3-8edcb07823fb"],"settings":{"heading":"WARNINGS AND PRECAUTIONS"}},"project-gallery":{"type":"project-gallery","blocks":{"04b4db32-9879-427c-860b-2b96a05335b8":{"type":"gallery","settings":{"gallery_img":"shopify:\/\/shop_images\/project1.png","title":"PERFECT HOUSES","quote":"Roof 1200 sq.ft. Coated with Rich Sil+ and E-Seal"}},"695e5cb3-cc8a-4eb4-af44-328e559b7999":{"type":"gallery","settings":{"gallery_img":"shopify:\/\/shop_images\/project2.png","title":"MICHIGAN TRADE CENTER","quote":"Roof 1200 sq.ft. Coated with Rich Sil+ and E-Seal"}},"96ddfa73-7cbb-49a2-8b28-c9552a19cc0f":{"type":"gallery","settings":{"gallery_img":"shopify:\/\/shop_images\/gallery-3.png","title":"MICHIGAN TRADE CENTER","quote":"Roof 1200 sq.ft. Coated with Rich Sil+ and E-Seal"}},"b116e181-ec18-4ecd-b31c-9493447f41fd":{"type":"gallery","settings":{"gallery_img":"shopify:\/\/shop_images\/project2.png","title":"PERFECT HOUSES","quote":"Roof 1200 sq.ft. Coated with Rich Sil+ and E-Seal"}},"07b5c6e8-5473-497e-86db-86d2d7662049":{"type":"gallery","settings":{"gallery_img":"shopify:\/\/shop_images\/gallery-3.png","title":"MICHIGAN TRADE CENTER","quote":"Roof 1200 sq.ft. Coated with Rich Sil+ and E-Seal"}}},"block_order":["04b4db32-9879-427c-860b-2b96a05335b8","695e5cb3-cc8a-4eb4-af44-328e559b7999","96ddfa73-7cbb-49a2-8b28-c9552a19cc0f","b116e181-ec18-4ecd-b31c-9493447f41fd","07b5c6e8-5473-497e-86db-86d2d7662049"],"settings":{"bg_color":"#f8f8f8","heading":"CHECK OUR PROJECT GALLERY","subheading":"OUR WORK IS OUR PRIDE!"}},"lifetime-warranty":{"type":"lifetime-warranty","settings":{"bg_color":"#aa0000","image":"shopify:\/\/shop_images\/lifetime.png","heading":"LIMITED LIFETIME WARRANTY","desc":"The original purchaser is guaranteed from the date of purchase, that the product works as long as it is applied in accordance with the instructions on the label. The warranty is limited to the replacement of the product if it does not work according to its specifications. For the warranty to be valid, the entire  roof must be sealed with Rich Sil Silicone Roof Coating. This warranty does not cover labor or costs associated with its application.","text":"This warranty is granted only to the original purchaser and is not transferable. This warranty excludes failures due to improper surface preparation, structural defects, or failures of other previously applied products. This warranty does not cover natural disasters such as earthquakes, hurricanes, storms or structural defects."}},"product-main":{"type":"product-main","blocks":{"title":{"type":"title","settings":{}},"price":{"type":"price","disabled":true,"settings":{}},"description":{"type":"description","settings":{}},"quantity_selector":{"type":"quantity_selector","settings":{}},"buy_buttons":{"type":"buy_buttons","settings":{"show_dynamic_checkout":false}}},"block_order":["title","price","description","quantity_selector","buy_buttons"],"settings":{"enable_sticky_info":true,"gallery_layout":"stacked","media_size":"large","mobile_thumbnails":"hide","hide_variants":false,"enable_video_looping":false}},"seal-alloy":{"type":"seal-alloy","blocks":{"f3aad42d-be21-4404-a67f-aa734e46842d":{"type":"seal-alloy-content","settings":{"check_our_title_color":"#4c3461","check_our_title":"E-SEAL","check_our_subtitle":"Modified Asphalt Emulsion Sealer","check_our_proimg":"shopify:\/\/shop_images\/product-4.png","product_url":"shopify:\/\/products\/e-seal","check_our_desc":"E-Seal Modified Asphalt Emulsion Sealer technologically advanced Styrene Modified Asphalt Emulsion Sealer, fortified with non-asbestos fibers."}},"ba8ebc85-284d-4c87-af0b-bba1cc601c74":{"type":"seal-alloy-content","settings":{"check_our_title_color":"#404040","check_our_title":"ALLOY-NF","check_our_subtitle":"Non-Fibered Aluminum Roof Coating","check_our_proimg":"shopify:\/\/shop_images\/product-5.png","product_url":"shopify:\/\/products\/alloy-nf","check_our_desc":"Non-Fibered Aluminum Roof Coating is made of selected asphalts and pigment flakes of pure aluminum blended with petroleum solvents and mineral fillers."}},"a8d4e79e-7fa2-41c2-becc-c1ea9de37129":{"type":"seal-alloy-content","settings":{"check_our_title_color":"#6b6b6b","check_our_title":"ALLOY-F","check_our_subtitle":"Fibered Aluminum Roof Coating","check_our_proimg":"shopify:\/\/shop_images\/product-6.png","product_url":"shopify:\/\/products\/alloy-f","check_our_desc":"Fibered Aluminum Roof Coating is made of selected asphalts and pigment flakes of pure aluminum blended with refined solvents and reinforcing fibers for heavy duty service."}}},"block_order":["f3aad42d-be21-4404-a67f-aa734e46842d","ba8ebc85-284d-4c87-af0b-bba1cc601c74","a8d4e79e-7fa2-41c2-becc-c1ea9de37129"],"settings":{"heading":"PEOPLE ALSO BOUGHT","buy_now":"Buy Now","buy_now_url":"shopify:\/\/collections\/all"}},"faq-section":{"type":"faq-section","blocks":{"e2ab2bac-adf7-40ee-9825-c692ecbb0942":{"type":"faq","settings":{"question":"What amount of alloy should I use?","answer":"<p>Our first activity was manufacturing waterproofing materials and nowadays we are the Spanish market leader with nearly a 40% quota and we rank 6th in Europe.<br\/><br\/>We offer a wide range of products and solutions for flat, slope and landscape roofs, underground walls, slabs and foundations, bridge construction, underground galleries, etc.<\/p>"}},"f2e0f73d-9c53-4c36-9a54-efe62db23d18":{"type":"faq","settings":{"question":"How does your roof coating products help save money?","answer":"<p>Our first activity was manufacturing waterproofing materials and nowadays we are the Spanish market leader with nearly a 40% quota and we rank 6th in Europe.<br\/><br\/>We offer a wide range of products and solutions for flat, slope and landscape roofs, underground walls, slabs and foundations, bridge construction, underground galleries, etc.<\/p>"}},"036cebfe-b29d-4cf5-87d3-6f67d166d378":{"type":"faq","settings":{"question":"Does our roof coating materials eco-friendly?","answer":"<p>Our first activity was manufacturing waterproofing materials and nowadays we are the Spanish market leader with nearly a 40% quota and we rank 6th in Europe.<br\/><br\/>We offer a wide range of products and solutions for flat, slope and landscape roofs, underground walls, slabs and foundations, bridge construction, underground galleries, etc.<\/p>"}},"f598d0ed-8ece-4592-8f40-aaed9b3f929e":{"type":"faq","settings":{"question":"How much does it cost?","answer":"<p>Our first activity was manufacturing waterproofing materials and nowadays we are the Spanish market leader with nearly a 40% quota and we rank 6th in Europe.<br\/><br\/>We offer a wide range of products and solutions for flat, slope and landscape roofs, underground walls, slabs and foundations, bridge construction, underground galleries, etc.<\/p>"}},"58a3f515-3025-4862-98cd-07a9ad6c3f09":{"type":"faq","settings":{"question":"What amount of alloy should I use?","answer":"<p>Our first activity was manufacturing waterproofing materials and nowadays we are the Spanish market leader with nearly a 40% quota and we rank 6th in Europe.<br\/><br\/>We offer a wide range of products and solutions for flat, slope and landscape roofs, underground walls, slabs and foundations, bridge construction, underground galleries, etc.<\/p>"}}},"block_order":["e2ab2bac-adf7-40ee-9825-c692ecbb0942","f2e0f73d-9c53-4c36-9a54-efe62db23d18","036cebfe-b29d-4cf5-87d3-6f67d166d378","f598d0ed-8ece-4592-8f40-aaed9b3f929e","58a3f515-3025-4862-98cd-07a9ad6c3f09"],"settings":{"heading":"Frequently asked questions"}}},"order":["main","commercial-product","application-block","testimonial","warnings-precautions","project-gallery","lifetime-warranty","product-main","seal-alloy","faq-section"]}
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {
+          }
+        },
+        "price": {
+          "type": "price",
+          "disabled": true,
+          "settings": {
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": false
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "price",
+        "description",
+        "quantity_selector",
+        "buy_buttons"
+      ],
+      "settings": {
+        "enable_sticky_info": false,
+        "gallery_layout": "stacked",
+        "media_size": "large",
+        "mobile_thumbnails": "hide",
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "back_catalog_title": "BACK TO CATALOG",
+        "back_catalog_url": "shopify://collections",
+        "check_our_svg_1": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewbox=\"0 0 152.34 170.05\" xmlns:xlink=\"http://www.w3.org/1999/xlink\"><defs><style>.svg-1{fill:none;}.svg-2{clip-path:url(#clip-path-s1);}.svg-3{clip-path:url(#clip-path-s2);}.svg-4{fill:#5aafdc;}.svg-5{fill:#3289c6;}.svg-6{fill:#fdfeff;}</style>\n<clippath id=\"clip-path-s1\" transform=\"translate(-2.73 0)\"><rect class=\"svg-1\" width=\"157.25\" height=\"170.05\"></rect></clippath><clippath id=\"clip-path-s2\" transform=\"translate(-2.73 0)\"><rect class=\"svg-1\" width=\"157.25\" height=\"170.05\"></rect></clippath></defs><title>Asset 5</title>\n<g id=\"Layer_2\" data-name=\"Layer 2\"><g id=\"Layer_1-2\" data-name=\"Layer 1\"><g class=\"svg-2\"><g class=\"svg-3\"><path class=\"svg-4\" d=\"M148.51,90.75c-3.3,11.91-9.31,22.46-16.25,32.54-11.06,16-26.49,27.45-41.69,39.1-2.82,2.17-5.79,4.15-8.58,6.35-2.09,1.63-4,1.79-6.18.2-12.41-8.89-24.66-18-35.73-28.51-14.65-13.9-25.53-30.3-31.4-49.8a3.1,3.1,0,0,1-.08-2.22c4.6-2.46,5-2.34,6.9,2.39.44,1.06.8,2.14,1.22,3.2,5.92,14.94,14.18,28.56,25.69,39.65,10.56,10.18,22.42,19,34.24,27.72,1.63,1.2,2.84.93,4.38-.21,9.79-7.24,19.48-14.64,28.53-22.79a126,126,0,0,0,19.09-22.15A109.62,109.62,0,0,0,141.1,91.59c1.47-4,.29-5.42-4-5.45-8,0-16,0-24.06,0-1,0-2.14-.19-2.9.63-2.31,2.47-3.2,0-4.46-1.2-.24-.24.24-1.22-.62-.74-.29.16-.24.93-.35,1.43a81.35,81.35,0,0,0-2.41-8C96.93,65.14,88.33,54,79.9,42.73c-2.77-3.71-3.85-3.79-6.6.05C65,54.43,56.37,66,50.63,79.26c-.07-.24-.13-.65-.22-.66-.52,0-.52,0-.52,2.24H50c-1.41,0-1.49,1-1.81,2-.37,1.15-2,1.16-2.09.7-.77-3.15-2.37-1.18-3.82-.88-2.21.47-4.88-.79-6.57,0-5.11,2.29-10.26,1-15.34,1.06s-8-2.77-8.65-7.5A203.43,203.43,0,0,1,9.3,42.12c.07-2.9,1.34-3.8,3.73-4.11,13.9-1.8,23.45-9.64,29.65-21.78C46,9.71,51.44,6.89,58.26,6.76q19.47-.37,38.95,0c7.24.12,12.9,3.4,16.21,10.1C120,30,130.91,36.86,145.18,38.6c2.75.33,3.27,1.19,3.31,3.68a145.86,145.86,0,0,1-2.93,34c-.83,3.8-1.73,7.76,2.92,10.09.44.22.54,1.11.8,1.69a2.13,2.13,0,0,1-.44,1.94c-.45.11-1.06.15-.33.76M123.33,47.59c-1.14-5.48-5.19-10.53-9.06-15.66-1-1.29-1.83-.28-2.42.53-3,4.1-6.17,8.11-8.06,12.88-1.75,4.41.51,11.46,4.44,13,8.21,3.21,15.12-2.63,15.1-10.74M40.79,64.68c-1.11-5.79-5.25-10.89-9.43-16-.76-.92-1.35-.21-1.8.38-3.19,4.22-6.67,8.32-8.44,13.39-1.62,4.62.25,8.35,3.67,11.54,3.09,2.88,6.39,2.45,9.77.84,3.83-1.83,6.23-4.71,6.23-10.18\" transform=\"translate(-2.73 0)\"></path><path class=\"svg-5\" d=\"M104.75,86.24c.11-.49.06-1.26.35-1.42.86-.48.38.5.62.74,1.25,1.24,2.16,3.68,4.46,1.19.76-.82,1.89-.62,2.9-.62,8,0,16,0,24.06,0,4.25,0,5.43,1.47,4,5.44a109.48,109.48,0,0,1-12.45,24.64,126,126,0,0,1-19.1,22.15c-9,8.15-18.73,15.55-28.52,22.79-1.54,1.14-2.75,1.41-4.38.21C64.83,152.63,53,143.82,42.41,133.65,30.9,122.56,22.64,108.94,16.72,94c-.42-1.06-.79-2.14-1.22-3.2-1.94-4.73-2.3-4.85-6.9-2.39-2.87-5.24-3.48-11.1-4.4-16.83C2.22,59.46,2.86,47.2,2.74,35c0-2.43.92-3.32,3.43-3.26,14.31.37,24.19-6.46,30.6-19C40.9,4.7,47.69.36,56.67.19c14-.27,28-.22,42,0,9.17.12,16.15,4.41,20.29,12.62,6.89,13.64,17.84,19.94,33,18.76,2.58-.2,3.14,1,3.06,3.12-.47,11.63.53,23.27-1.73,34.93-1.2,6.2-2,12.45-4.07,18.47-.25-.58-.35-1.47-.79-1.69-4.65-2.33-3.75-6.3-2.92-10.1a145.68,145.68,0,0,0,2.93-34c-.05-2.49-.56-3.35-3.32-3.69C130.91,36.86,120,30,113.43,16.85c-3.32-6.7-9-10-16.22-10.1q-19.47-.35-38.95,0c-6.82.12-12.25,3-15.58,9.47C36.48,28.37,26.93,36.21,13,38c-2.38.31-3.66,1.21-3.73,4.11A203.43,203.43,0,0,0,11.69,76.2c.67,4.73,3.51,7.56,8.65,7.5s10.23,1.23,15.33-1.06c1.7-.77,4.37.49,6.58,0,1.45-.3,3-2.27,3.82.88.11.47,1.72.45,2.09-.7.32-1,.4-2.06,1.81-2-1.44,6.6-1.19,13,2.08,19.11,5.78,10.86,16.88,16.5,28.29,14.83C95,112.61,104,102,104.75,86.24\" transform=\"translate(-2.73 0)\"></path><path class=\"svg-5\" d=\"M148.51,90.75c-.73-.61-.11-.65.33-.76l-.33.76\" transform=\"translate(-2.73 0)\"></path><path class=\"svg-6\" d=\"M104.75,86.24C104,102,95,112.62,80.34,114.77c-11.41,1.67-22.51-4-28.29-14.83C48.78,93.81,48.53,87.43,50,80.83h-.08a1.79,1.79,0,0,0,.74-1.58C56.37,66,65,54.43,73.3,42.78c2.75-3.84,3.83-3.76,6.6-.05,8.43,11.25,17,22.41,22.44,35.56a82.85,82.85,0,0,1,2.41,7.95M55.2,96.84c1.78,5.75,5.83,9.34,11.12,11.78.9.42,1.71.81,2.29-.19s-.4-1.29-1-1.7a29.29,29.29,0,0,1-10-13.51c-.51-5.36-1.46-10.68-1.53-16.11-2.7,6.52-4.19,13-.93,19.73\" transform=\"translate(-2.73 0)\"></path><path class=\"svg-6\" d=\"M123.33,47.59c0,8.11-6.9,13.95-15.1,10.74-3.93-1.53-6.19-8.58-4.44-13,1.89-4.77,5.08-8.78,8.06-12.88.59-.81,1.44-1.82,2.41-.53,3.88,5.13,7.93,10.18,9.07,15.66\" transform=\"translate(-2.73 0)\"></path><path class=\"svg-6\" d=\"M40.79,64.68c0,5.47-2.4,8.35-6.23,10.18-3.38,1.61-6.68,2-9.77-.84-3.42-3.19-5.29-6.92-3.67-11.54,1.77-5.07,5.25-9.17,8.44-13.39.45-.59,1-1.3,1.8-.38,4.18,5.08,8.32,10.18,9.43,16\" transform=\"translate(-2.73 0)\"></path><path class=\"svg-5\" d=\"M50.63,79.25a1.8,1.8,0,0,1-.74,1.59c0-2.24,0-2.28.52-2.24.09,0,.15.43.22.65\" transform=\"translate(-2.73 0)\"></path><path class=\"svg-5\" d=\"M57.66,93.22a29.24,29.24,0,0,0,10,13.51c.56.42,1.49.8,1,1.7s-1.39.61-2.28.19c-5.3-2.44-9.35-6-11.13-11.78,0-1.72,2.84-1.59,2.46-3.62\" transform=\"translate(-2.73 0)\"></path><path class=\"svg-4\" d=\"M57.66,93.22c.38,2-2.41,1.9-2.46,3.62-3.26-6.69-1.77-13.21.93-19.73.07,5.43,1,10.75,1.53,16.11\" transform=\"translate(-2.73 0)\"></path></g></g></g></g></svg>",
+        "check_our_txt_1": "100% <br>  Waterproof",
+        "check_our_svg_2": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewbox=\"0 0 162.93 162.93\" xmlns:xlink=\"http://www.w3.org/1999/xlink\"><defs><style>.svg-01{fill:none;}.svg-02{clip-path:url(#clip-path-s01);}.svg-03{clip-path:url(#clip-path-s02);}.svg-04{fill:#a91e22;}.svg-05{fill:#fff;}.svg-06{clip-path:url(#clip-path-s03);}.svg-07{fill:url(#linear-gradient);}.svg-08{clip-path:url(#clip-path-s05);}.svg-09{fill:url(#linear-gradient-2);}</style>\n<clippath id=\"clip-path-s01\" transform=\"translate(-2.75 0)\"><rect class=\"svg-01\" width=\"166.24\" height=\"162.93\"></rect></clippath><clippath id=\"clip-path-s02\" transform=\"translate(-2.75 0)\"><rect class=\"svg-01\" width=\"166.24\" height=\"162.93\"></rect></clippath><clippath id=\"clip-path-s03\" transform=\"translate(-2.75 0)\"><path class=\"svg-01\" d=\"M79.93,128.25c-.88-.39-1.29-.84-1.37-1.14a1.51,1.51,0,0,1,.37-1.06,32.69,32.69,0,0,1,5.7-5.75,42.83,42.83,0,0,1,3.66-2.58,45,45,0,0,0,4.09-2.9,38.86,38.86,0,0,0,12.9-19.55c2.64,13.35-3,25.76-11.62,31.42a14.92,14.92,0,0,1-8.26,2.76,13.73,13.73,0,0,1-5.47-1.2M83.4,27.65a2.53,2.53,0,0,0-2.13,1.17l-.63,1c-.41.62-.74,1.14-1,1.67-1,1.71-2,3.41-3,5.12-2.37,4-4.83,8.19-7.13,12.37C62.62,61.37,55.61,74.7,51.37,89c-4.53,15.32-1.62,29.17,8.65,41.15,6.17,7.2,14.41,11.17,23.18,11.17,8.24,0,16.22-3.56,22.48-10,6.79-7,10.69-16.12,11.58-27.07.64-7.84-1.58-15.12-4.08-21.83C108,68.52,101.26,55.75,92.71,40.84c-1.54-2.67-3.13-5.31-4.78-8.05l-2.36-3.91a2.53,2.53,0,0,0-2.13-1.23Z\"></path></clippath><lineargradient id=\"linear-gradient\" x1=\"82.48\" y1=\"-113.95\" x2=\"85.7\" y2=\"-113.95\" gradienttransform=\"matrix(21.09, 0, 0, -21.09, -1692.48, -2318.14)\" gradientunits=\"userSpaceOnUse\"><stop offset=\"0\" stop-color=\"#6fccdd\"></stop><stop offset=\"1\" stop-color=\"#03b3c7\"></stop></lineargradient><clippath id=\"clip-path-s05\" transform=\"translate(-2.75 0)\"><path class=\"svg-01\" d=\"M22.08,108.67a1.83,1.83,0,0,1,.28-.65,4.26,4.26,0,0,1,3.15-1.1,7.92,7.92,0,0,1,2.71.5,18.26,18.26,0,0,0-5.91,1.27l-.23,0m-3.66-4.06a9.31,9.31,0,0,0-3.22,12.21,9.63,9.63,0,0,0,9,5.77,12.5,12.5,0,0,0,2.54-.28,21.38,21.38,0,0,1,4.36-.54,9,9,0,0,1,2.59.34,113.07,113.07,0,0,1,10.66,4.16c1.45.62,2.91,1.25,4.37,1.84a1.58,1.58,0,0,0,.61.12,1.64,1.64,0,0,0,1.21-.54,1.61,1.61,0,0,0,.19-1.86l-1.11-2c-.89-1.63-1.82-3.36-2.87-5-3.4-5.4-7.38-10.87-13.34-14.36a14.9,14.9,0,0,0-7.53-2.23,13.16,13.16,0,0,0-7.42,2.4\"></path></clippath><lineargradient id=\"linear-gradient-2\" x1=\"78.29\" y1=\"-124.4\" x2=\"81.52\" y2=\"-124.4\" gradienttransform=\"matrix(11.39, 0, 0, -11.39, -880.25, -1301.5)\" xlink:href=\"#linear-gradient\"></lineargradient></defs><title>Asset 4</title>\n<g id=\"Layer_2\" data-name=\"Layer 2\"><g id=\"Layer_1-2\" data-name=\"Layer 1\"><g class=\"svg-02\"><g class=\"svg-03\"><path class=\"svg-04\" d=\"M141.82,139.07a81.47,81.47,0,1,1,0-115.21,81.47,81.47,0,0,1,0,115.21\" transform=\"translate(-2.75 0)\"></path><path class=\"svg-05\" d=\"M131.62,128.87a67,67,0,1,1,0-94.81,67,67,0,0,1,0,94.81\" transform=\"translate(-2.75 0)\"></path></g><g class=\"svg-06\"><rect class=\"svg-07\" x=\"44.09\" y=\"27.65\" width=\"71.06\" height=\"113.67\"></rect></g><g class=\"svg-03\"><path class=\"svg-05\" d=\"M83.4,30.18c2.5,4.18,4.87,8,7.11,11.91,7.64,13.31,14.94,26.78,20.3,41.2,2.49,6.68,4.53,13.47,3.93,20.75-.79,9.71-4,18.43-10.88,25.51-6,6.16-13.34,9.24-20.66,9.24-7.72,0-15.38-3.42-21.25-10.28-9.7-11.31-12.4-24.42-8.15-38.79,4.14-14,10.87-26.84,17.85-39.55,3.24-5.89,6.73-11.63,10.12-17.44.44-.76.94-1.48,1.63-2.55m2,101.8A17.46,17.46,0,0,0,95,128.8c11.26-7.39,18.14-25.81,9.5-43.57-.11,1-.17,1.43-.21,1.87-1.15,10.36-5.45,19.1-13.55,25.77-2.45,2-5.32,3.47-7.76,5.48a34.75,34.75,0,0,0-6.14,6.22c-1.76,2.43-.73,4.8,2.05,6A16.09,16.09,0,0,0,85.39,132m-2-106.86a5.06,5.06,0,0,0-4.27,2.34l-.62,1c-.43.65-.78,1.19-1.11,1.76-1,1.7-2,3.4-3,5.1-2.39,4-4.86,8.23-7.18,12.44-6.88,12.54-14,26-18.27,40.56-4.73,16-1.56,31,9.15,43.51,6.67,7.77,15.57,12,25.1,12,8.93,0,17.56-3.83,24.29-10.78,7.22-7.45,11.35-17.08,12.29-28.62.68-8.33-1.63-15.94-4.23-22.92-5.22-14-12-26.92-20.65-41.95-1.55-2.71-3.14-5.33-4.82-8.1-.77-1.28-1.55-2.57-2.34-3.9a5.09,5.09,0,0,0-4.27-2.46Zm-1.46,101.2a35.35,35.35,0,0,1,4.29-4.06,38.17,38.17,0,0,1,3.44-2.42A47.3,47.3,0,0,0,94,116.77a41.87,41.87,0,0,0,8.9-10c-1,7.07-4.4,13.71-10.63,17.81a12.43,12.43,0,0,1-6.87,2.34,10.41,10.41,0,0,1-3.45-.6\" transform=\"translate(-2.75 0)\"></path></g><g class=\"svg-08\"><rect class=\"svg-09\" x=\"10.24\" y=\"102.21\" width=\"38.04\" height=\"26.02\"></rect></g><g class=\"svg-03\"><path class=\"svg-05\" d=\"M25.85,103.83a13.27,13.27,0,0,1,6.7,2c5.64,3.3,9.39,8.43,12.79,13.82,1.48,2.35,2.75,4.83,3.95,7-5-2.05-10-4.42-15.16-6.05a10.26,10.26,0,0,0-3.07-.42,23,23,0,0,0-4.7.58,10.6,10.6,0,0,1-2.21.24,8.08,8.08,0,0,1-7.5-4.85A7.69,7.69,0,0,1,19.32,106a11.51,11.51,0,0,1,6.53-2.12m-3.54,6.47a1.73,1.73,0,0,0,.61-.09,15.88,15.88,0,0,1,5.6-1.18,10.26,10.26,0,0,1,4.89,1.22l.24-.5a25.63,25.63,0,0,0-2.12-2.28,9.62,9.62,0,0,0-6-2.16,5.82,5.82,0,0,0-4.34,1.62c-.66.73-.76,2-1.11,3a21.25,21.25,0,0,0,2.25.39m3.54-9.7h0a14.8,14.8,0,0,0-8.34,2.67,10.88,10.88,0,0,0-3.76,14.26,11.31,11.31,0,0,0,10.4,6.67,14.43,14.43,0,0,0,2.89-.31,18.81,18.81,0,0,1,4-.51,7.21,7.21,0,0,1,2.11.27c3.53,1.11,7.08,2.64,10.51,4.11,1.47.62,2.92,1.25,4.38,1.85a3.27,3.27,0,0,0,1.22.24A3.23,3.23,0,0,0,52.1,125c-.36-.64-.72-1.31-1.1-2-.91-1.67-1.84-3.39-2.93-5.11-3.51-5.57-7.63-11.22-13.89-14.89a16.48,16.48,0,0,0-8.33-2.44\" transform=\"translate(-2.75 0)\"></path><rect class=\"svg-04\" x=\"10.33\" y=\"74.45\" width=\"147.76\" height=\"14.04\" transform=\"translate(-35.69 83.41) rotate(-45)\"></rect></g></g></g></g></svg>",
+        "check_our_txt_2": "Stop Leaks",
+        "check_our_svg_3": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewbox=\"0 0 158.89 169.25\" xmlns:xlink=\"http://www.w3.org/1999/xlink\"><defs><style>.svg-a{fill:none;}.svg-b{clip-path:url(#clip-path-sa);}.svg-c{clip-path:url(#clip-path-sb);}.svg-d{fill:url(#linear-gradient);}.svg-e{clip-path:url(#clip-path-sc);}.svg-f{fill:#fff;}.svg-g{clip-path:url(#clip-path-sd);}.svg-h{fill:url(#linear-gradient-2);}.svg-i{fill:#bcbec0;}.svg-a0{fill:#2a2c2b;}.svg-a1{fill:#2b2c2b;}.svg-a2{fill:#2d2f2e;}.svg-a3{fill:#e59325;}.svg-a4{fill:#d1882b;}.svg-a5{fill:#8d5f28;}.svg-a6{fill:#1b2a2b;}.svg-a7{fill:#e6e7e8;}.svg-a8{fill:#f9a01d;}</style>\n<clippath id=\"clip-path-sa\" transform=\"translate(-6.29 0)\"><rect class=\"svg-a\" width=\"171.99\" height=\"179.77\"></rect></clippath><clippath id=\"clip-path-sb\" transform=\"translate(-6.29 0)\"><path class=\"svg-a\" d=\"M6.29,89.8A79.44,79.44,0,1,0,85.73,10.36,79.44,79.44,0,0,0,6.29,89.8\"></path></clippath><lineargradient id=\"linear-gradient\" x1=\"-142.87\" y1=\"-91.18\" x2=\"-139.64\" y2=\"-91.18\" gradienttransform=\"matrix(49.22, 0, 0, -49.22, 7031.17, -4397.61)\" gradientunits=\"userSpaceOnUse\"><stop offset=\"0\" stop-color=\"#6fccdd\"></stop><stop offset=\"1\" stop-color=\"#03b3c7\"></stop></lineargradient><clippath id=\"clip-path-s3\" transform=\"translate(-6.29 0)\"><rect class=\"svg-a\" width=\"171.99\" height=\"179.78\"></rect></clippath><clippath id=\"clip-path-sd\" transform=\"translate(-6.29 0)\"><path class=\"svg-a\" d=\"M34.37,162.65c1.55-1.93,3.75-3.47,3.9-5.18s-1.74-3.64-3.05-6.07c3.22-.41,6.49-.78,9.75-1.24A23.17,23.17,0,0,0,50.9,149c1.45-.63,3.36-2.06,3.51-3.32s-1.22-3.28-2.48-4.26c-1.83-1.43-4.15-2.23-7-3.69,5.39-2.64,10.81-4.25,16-4.25a22.44,22.44,0,0,1,4.26.4c5.94,1.12,11.3,5.38,16.71,8.91-1.93-.07-3.84-.19-5.71-.19-4.58,0-9,.73-13,4.74l6.69,6.39a20.81,20.81,0,0,1-5.19.57c-2.83,0-5.66-.36-8.47-.36a16.78,16.78,0,0,0-8.36,1.87L51,160.62c-4.36,1.09-8.61,2.33-13,2.33a21.22,21.22,0,0,1-3.62-.3M44.56,137l-1.45.71,1.44.73c.92.46,1.78.87,2.59,1.24a22.27,22.27,0,0,1,4.29,2.37c1.24,1,2.28,2.64,2.18,3.53s-1.53,2-3,2.66a15.37,15.37,0,0,1-4.37.92l-1.36.18c-2.3.32-4.62.6-6.92.88l-2.81.35-1.17.14.56,1c.44.81.92,1.55,1.39,2.26.88,1.32,1.63,2.47,1.56,3.36s-1.05,1.89-2.08,2.95c-.55.56-1.12,1.15-1.64,1.79l-.85,1.06,1.34.24a21,21,0,0,0,3.76.32,47.56,47.56,0,0,0,11.55-1.94l1.63-.42,1.09-.27-.61-.95-1.07-1.64L49,156.14a16.5,16.5,0,0,1,7.2-1.37c1.37,0,2.79.09,4.17.17s2.86.19,4.3.19a21.41,21.41,0,0,0,5.39-.6l1.41-.37-1-1-2.89-2.75-3.19-3c3.77-3.45,7.88-3.94,11.78-3.94,1.29,0,2.59.06,3.91.12l1.77.07,2.91.11-2.44-1.59-2.88-1.92c-4.45-3-9.07-6.15-14.12-7.11a23.64,23.64,0,0,0-4.41-.4c-5,0-10.47,1.45-16.32,4.33\"></path></clippath><lineargradient id=\"linear-gradient-2\" x1=\"-135.42\" y1=\"-102.28\" x2=\"-132.19\" y2=\"-102.28\" gradienttransform=\"matrix(16.06, 0, 0, -16.06, 2201.02, -1494.09)\" xlink:href=\"#linear-gradient\"></lineargradient></defs><title>Asset 3</title>\n<g id=\"Layer_2\" data-name=\"Layer 2\"><g id=\"Layer_1-2\" data-name=\"Layer 1\"><g class=\"svg-b\"><g class=\"svg-c\"><rect class=\"svg-d\" y=\"10.36\" width=\"158.89\" height=\"158.89\"></rect></g><g class=\"svg-e\"><path class=\"svg-f\" d=\"M35.22,151.4c3.22-.41,6.49-.78,9.75-1.24A23.17,23.17,0,0,0,50.9,149c1.45-.63,3.36-2.06,3.51-3.32s-1.23-3.28-2.48-4.26c-1.83-1.43-4.15-2.23-7-3.69,6.89-3.38,13.84-5.06,20.22-3.86,6,1.13,11.31,5.39,16.71,8.92-6.63-.24-13-1.11-18.65,4.55l6.68,6.39c-7.39,1.89-14.88-1.81-22,2.07,1,1.56,1.93,3,3.11,4.8-5.56,1.39-10.93,3-16.6,2,1.55-1.92,3.75-3.46,3.9-5.16s-1.74-3.65-3.05-6.08\" transform=\"translate(-6.29 0)\"></path></g><g class=\"svg-g\"><rect class=\"svg-h\" x=\"26.6\" y=\"132.7\" width=\"51.84\" height=\"31.06\"></rect></g><g class=\"svg-e\"><path class=\"svg-i\" d=\"M95.85,126.45c-7.42-3.58-16.2-2.26-21.94-9.16L88,110.56c6.44-3.09,13-6,19.24-9.42,2-1.12,3.29-3.72,4.9-5.64-2-1.52-3.87-3.79-6.15-4.4-7.71-2-15.6-3.38-23.37-5.22a86.24,86.24,0,0,1-13.66-4.06c-5-2.11-5.57-6.26-1.19-9.36a55.58,55.58,0,0,1,14.69-7.87c11.1-3.56,22.49-6.2,33.77-9.19a4.59,4.59,0,0,1,2.12-.22,8.77,8.77,0,0,1,2.12,1.15C120,57,119.61,58,119,58.2c-5.27,1.89-10.73,3.32-15.87,5.5s-10,5-14.91,7.64a11.12,11.12,0,0,0-2.94,2.59c-2.36,2.75-2.15,4.35,1.16,5.74a67.14,67.14,0,0,0,9.21,2.81c5.65,1.47,11.35,2.78,17,4.26a23.8,23.8,0,0,1,4.64,1.86c7,3.54,7.94,8.49,2.21,13.79-4.89,4.52-10.44,8.32-15.6,12.55-3.6,3-7.28,5.93-8,11.51\" transform=\"translate(-6.29 0)\"></path><path class=\"svg-a0\" d=\"M53.43,96c-1.52.22-3,.46-4.56.67a1.35,1.35,0,0,0-1.11.76c-.28,0-.24.24-.28.4q-.72,3.68-1.43,7.35c-.47,2.38-.93,4.76-1.4,7.14,0,.17-.15.37.11.47a1.25,1.25,0,0,0,.77,1.13c0,.23.15.24.31.27.81.16,1.62.33,2.43.47.23,0,.26.12.22.33-.1.44-.16.9-.27,1.34a3,3,0,0,1-.33,1.16L45,116.87c-.06-.31-.21-.31-.42-.13a2.28,2.28,0,0,1-.92-.42,4.06,4.06,0,0,1-1.93-3.72c.33-.14,0-.3,0-.45q1.53-7.89,3.08-15.78A5.81,5.81,0,0,1,46,94.68a5,5,0,0,1,2.84-1.16q11.47-1.6,22.94-3.24l20.44-2.89c.88-.12,1.16-.39,1.33-1.24q3.12-16.05,6.27-32.08c0-.14.07-.28.09-.43l2.79.55q-3.18,16.29-6.37,32.56a2.5,2.5,0,0,1,0,.29.15.15,0,0,0,.12.19,4.1,4.1,0,0,1-3.24,3.1,3.6,3.6,0,0,1-.93.13c-.1,0-.21-.1-.28.05l-1.61.22c-.08-.11-.12,0-.15,0-1.15.17-2.29.36-3.45.47-.1-.15-.17-.11-.23,0-1.25.21-2.5.4-3.75.53-.09-.14-.12-.07-.16,0l-5.92.85L75,92.9c-.11,0-.23-.1-.29,0-1.74.25-3.47.53-5.21.72-.09-.15-.17-.12-.23,0q-1.86.33-3.75.54c-.1-.16-.18-.12-.23,0-.79.15-1.59.26-2.38.34-.1-.13-.17-.12-.23,0a5.63,5.63,0,0,1-1.08.16c-.15-.16-.27-.09-.38.06l-7.51,1.07a.11.11,0,0,1-.08,0c-.09-.13-.16-.11-.22,0\" transform=\"translate(-6.29 0)\"></path><path class=\"svg-a1\" d=\"M126.37,135.93a1.28,1.28,0,0,1-1.59.57,8.17,8.17,0,0,0-.86-.17c.1-.55.21-1.1.32-1.65.61-3.18,1.24-6.35,1.85-9.53a1.42,1.42,0,0,1,.07-.22,8.52,8.52,0,0,0,.88.16,1.25,1.25,0,0,1,1.24,1.08c-.63,3.25-1.27,6.51-1.91,9.76\" transform=\"translate(-6.29 0)\"></path><path class=\"svg-a2\" d=\"M41.75,112.6a.06.06,0,0,0-.07,0l.09-.43c0,.15.31.32,0,.45\" transform=\"translate(-6.29 0)\"></path><path class=\"svg-i\" d=\"M126.15,124.93l-.06.21a1,1,0,0,1-.18-.1,6.31,6.31,0,0,0-2.26-1.05L60.86,111.71a5.07,5.07,0,0,0-1.78,0,6.13,6.13,0,0,0-5.23,5c-.77,3.76-1.48,7.53-2.22,11.3a6,6,0,0,1-2.28-4.72c0-.51.13-1,.15-1.52,0-.15.07-.31.1-.46.64-3.29,1.29-6.58,1.93-9.86.07-.36.16-.71.24-1.07A6,6,0,0,1,56,106.05a5.74,5.74,0,0,1,2.91-.16l34,6.66c9.35,1.82,18.7,3.68,28.06,5.47a6.27,6.27,0,0,1,5.18,6.91\" transform=\"translate(-6.29 0)\"></path><path class=\"svg-a3\" d=\"M117.16,4.27l-.09.5Q112.65,27.36,108.23,50l-.43-.07c-3.06-.61-6.13-1.16-9.17-1.84,0-.18.08-.36.11-.54q3.93-20.11,7.87-40.23c.31-1.62.64-3.25,1-4.87l.46.08Zm-7.08,22.2q1.86-9.48,3.7-18.94c0-.1,0-.19.06-.29a.64.64,0,0,0-.31-.62.62.62,0,0,0-.68,0,.88.88,0,0,0-.43.67q-2.83,14.54-5.68,29.06L105,45.07a.74.74,0,0,0,0,.53.7.7,0,0,0,.65.5c.4,0,.6-.21.7-.66q1.84-9.49,3.7-19\" transform=\"translate(-6.29 0)\"></path><path class=\"svg-a4\" d=\"M107.57,2.41l-1,4.87q-3.93,20.12-7.87,40.23c0,.18-.08.36-.11.53a.73.73,0,0,1-.39,0c-.51-.1-1-.18-1.53-.3-.34-.09-.51,0-.55.35s-.18,1-.28,1.49a9.75,9.75,0,0,1,.3-1.86,4.48,4.48,0,0,1,.11-.5q4.38-22.44,8.77-44.86c.13-.64.24-1.29.37-1.93a.6.6,0,0,1,.14-.41c-.1.5-.17,1-.3,1.49-.08.33,0,.47.34.53.66.1,1.3.25,2,.39\" transform=\"translate(-6.29 0)\"></path><path class=\"svg-a5\" d=\"M95.88,49.56c.09-.49.22-1,.28-1.49s.21-.44.55-.35c.5.12,1,.2,1.52.3a.78.78,0,0,0,.4,0c3,.69,6.11,1.24,9.16,1.85l.44.07a8.79,8.79,0,0,1-.72,2.62,3.51,3.51,0,0,1-3.64,1.69l-.71-.14c-.1,0-.2-.05-.24.08-.06,0,0-.12-.1-.13l-2.88-.57a9,9,0,0,1-2.28-.61,3.51,3.51,0,0,1-1.78-3.34\" transform=\"translate(-6.29 0)\"></path><path class=\"svg-a2\" d=\"M51.77,110.38c-.08.35-.17.71-.24,1.07-.64,3.28-1.29,6.57-1.93,9.86,0,.16-.07.31-.1.46-.38-.07-.76-.14-1.15-.23a1,1,0,0,1-.85-1.32c.15-.82.32-1.64.47-2.46,0-.12.13-.27-.08-.32a3,3,0,0,0,.33-1.16c.11-.45.17-.9.27-1.34,0-.21,0-.29-.22-.33-.81-.14-1.62-.31-2.43-.47-.16,0-.33,0-.31-.27.92.18,1.84.35,2.76.54.25.06.35,0,.4-.26.18-1,.4-2.08.6-3.12a1,1,0,0,1,1.3-.88l1.18.23\" transform=\"translate(-6.29 0)\"></path><path class=\"svg-a2\" d=\"M102.82,54.08c.07,0,.05.1.09.13s0,.29-.07.43L96.57,86.71a1.63,1.63,0,0,1-.15.52A.15.15,0,0,1,96.3,87c0-.09,0-.19,0-.29q3.18-16.27,6.37-32.56c.06,0,.08,0,.1-.11\" transform=\"translate(-6.29 0)\"></path><path class=\"svg-a2\" d=\"M44.76,112.74c-.26-.1-.14-.3-.11-.47.46-2.38.93-4.76,1.39-7.14s1-4.9,1.45-7.35c0-.17,0-.39.27-.4q-1.29,6.65-2.59,13.28c-.14.69-.27,1.39-.41,2.08\" transform=\"translate(-6.29 0)\"></path><path class=\"svg-a6\" d=\"M102.82,54.08c0,.06,0,.1-.1.11l-2.79-.54a.66.66,0,0,0,0-.14l2.88.57\" transform=\"translate(-6.29 0)\"></path><path class=\"svg-a2\" d=\"M61.24,94.86c.11-.15.23-.22.38-.06l-.38.06\" transform=\"translate(-6.29 0)\"></path><path class=\"svg-a2\" d=\"M53.43,96c.06-.14.13-.16.22,0a.25.25,0,0,1-.22,0\" transform=\"translate(-6.29 0)\"></path><path class=\"svg-a2\" d=\"M62.7,94.64c.06-.15.13-.16.23,0a.24.24,0,0,1-.23,0\" transform=\"translate(-6.29 0)\"></path><path class=\"svg-a2\" d=\"M65.31,94.27c0-.15.12-.19.23,0a.27.27,0,0,1-.23,0\" transform=\"translate(-6.29 0)\"></path><path class=\"svg-a2\" d=\"M69.29,93.7c.06-.15.14-.18.23,0-.07.07-.15,0-.23,0\" transform=\"translate(-6.29 0)\"></path><path class=\"svg-a2\" d=\"M86.53,91.27c.06-.15.13-.19.23,0-.07.07-.15,0-.23,0\" transform=\"translate(-6.29 0)\"></path><path class=\"svg-a2\" d=\"M74.73,93c.06-.15.18-.08.29-.06l-.29.06\" transform=\"translate(-6.29 0)\"></path><path class=\"svg-a2\" d=\"M92,90.51c.07-.15.18-.08.29-.05l-.29.05\" transform=\"translate(-6.29 0)\"></path><path class=\"svg-a2\" d=\"M82.62,91.83c0-.1.07-.17.16,0a.13.13,0,0,1-.16,0\" transform=\"translate(-6.29 0)\"></path><path class=\"svg-a2\" d=\"M90.21,90.76c0-.08.07-.14.15,0Z\" transform=\"translate(-6.29 0)\"></path><path class=\"svg-a2\" d=\"M45,116.87a.78.78,0,0,1-.43-.13c.22-.19.37-.18.43.13\" transform=\"translate(-6.29 0)\"></path><path class=\"svg-a7\" d=\"M51.63,128c.74-3.77,1.45-7.54,2.22-11.3a6.13,6.13,0,0,1,5.23-5,5.32,5.32,0,0,1,1.78,0L123.65,124a6.39,6.39,0,0,1,2.26,1.05l.19.11-1.86,9.53c-.11.55-.21,1.1-.32,1.65a6.06,6.06,0,0,1-3.07,4.46,5.91,5.91,0,0,1-4,.73l-.71-.14L54.47,129.32A5.89,5.89,0,0,1,51.63,128m35.13,4,26.15,5.12a3.75,3.75,0,0,0,3.84-1.44,6.27,6.27,0,0,0,1.1-3.69,3.93,3.93,0,0,0-3.43-4.12l-51.05-10a8.63,8.63,0,0,0-1.44-.22,3.77,3.77,0,0,0-3.55,1.8,6.76,6.76,0,0,0-.9,3.68,3.92,3.92,0,0,0,3.2,3.76c8.69,1.67,17.39,3.39,26.08,5.08\" transform=\"translate(-6.29 0)\"></path><path class=\"svg-a8\" d=\"M110.08,26.47q-1.86,9.48-3.7,19c-.1.45-.3.65-.7.66a.7.7,0,0,1-.65-.5.74.74,0,0,1,0-.53l1.71-8.75q2.85-14.54,5.68-29.06a.88.88,0,0,1,.43-.67.62.62,0,0,1,.68,0,.64.64,0,0,1,.31.62c0,.1,0,.19-.06.29q-1.84,9.47-3.7,18.94\" transform=\"translate(-6.29 0)\"></path><path class=\"svg-f\" d=\"M86.76,132c-8.69-1.69-17.39-3.41-26.08-5.08a3.92,3.92,0,0,1-3.2-3.76,6.76,6.76,0,0,1,.9-3.68,3.77,3.77,0,0,1,3.55-1.8,8.63,8.63,0,0,1,1.44.22l51.05,10a3.93,3.93,0,0,1,3.43,4.12,6.27,6.27,0,0,1-1.1,3.69,3.75,3.75,0,0,1-3.84,1.44L86.76,132\" transform=\"translate(-6.29 0)\"></path></g></g></g></g></svg>",
+        "check_our_txt_3": "Stop and  Seals Cracks",
+        "check_our_svg_4": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewbox=\"0 0 119.04 156.48\" xmlns:xlink=\"http://www.w3.org/1999/xlink\"><defs><style>.svg-001{fill:none;}.svg-002{clip-path:url(#clip-path-s001);}.svg-003{clip-path:url(#clip-path-s002);}.svg-004{fill:#fcee21;}.svg-005{fill:#feffff;}.svg-006{fill:#43b3e6;}</style>\n<clippath id=\"clip-path-s001\" transform=\"translate(-11.21)\"><rect class=\"svg-001\" width=\"133.89\" height=\"156.47\"></rect></clippath><clippath id=\"clip-path-s002\" transform=\"translate(-11.21)\"><rect class=\"svg-001\" width=\"133.89\" height=\"156.47\"></rect></clippath></defs><title>Asset 2</title>\n<g id=\"Layer_2\" data-name=\"Layer 2\"><g id=\"Layer_1-2\" data-name=\"Layer 1\"><g class=\"svg-002\"><g class=\"svg-003\"><path class=\"svg-004\" d=\"M34.23,28.26c-6.14,0-12.29,0-18.43,0-3,0-4.62-1.23-4.58-3.41s1.69-3.4,4.67-3.4q18.57,0,37.15,0c.28,0,.57,0,.85,0,2.29.14,3.89,1.15,3.78,3.63-.1,2.31-1.68,3.19-3.87,3.19q-9.78,0-19.57,0\" transform=\"translate(-11.21)\"></path><path class=\"svg-004\" d=\"M34.54,62.34c-6.24,0-12.48,0-18.73,0-3,0-4.62-1.22-4.6-3.4s1.69-3.41,4.66-3.41q18.71,0,37.43,0c3.07,0,4.74,1.52,4.37,3.89s-2,3-4.13,2.94c-6.33,0-12.67,0-19,0\" transform=\"translate(-11.21)\"></path><path class=\"svg-004\" d=\"M42.85,45.3c-3.69,0-7.37,0-11,0-2.34,0-4-.94-4.06-3.33s1.64-3.49,4-3.5q11,0,22.1,0c2.29,0,3.94,1,3.88,3.51s-1.75,3.32-4.05,3.31c-3.59,0-7.18,0-10.77,0\" transform=\"translate(-11.21)\"></path><path class=\"svg-004\" d=\"M42.73,79.37c-3.68,0-7.37,0-11,0-2.35,0-3.95-1-3.93-3.44s1.6-3.36,3.77-3.37q11.19-.07,22.39,0c2.15,0,3.73,1,3.76,3.34,0,2.47-1.55,3.46-3.88,3.46H42.73\" transform=\"translate(-11.21)\"></path><path class=\"svg-005\" d=\"M68.32,54.23c0-10.31-.07-20.63,0-30.95.1-11.44,9-21.68,20-23,12.64-1.6,23.58,5.37,26.83,17.11a28,28,0,0,1,.89,7.58c0,20,0,39.94-.06,59.91a8.31,8.31,0,0,0,2.8,6.67,37.28,37.28,0,0,1,8.82,40.72c-6,14.83-17.23,23.37-33.28,24.2-23.22,1.19-41.15-16.86-40.11-39.93a35.94,35.94,0,0,1,11.5-25.14,7.71,7.71,0,0,0,2.68-6.17c-.14-10.32-.06-20.63-.06-31Zm38.6,3.49c0-11.16,0-22.32,0-33.48a14.4,14.4,0,0,0-5.12-11.52c-4.65-3.89-9.92-4.93-15.59-2.36C80.37,13,77.44,17.74,77.41,24q-.12,33.35,0,66.68a4.92,4.92,0,0,1-2.34,4.58,28.77,28.77,0,0,0-11,30.35A28.92,28.92,0,0,0,119,129.32a28.62,28.62,0,0,0-10.09-34.23,4.13,4.13,0,0,1-2-3.89c.09-11.16,0-22.32,0-33.48\" transform=\"translate(-11.21)\"></path><path class=\"svg-006\" d=\"M100.1,59.31c0,11.64.05,23.28,0,34.92a5.29,5.29,0,0,0,3,5.2,21.93,21.93,0,0,1,9.48,27.7,22.23,22.23,0,0,1-25.57,13A22,22,0,0,1,70.1,116.45,20.76,20.76,0,0,1,80.81,99.67c2.59-1.47,3.46-3.24,3.45-6.13-.1-23-.06-46,0-69,0-5.35,3.41-8.89,8.26-8.69,4.5.19,7.59,3.59,7.61,8.53,0,11.65,0,23.29,0,34.93\" transform=\"translate(-11.21)\"></path></g></g></g></g></svg>",
+        "check_our_txt_4": "Temperature  Reducing",
+        "check_our_svg_5": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewbox=\"0 0 160.71 170.37\" xmlns:xlink=\"http://www.w3.org/1999/xlink\"><defs><style>.svg-aa{fill:none;}.svg-bb{clip-path:url(#clip-path-saa);}.svg-cc{clip-path:url(#clip-path-sbb);}.svg-dd{fill:#8cc540;}.svg-ee{fill:#faaf41;}</style>\n<clippath id=\"clip-path-saa\" transform=\"translate(-5.37 0)\"><rect class=\"svg-aa\" width=\"171.99\" height=\"179.56\"></rect></clippath><clippath id=\"clip-path-sbb\" transform=\"translate(-5.37 0)\"><rect class=\"svg-aa\" width=\"171.99\" height=\"179.56\"></rect></clippath></defs><title>Asset 1</title>\n<g id=\"Layer_2\" data-name=\"Layer 2\"><g id=\"Layer_1-2\" data-name=\"Layer 1\"><g class=\"svg-bb\"><g class=\"svg-cc\"><path class=\"svg-dd\" d=\"M71.93,100.37c7.6-42.92,30.5-61.18,30.5-61.18C72.36,59,65.92,102,65.92,102,49.69,53.83,88,34.34,102.78,11.49A80.36,80.36,0,1,0,84.26,170.36c-33.1-26.14-12.33-70-12.33-70M60.41,124.11S54.26,96.8,34.05,85.5c0,0,15.54,10.64,22.42,37.82-8.31-2-27.36-8.84-33-28.89a40.75,40.75,0,0,1,5.35-33.82c5.15,18.19,41.1,26.69,31.62,63.5\" transform=\"translate(-5.37 0)\"></path><path class=\"svg-ee\" d=\"M127,21.06C122.67,8.22,107.77,0,107.77,0a63.36,63.36,0,0,1,12.12,51.84c-3.65,17.77-14.28,29.56-25.15,37.22A53.25,53.25,0,0,0,72,128.26a59.44,59.44,0,0,0,13,42.11h.75A80.36,80.36,0,0,0,127,21.06m3.65,93.13c-8.43,28.18-35.47,37.36-47.26,40.07,10.3-38.22,32.47-52.91,32.47-52.91-28.78,15.52-38,53.94-38,53.94-12.59-52.17,38.34-63.4,46-89a57.59,57.59,0,0,1,6.83,47.87\" transform=\"translate(-5.37 0)\"></path></g></g></g></g></svg>",
+        "check_our_txt_5": "Eco-Friendly"
+      }
+    },
+    "commercial-product": {
+      "type": "commercial-product",
+      "blocks": {
+        "2a8e8cf7-ec23-4600-861c-e2a52d966c65": {
+          "type": "Information",
+          "settings": {
+            "product": "rich-sil",
+            "title1": "Appearance",
+            "info1": "WHITE",
+            "title2": "Solids Content (%)",
+            "info2": "92%",
+            "title3": "Solids Per Volume (%)",
+            "info3": "92%",
+            "title4": "Volatile Organic <br> Compounds",
+            "info4": "<span><50 grams/liter</span>",
+            "title5": "Tensile Strength(psi), <br> ASTM D-412",
+            "info5": "250",
+            "title6": "Elongation(%), <br> ASTM D-412",
+            "info6": "240",
+            "title7": "Permeability(perms), <br> ASTM E-96",
+            "info7": "10.7",
+            "title8": "Temperature Stability <br> Range, °C (°F)",
+            "info8": "<span>-37 to 100<br>\n(-93 to 212)</span>",
+            "title9": "Initial/3 Years Solar  <br>Reflectivity ASTM C-1549",
+            "info9": "89/73",
+            "title10": "Initial/3 Years Solar  <br>Emissivity ASTM C-1371",
+            "info10": "90/88",
+            "title11": "Initial/3 Years SRI Value",
+            "info11": "113/90",
+            "title12": "Cure Time",
+            "info12": "1-4 hours",
+            "title13": "",
+            "info13": "",
+            "title14": "",
+            "info14": "",
+            "title15": "",
+            "info15": ""
+          }
+        }
+      },
+      "block_order": [
+        "2a8e8cf7-ec23-4600-861c-e2a52d966c65"
+      ],
+      "settings": {
+        "heading": "Commercial <br> Product information",
+        "desc": "Designed for use in concrete, metal, existing built-up system, granulated roof membrane, polyurethane foam or lining already existing to the ceiling well adhered."
+      }
+    },
+    "application-block": {
+      "type": "application-block",
+      "blocks": {
+        "c86d44de-932c-4d9e-a1ec-751b494822b7": {
+          "type": "application",
+          "settings": {
+            "image": "shopify://shop_images/Self_Leveling.jpg",
+            "title": "SURFACE PREPARATION",
+            "text": "All surfaces must be clean, dry, free of material, grease, or poorly adhered oils."
+          }
+        },
+        "ae68921c-16c9-4fbf-a231-f769f4b3fd05": {
+          "type": "application",
+          "settings": {
+            "image": "shopify://shop_images/richsil_img1.png",
+            "title": "APPLICATION",
+            "text": "Roller, brush, airless <br>\nspray machine."
+          }
+        },
+        "fb7a0796-b3ee-4065-9073-b86374053af6": {
+          "type": "application",
+          "settings": {
+            "image": "shopify://shop_images/Storage_Pail.jpg",
+            "title": "STORAGE",
+            "text": "Shelf life of 12 months from the date of manufacture when stored in unopened containers and between 40F°& 80F°."
+          }
+        }
+      },
+      "block_order": [
+        "c86d44de-932c-4d9e-a1ec-751b494822b7",
+        "ae68921c-16c9-4fbf-a231-f769f4b3fd05",
+        "fb7a0796-b3ee-4065-9073-b86374053af6"
+      ],
+      "settings": {
+        "desktop_bg": "shopify://shop_images/mobile-banner.png",
+        "mobile_bg": "shopify://shop_images/application_banner.png",
+        "banner_content": "<b>Provides long-term protection</b> because it resists weathering, aging, oxidation, sand, rain, the effects of ozone, ultraviolet radiation and the extreme temperatures usually found on roofs. With its high solids content and absence of hydrocarbon solvents, maintaining maximum adhesion."
+      }
+    },
+    "testimonial": {
+      "type": "testimonial",
+      "disabled": true,
+      "blocks": {
+        "a9bd062c-1fbd-4060-b3a4-ed09c35ecfe6": {
+          "type": "Testimonial",
+          "settings": {
+            "content": "I didn't know anything I about roofing so I googled and found rich port. I saw that they offered and called. it was an easy decision after that.",
+            "name": "Jeff Bridges",
+            "position": "32, Homeowner"
+          }
+        },
+        "b26c104c-6375-4191-924f-1227f6e9b5ec": {
+          "type": "Testimonial",
+          "settings": {
+            "content": "This is not just a product, its a team that backs their products and are always available to help you out through the whole process.",
+            "name": "SAM PORTER",
+            "position": "45, Roof contractor"
+          }
+        },
+        "d1d98566-e012-4ab2-9753-93de59976fdc": {
+          "type": "Testimonial",
+          "settings": {
+            "content": "In manufacturing we cannot stop our production line but not everyone understands. Rich port did. They worked fast, efficient and knew exactly what they  are doing.",
+            "name": "GLEN JONES",
+            "position": "45, Manufacturer"
+          }
+        }
+      },
+      "block_order": [
+        "a9bd062c-1fbd-4060-b3a4-ed09c35ecfe6",
+        "b26c104c-6375-4191-924f-1227f6e9b5ec",
+        "d1d98566-e012-4ab2-9753-93de59976fdc"
+      ],
+      "settings": {
+        "heading": "WHAT OUR CLIENTS THINK ABOUT OUR PRODUCTS?",
+        "subheading": ""
+      }
+    },
+    "warnings-precautions": {
+      "type": "warnings-precautions",
+      "blocks": {
+        "6c8ebccb-773e-4701-b169-2debe2700fba": {
+          "type": "Warnings",
+          "settings": {
+            "image": "shopify://shop_images/1.png",
+            "title": "SKIN CONTACT",
+            "text": "Prolonged skin contact may cause irritation.",
+            "desc": "Wash skin well after handling. Seek medical attention if irritation develops and persists. Take off contaminated clothing. Wash the contaminated clothing before using it again."
+          }
+        },
+        "5c929775-eb11-4962-85e1-be672acc7326": {
+          "type": "Warnings",
+          "settings": {
+            "image": "shopify://shop_images/Vector_1.png",
+            "title": "INGESTION",
+            "text": "Ingestion may cause irritation of the mucous membranes and\ngastrointestinal irritation, nausea, vomiting and diarrhea.",
+            "desc": "If the product is swallowed, call the doctor or poison control center for the\nmost up-to-date information. If no professional advice is available, do not induce vomiting. Never induce vomiting or administer diluents (milk or water) to someone who is unconscious, has seizures or cannot swallow. Seek medical help."
+          }
+        },
+        "dacae99e-0cf8-4bca-b224-b4381d6ae1cc": {
+          "type": "Warnings",
+          "settings": {
+            "image": "shopify://shop_images/3.png",
+            "title": "INHALATION",
+            "text": "This product does not present any danger when aspirated.",
+            "desc": "If breathing becomes difficult, take the victim to fresh air. If necessary, use artificial respiration to support vital functions. Seek medical attention if breathing difficulties\ncontinue."
+          }
+        },
+        "29106cdf-71b5-4a20-a1e3-8edcb07823fb": {
+          "type": "Warnings",
+          "settings": {
+            "image": "shopify://shop_images/4.png",
+            "title": "EYE CONTACT",
+            "text": "Does not cause eye problems under normal conditions of use. Direct contact in the eyes may cause irritation.",
+            "desc": "If the product enters the eyes, open the eyes with mild running water for at least 15 minutes. Seek medical attention if irritation develops. Consult your doctor for treatment according to the symptoms you present. In case of intoxication, take the patient to the doctor and consult this label."
+          }
+        }
+      },
+      "block_order": [
+        "6c8ebccb-773e-4701-b169-2debe2700fba",
+        "5c929775-eb11-4962-85e1-be672acc7326",
+        "dacae99e-0cf8-4bca-b224-b4381d6ae1cc",
+        "29106cdf-71b5-4a20-a1e3-8edcb07823fb"
+      ],
+      "settings": {
+        "heading": "WARNINGS AND PRECAUTIONS"
+      }
+    },
+    "project-gallery": {
+      "type": "project-gallery",
+      "blocks": {
+        "04b4db32-9879-427c-860b-2b96a05335b8": {
+          "type": "gallery",
+          "settings": {
+            "gallery_img": "shopify://shop_images/project1.png",
+            "title": "PERFECT HOUSES",
+            "quote": "Roof 1200 sq.ft. Coated with Rich Sil+ and E-Seal"
+          }
+        },
+        "695e5cb3-cc8a-4eb4-af44-328e559b7999": {
+          "type": "gallery",
+          "settings": {
+            "gallery_img": "shopify://shop_images/project2.png",
+            "title": "MICHIGAN TRADE CENTER",
+            "quote": "Roof 1200 sq.ft. Coated with Rich Sil+ and E-Seal"
+          }
+        },
+        "96ddfa73-7cbb-49a2-8b28-c9552a19cc0f": {
+          "type": "gallery",
+          "settings": {
+            "gallery_img": "shopify://shop_images/gallery-3.png",
+            "title": "MICHIGAN TRADE CENTER",
+            "quote": "Roof 1200 sq.ft. Coated with Rich Sil+ and E-Seal"
+          }
+        },
+        "b116e181-ec18-4ecd-b31c-9493447f41fd": {
+          "type": "gallery",
+          "settings": {
+            "gallery_img": "shopify://shop_images/project2.png",
+            "title": "PERFECT HOUSES",
+            "quote": "Roof 1200 sq.ft. Coated with Rich Sil+ and E-Seal"
+          }
+        },
+        "07b5c6e8-5473-497e-86db-86d2d7662049": {
+          "type": "gallery",
+          "settings": {
+            "gallery_img": "shopify://shop_images/gallery-3.png",
+            "title": "MICHIGAN TRADE CENTER",
+            "quote": "Roof 1200 sq.ft. Coated with Rich Sil+ and E-Seal"
+          }
+        }
+      },
+      "block_order": [
+        "04b4db32-9879-427c-860b-2b96a05335b8",
+        "695e5cb3-cc8a-4eb4-af44-328e559b7999",
+        "96ddfa73-7cbb-49a2-8b28-c9552a19cc0f",
+        "b116e181-ec18-4ecd-b31c-9493447f41fd",
+        "07b5c6e8-5473-497e-86db-86d2d7662049"
+      ],
+      "settings": {
+        "bg_color": "#f8f8f8",
+        "heading": "CHECK OUR PROJECT GALLERY",
+        "subheading": "OUR WORK IS OUR PRIDE!"
+      }
+    },
+    "lifetime-warranty": {
+      "type": "lifetime-warranty",
+      "settings": {
+        "bg_color": "#aa0000",
+        "image": "shopify://shop_images/lifetime.png",
+        "heading": "LIMITED LIFETIME WARRANTY",
+        "desc": "The original purchaser is guaranteed from the date of purchase, that the product works as long as it is applied in accordance with the instructions on the label. The warranty is limited to the replacement of the product if it does not work according to its specifications. For the warranty to be valid, the entire  roof must be sealed with Rich Sil Silicone Roof Coating. This warranty does not cover labor or costs associated with its application.",
+        "text": "This warranty is granted only to the original purchaser and is not transferable. This warranty excludes failures due to improper surface preparation, structural defects, or failures of other previously applied products. This warranty does not cover natural disasters such as earthquakes, hurricanes, storms or structural defects."
+      }
+    },
+    "product-main": {
+      "type": "product-main",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {
+          }
+        },
+        "price": {
+          "type": "price",
+          "disabled": true,
+          "settings": {
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": false
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "price",
+        "description",
+        "quantity_selector",
+        "buy_buttons"
+      ],
+      "settings": {
+        "enable_sticky_info": true,
+        "gallery_layout": "stacked",
+        "media_size": "large",
+        "mobile_thumbnails": "hide",
+        "hide_variants": false,
+        "enable_video_looping": false
+      }
+    },
+    "seal-alloy": {
+      "type": "seal-alloy",
+      "blocks": {
+        "f3aad42d-be21-4404-a67f-aa734e46842d": {
+          "type": "seal-alloy-content",
+          "settings": {
+            "check_our_title_color": "#4c3461",
+            "check_our_title": "E-SEAL",
+            "check_our_subtitle": "Modified Asphalt Emulsion Sealer",
+            "check_our_proimg": "shopify://shop_images/product-4.png",
+            "product_url": "shopify://products/e-seal",
+            "check_our_desc": "E-Seal Modified Asphalt Emulsion Sealer technologically advanced Styrene Modified Asphalt Emulsion Sealer, fortified with non-asbestos fibers."
+          }
+        },
+        "ba8ebc85-284d-4c87-af0b-bba1cc601c74": {
+          "type": "seal-alloy-content",
+          "settings": {
+            "check_our_title_color": "#404040",
+            "check_our_title": "ALLOY-NF",
+            "check_our_subtitle": "Non-Fibered Aluminum Roof Coating",
+            "check_our_proimg": "shopify://shop_images/product-5.png",
+            "product_url": "shopify://products/alloy-nf",
+            "check_our_desc": "Non-Fibered Aluminum Roof Coating is made of selected asphalts and pigment flakes of pure aluminum blended with petroleum solvents and mineral fillers."
+          }
+        },
+        "a8d4e79e-7fa2-41c2-becc-c1ea9de37129": {
+          "type": "seal-alloy-content",
+          "settings": {
+            "check_our_title_color": "#6b6b6b",
+            "check_our_title": "ALLOY-F",
+            "check_our_subtitle": "Fibered Aluminum Roof Coating",
+            "check_our_proimg": "shopify://shop_images/product-6.png",
+            "product_url": "shopify://products/alloy-f",
+            "check_our_desc": "Fibered Aluminum Roof Coating is made of selected asphalts and pigment flakes of pure aluminum blended with refined solvents and reinforcing fibers for heavy duty service."
+          }
+        }
+      },
+      "block_order": [
+        "f3aad42d-be21-4404-a67f-aa734e46842d",
+        "ba8ebc85-284d-4c87-af0b-bba1cc601c74",
+        "a8d4e79e-7fa2-41c2-becc-c1ea9de37129"
+      ],
+      "settings": {
+        "heading": "PEOPLE ALSO BOUGHT",
+        "buy_now": "Buy Now",
+        "buy_now_url": "shopify://collections/all"
+      }
+    },
+    "faq-section": {
+      "type": "faq-section",
+      "blocks": {
+        "e2ab2bac-adf7-40ee-9825-c692ecbb0942": {
+          "type": "faq",
+          "settings": {
+            "question": "What amount of alloy should I use?",
+            "answer": "<p>Our first activity was manufacturing waterproofing materials and nowadays we are the Spanish market leader with nearly a 40% quota and we rank 6th in Europe.<br/><br/>We offer a wide range of products and solutions for flat, slope and landscape roofs, underground walls, slabs and foundations, bridge construction, underground galleries, etc.</p>"
+          }
+        },
+        "f2e0f73d-9c53-4c36-9a54-efe62db23d18": {
+          "type": "faq",
+          "settings": {
+            "question": "How does your roof coating products help save money?",
+            "answer": "<p>Our first activity was manufacturing waterproofing materials and nowadays we are the Spanish market leader with nearly a 40% quota and we rank 6th in Europe.<br/><br/>We offer a wide range of products and solutions for flat, slope and landscape roofs, underground walls, slabs and foundations, bridge construction, underground galleries, etc.</p>"
+          }
+        },
+        "036cebfe-b29d-4cf5-87d3-6f67d166d378": {
+          "type": "faq",
+          "settings": {
+            "question": "Does our roof coating materials eco-friendly?",
+            "answer": "<p>Our first activity was manufacturing waterproofing materials and nowadays we are the Spanish market leader with nearly a 40% quota and we rank 6th in Europe.<br/><br/>We offer a wide range of products and solutions for flat, slope and landscape roofs, underground walls, slabs and foundations, bridge construction, underground galleries, etc.</p>"
+          }
+        },
+        "f598d0ed-8ece-4592-8f40-aaed9b3f929e": {
+          "type": "faq",
+          "settings": {
+            "question": "How much does it cost?",
+            "answer": "<p>Our first activity was manufacturing waterproofing materials and nowadays we are the Spanish market leader with nearly a 40% quota and we rank 6th in Europe.<br/><br/>We offer a wide range of products and solutions for flat, slope and landscape roofs, underground walls, slabs and foundations, bridge construction, underground galleries, etc.</p>"
+          }
+        },
+        "58a3f515-3025-4862-98cd-07a9ad6c3f09": {
+          "type": "faq",
+          "settings": {
+            "question": "What amount of alloy should I use?",
+            "answer": "<p>Our first activity was manufacturing waterproofing materials and nowadays we are the Spanish market leader with nearly a 40% quota and we rank 6th in Europe.<br/><br/>We offer a wide range of products and solutions for flat, slope and landscape roofs, underground walls, slabs and foundations, bridge construction, underground galleries, etc.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "e2ab2bac-adf7-40ee-9825-c692ecbb0942",
+        "f2e0f73d-9c53-4c36-9a54-efe62db23d18",
+        "036cebfe-b29d-4cf5-87d3-6f67d166d378",
+        "f598d0ed-8ece-4592-8f40-aaed9b3f929e",
+        "58a3f515-3025-4862-98cd-07a9ad6c3f09"
+      ],
+      "settings": {
+        "heading": "Frequently asked questions"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "commercial-product",
+    "application-block",
+    "testimonial",
+    "warnings-precautions",
+    "project-gallery",
+    "lifetime-warranty",
+    "product-main",
+    "seal-alloy",
+    "faq-section"
+  ]
+}

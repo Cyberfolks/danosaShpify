@@ -3,34 +3,34 @@
 
     <div class="commercial-heading">
       <div class="main-heading">
-        <h2 class="heading">{{section.settings.heading}}</h2>
-        {%if section.settings.desc != blank%}<p class="desc">{{section.settings.desc}}</p>{%endif%}
+        <h2 class="heading">{{ section.settings.heading }}</h2>
+        {% if section.settings.desc != blank %}<p class="desc">{{section.settings.desc}}</p>{% endif %}
       </div>
     </div>
 
     <div class="commercial-wrapper">
       {% for block in section.blocks %}
-      {%- assign product = all_products[block.settings.product] -%}
+      
 
-      {%for i in (1..12)%}
+      {% for i in (1..12) %}
       {% capture title %}title{{i}}{% endcapture %}
       {% capture info %}info{{i}}{% endcapture %}
 
-      {%if block.settings.product != blank %}
+      {% if block.settings.product != blank %}
       <div class="commercial-main">       
         <div class="commercial-details">
-          {%if block.settings[title] != blank%}
+          {% if block.settings[title] != blank %}
           <div class="commercial-block">
-            <p class="info-text">{{block.settings[title]}}</p>
-            <h2 class="commercial-info">{{block.settings[info]}}</h2>
+            <p class="info-text">{{ block.settings[title] }}</p>
+            <h2 class="commercial-info">{{ block.settings[info] }}</h2>
           </div>
-          {%endif%}
+          {% endif %}
         </div>
       </div>
-      {%endif%}
+      {% endif %}
 
-      {%endfor%}
-      {%endfor%}
+      {% endfor %}
+      {% endfor %}
     </div>
 
   </div>
@@ -38,182 +38,182 @@
 
 {% schema %}
 {
-"name": "Commercial Product",
-"class":"commercial-product",
-"settings":[
-{
-"type" : "textarea",
-"id" : "heading",
-"label" : "Lifetime title"
-},
-{
-"type" : "textarea",
-"id" : "desc",
-"label" : "Lifetime Warranty Discription"
-}
-],
-"blocks" :[
-{
-"type" : "Information",
-"name" : "Product Info",
-"settings" : [
-{
-"type":"product",
-"id":"product",
-"label":"Select Product"
-},
-{
-"type" : "html",
-"id" : "title1",
-"label" : "Info Title"
-},
-{
-"type" : "textarea",
-"id" : "info1",
-"label" : "Product Info"
-},
-{
-"type" : "html",
-"id" : "title2",
-"label" : "Info Title"
-},
-{
-"type" : "textarea",
-"id" : "info2",
-"label" : "Product Info"
-},
-{
-"type" : "html",
-"id" : "title3",
-"label" : "Info Title"
-},
-{
-"type" : "textarea",
-"id" : "info3",
-"label" : "Product Info"
-},
-{
-"type" : "html",
-"id" : "title4",
-"label" : "Info Title"
-},
-{
-"type" : "textarea",
-"id" : "info4",
-"label" : "Product Info"
-},
-{
-"type" : "html",
-"id" : "title5",
-"label" : "Info Title"
-},
-{
-"type" : "textarea",
-"id" : "info5",
-"label" : "Product Info"
-},
-{
-"type" : "html",
-"id" : "title6",
-"label" : "Info Title"
-},
-{
-"type" : "textarea",
-"id" : "info6",
-"label" : "Product Info"
-},
-{
-"type" : "html",
-"id" : "title7",
-"label" : "Info Title"
-},
-{
-"type" : "textarea",
-"id" : "info7",
-"label" : "Product Info"
-},
-{
-"type" : "html",
-"id" : "title8",
-"label" : "Info Title"
-},
-{
-"type" : "textarea",
-"id" : "info8",
-"label" : "Product Info"
-},
-{
-"type" : "html",
-"id" : "title9",
-"label" : "Info Title"
-},
-{
-"type" : "textarea",
-"id" : "info9",
-"label" : "Product Info"
-},
-{
-"type" : "html",
-"id" : "title10",
-"label" : "Info Title"
-},
-{
-"type" : "textarea",
-"id" : "info10",
-"label" : "Product Info"
-},
-{
-"type" : "html",
-"id" : "title11",
-"label" : "Info Title"
-},
-{
-"type" : "textarea",
-"id" : "info11",
-"label" : "Product Info"
-},
-{
-"type" : "html",
-"id" : "title12",
-"label" : "Info Title"
-},
-{
-"type" : "textarea",
-"id" : "info12",
-"label" : "Product Info"
-},
-{
-"type" : "html",
-"id" : "title13",
-"label" : "Info Title"
-},
-{
-"type" : "textarea",
-"id" : "info13",
-"label" : "Product Info"
-},
-{
-"type" : "html",
-"id" : "title14",
-"label" : "Info Title"
-},
-{
-"type" : "textarea",
-"id" : "info14",
-"label" : "Product Info"
-},
-{
-"type" : "html",
-"id" : "title15",
-"label" : "Info Title"
-},
-{
-"type" : "textarea",
-"id" : "info15",
-"label" : "Product Info"
-}
-]
-}
-]
+  "name": "Commercial Product",
+  "class": "commercial-product",
+  "settings": [
+    {
+      "type": "textarea",
+      "id": "heading",
+      "label": "Lifetime title"
+    },
+    {
+      "type": "textarea",
+      "id": "desc",
+      "label": "Lifetime Warranty Discription"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "Information",
+      "name": "Product Info",
+      "settings": [
+        {
+          "type": "product",
+          "id": "product",
+          "label": "Select Product"
+        },
+        {
+          "type": "html",
+          "id": "title1",
+          "label": "Info Title"
+        },
+        {
+          "type": "textarea",
+          "id": "info1",
+          "label": "Product Info"
+        },
+        {
+          "type": "html",
+          "id": "title2",
+          "label": "Info Title"
+        },
+        {
+          "type": "textarea",
+          "id": "info2",
+          "label": "Product Info"
+        },
+        {
+          "type": "html",
+          "id": "title3",
+          "label": "Info Title"
+        },
+        {
+          "type": "textarea",
+          "id": "info3",
+          "label": "Product Info"
+        },
+        {
+          "type": "html",
+          "id": "title4",
+          "label": "Info Title"
+        },
+        {
+          "type": "textarea",
+          "id": "info4",
+          "label": "Product Info"
+        },
+        {
+          "type": "html",
+          "id": "title5",
+          "label": "Info Title"
+        },
+        {
+          "type": "textarea",
+          "id": "info5",
+          "label": "Product Info"
+        },
+        {
+          "type": "html",
+          "id": "title6",
+          "label": "Info Title"
+        },
+        {
+          "type": "textarea",
+          "id": "info6",
+          "label": "Product Info"
+        },
+        {
+          "type": "html",
+          "id": "title7",
+          "label": "Info Title"
+        },
+        {
+          "type": "textarea",
+          "id": "info7",
+          "label": "Product Info"
+        },
+        {
+          "type": "html",
+          "id": "title8",
+          "label": "Info Title"
+        },
+        {
+          "type": "textarea",
+          "id": "info8",
+          "label": "Product Info"
+        },
+        {
+          "type": "html",
+          "id": "title9",
+          "label": "Info Title"
+        },
+        {
+          "type": "textarea",
+          "id": "info9",
+          "label": "Product Info"
+        },
+        {
+          "type": "html",
+          "id": "title10",
+          "label": "Info Title"
+        },
+        {
+          "type": "textarea",
+          "id": "info10",
+          "label": "Product Info"
+        },
+        {
+          "type": "html",
+          "id": "title11",
+          "label": "Info Title"
+        },
+        {
+          "type": "textarea",
+          "id": "info11",
+          "label": "Product Info"
+        },
+        {
+          "type": "html",
+          "id": "title12",
+          "label": "Info Title"
+        },
+        {
+          "type": "textarea",
+          "id": "info12",
+          "label": "Product Info"
+        },
+        {
+          "type": "html",
+          "id": "title13",
+          "label": "Info Title"
+        },
+        {
+          "type": "textarea",
+          "id": "info13",
+          "label": "Product Info"
+        },
+        {
+          "type": "html",
+          "id": "title14",
+          "label": "Info Title"
+        },
+        {
+          "type": "textarea",
+          "id": "info14",
+          "label": "Product Info"
+        },
+        {
+          "type": "html",
+          "id": "title15",
+          "label": "Info Title"
+        },
+        {
+          "type": "textarea",
+          "id": "info15",
+          "label": "Product Info"
+        }
+      ]
+    }
+  ]
 }
 {% endschema %}

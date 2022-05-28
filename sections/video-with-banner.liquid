@@ -9,7 +9,7 @@
       {% endif %}
       <div class="video-banner-txt">
         <div class="video-icon-txt">
-          <div class="video-play modal-toggle" data-val="video-popup--{{forloop.index}}">
+          <div class="video-play modal-toggle" data-val="video-popup--{{ forloop.index }}">
             <svg width="57" height="56" viewBox="0 0 57 56" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M56 28C56 42.8951 43.7046 55 28.5 55C13.2954 55 1 42.8951 1 28C1 13.1049 13.2954 1 28.5 1C43.7046 1 56 13.1049 56 28Z" stroke="white" stroke-width="2"/>
               <path d="M44 28L20.75 40.9904L20.75 15.0096L44 28Z" fill="white"/>
@@ -45,7 +45,7 @@
   {% endcomment %}
 
   {% for block in section.blocks %}
-  <div class="modal_main" data-val="video-popup--{{forloop.index}}">
+  <div class="modal_main" data-val="video-popup--{{ forloop.index }}">
     <div class="modal_flex">
       <div class="modal">
         <div class="modal-overlay modal-toggle"></div>
@@ -74,39 +74,43 @@
 </div>
 {% schema %}
 {
-"name": "video-with-banner",
-"class":"video-with-banner",
-"settings": [],
-"blocks" : [
-{
-"type": "video",
-"name": "Video Text",
-"settings": [
-{
-"type" : "image_picker",
-"id" : "video_banner_img",
-"label" : "Video with Banner"					
-},
-{
-"type" : "text",
-"id" : "video_banner_text",
-"label" : "Video Text"					
-},
-{
-"type": "video_url",
-"id": "youtube_video_url",
-"label": "Youtube Video",
-"accept": ["youtube"],
-"default": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc"
-}
-]
-}
-],
-"presets": [
-{
-"name": "Video Section"
-}
-]
+  "name": "video-with-banner",
+  "class": "video-with-banner",
+  "settings": [
+
+  ],
+  "blocks": [
+    {
+      "type": "video",
+      "name": "Video Text",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "video_banner_img",
+          "label": "Video with Banner"
+        },
+        {
+          "type": "text",
+          "id": "video_banner_text",
+          "label": "Video Text"
+        },
+        {
+          "type": "video_url",
+          "id": "youtube_video_url",
+          "label": "Youtube Video",
+          "accept": [
+            "youtube"
+          ],
+          "default": "https://www.youtube.com/watch?v=_9VUPq3SxOc"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Video Section"
+    }
+  ]
 }
 {% endschema %}
 
