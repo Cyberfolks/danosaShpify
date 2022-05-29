@@ -95,16 +95,6 @@
         "demo_desc": "Democracy inspire breakthroughs, Rosa Parks; inspiration raise awareness natural resources. Governance impact; transformative donation philanthropy, respect reproductive."
       }
     },
-    "16534561065bea0cc9": {
-      "type": "services-section",
-      "settings": {
-        "section_image": "shopify://shop_images/223.png",
-        "section_title": "Heading",
-        "section_des": "Description",
-        "position": "left",
-        "image_height": 500
-      }
-    },
     "1640413952c8a30886": {
       "type": "check-our-product",
       "disabled": true,
@@ -520,7 +510,6 @@
     "16534557953b4f6dd6",
     "1640407916fd183cab",
     "1653456061c4dd13aa",
-    "16534561065bea0cc9",
     "1640413952c8a30886",
     "1640426644c7dc695a",
     "1640585287f9e8e649",
