@@ -1,20 +1,26 @@
 
 <div class="container">
     <div class="row align-items-center">
-        <div class="col-lg-6 animate__animated animate__fadeInLeft animate__delay-2s">
+      {%- comment -%}
+      animate__animated animate__fadeInLeft animate__delay-2s
+      {%- endcomment -%}
+        <div class="col-lg-6 ">
             {% if section.settings.about_heading != blank %}
                 <div class="heading-block">
-                    {{ section.settings.about_heading }}
+                    <h4 class="about-heading">{{ section.settings.about_heading }}</h4>
                 </div>
             {% endif %}
-            <p class="lead">
+            <p class="font_15">
                 {{ section.settings.about_desc }}
             </p>
         </div>
         <div class="col-lg-6 align-self-end">
-            <div class="position-relative overflow-hidden animate__animated animate__fadeInRight animate__delay-2s">
+            <div class="position-relative overflow-hidden ">
                 <img width="" height="" loading="lazy" src="{{ section.settings.about_image | img_url: 'master' }}" alt="Chrome">
+                {%- comment -%}
+                animate__animated animate__fadeInRight animate__delay-2s
                 <!-- <img width="" height="" loading="lazy" src="images/services/mc_illus.png" style="top: 0; left: 0; min-width: 20%; min-height: 20%;" data-animate="fadeInUp" data-delay="400" alt="iPhone" class="position-absolute"> -->
+                {%- endcomment -%}
             </div>
         </div>
     </div>
@@ -49,6 +55,9 @@
 {% endschema %}
   
   {% stylesheet %}
+  .about-heading{
+    font-size:20px !important;
+  }
   {% endstylesheet %}
   
   {% javascript %}

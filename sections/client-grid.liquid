@@ -1,0 +1,69 @@
+<div class="container clearfix">
+    <div class="clear"></div>
+    <div class="heading-block center">
+        <h4>{{section.settings.grids_title}}</h4>
+        <span class="mx-auto font_15">{{section.settings.grids_des}}</span>
+    </div>
+    <ul class="clients-grid grid-2 grid-sm-3 grid-md-6 mb-0">
+        {% for block in section.blocks %}
+            {% if block.settings.client_url != blank and block.settings.client_logo != blank%}
+                <li class="grid-item">
+                    <a href="http://{{block.settings.client_url}}">
+                        <img src="{{block.settings.client_logo | img_url: 'master'}}" alt="Danosa Clients">
+                    </a>
+                </li>
+            {% endif %}
+        {% endfor %}
+    </ul>
+</div>
+{% schema %}
+{
+"name": "Clients Grid",
+"settings": [
+    {
+        "type": "text",
+        "id": "grids_title",
+        "label": "Title",
+        "default": "Our Happy Clients"
+    },
+    {
+        "type": "text",
+        "id": "grids_des",
+        "label": "Description",
+        "default": "We provide customized solutions and advice to each of our clients."
+    }
+],
+"blocks": [
+    {
+    "type": "text",
+    "name": "Client Grid",
+    "settings": [
+        {
+        "type": "text",
+        "id": "client_name",
+        "label": "Client Name",
+        "default": "Danosa"
+        },
+        {
+        "type": "text",
+        "id": "client_url",
+        "label": "Client Url",
+        "default": "www.danosapr.com"
+        },
+        {
+        "type": "image_picker",
+        "id": "client_logo",
+        "label": "Client Logo"
+        }
+    ]
+    }
+],
+"presets": [{"name": "Clients Grid"}]
+}
+{% endschema %}
+
+{% stylesheet %}
+
+{% endstylesheet %}
+{% javascript %}
+{% endjavascript %}

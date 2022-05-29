@@ -31,8 +31,8 @@
 {% endcomment %}
 <div class="container">
   <div class="heading-block topmargin-lg center animate__animated animate__bounce animate__delay-3s">
-    <h2>ALL UNDER ONE ROOF!</h2>
-    <span class="mx-auto">We provide customized solutions and advice to each of our clients.</span>
+    <h4>ALL UNDER ONE ROOF!</h4>
+    <span class="mx-auto font_15">We provide customized solutions and advice to each of our clients.</span>
   </div>
   <div class="row">
     {% for block in section.blocks %}
@@ -46,14 +46,15 @@
         {% endif %}
       </div>
       icon-line2-screen-desktop
+      animate__animated animate__fadeInRight animate__delay-3s
       {% endcomment %} 
-      <div class="col-md-6 col-lg-4 center animate__animated animate__fadeInRight animate__delay-3s">
+      <div class="col-md-6 col-lg-4 center animate__animated animate__zoomInDown animate__delay-3s ">
         <i style="margin-bottom: 15px; float: unset !important; font-size: 40px;" 
-        class="i-plain color i-large inline-block {% if section.settings.cover_image != blank %}{{ block.settings.shipp_icon_svg }}{% else %}icon-line2-screen-desktop{% endif %}"></i>
+        class="i-plain color i-large inline-block {% if block.settings.shipp_icon_svg != blank %}{{ block.settings.shipp_icon_svg }}{% else %}icon-line2-screen-desktop{% endif %}"></i>
         <div class="heading-block border-bottom-0" style="margin-bottom: 15px;">
           <h3>{{ block.settings.shipp_title }}</h3>
         </div>
-        <p>{{ block.settings.shipp_icon_txt }}</p>
+        <p class="font_15">{{ block.settings.shipp_icon_txt }}</p>
       </div>
     {% endfor %}
   </div>

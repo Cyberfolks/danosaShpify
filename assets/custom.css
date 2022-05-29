@@ -956,7 +956,7 @@ a.link.link--text.list-menu__item.list-menu__item--link.list-menu__item--active:
     text-align: center;
   }
   .main-banner-subcontent{
-    max-width: 490px;
+    max-width: 100%;
     margin-top: 80px;
   }
   .def-btn.main-banner-btn {
@@ -1251,7 +1251,7 @@ a.link.link--text.list-menu__item.list-menu__item--link.list-menu__item--active:
     line-height: 1.4;
   }
   .main-banner-subcontent{
-    max-width: 360px;
+    max-width: 100%;
     margin-top: 120px;
   }
   .def-btn.main-banner-btn {
@@ -1500,7 +1500,7 @@ a.link.link--text.list-menu__item.list-menu__item--link.list-menu__item--active:
     line-height: 1.4;
   }
   .main-banner-subcontent{
-    max-width: 360px;
+    max-width: 100%;
     margin: 0 auto;
     margin-top: 70px;
     text-align: center;
@@ -2816,7 +2816,7 @@ textarea.field__input:hover{
 /* Heading Block - with Subtitle
 -----------------------------------------------------------------*/
 
-.heading-block { margin-bottom: 50px; }
+.heading-block { margin-bottom: 20px; }
 
 .heading-block h1,
 .heading-block h2,
@@ -3770,3 +3770,327 @@ body:not(.device-touch) .social-icon i {
 
 .si-text-color:hover { color: #FFF; }
 
+
+.footer_about p{
+  font-size: 15px;
+}
+.font_15{
+  font-size: 15px;
+}
+.font_15 a{
+  font-size: 15px;
+  color: white;
+}
+body.modal-open {
+  overflow: visible;
+}
+.heading-block.center > span, .heading-block.text-center > span, .center .heading-block > span, .text-center .heading-block > span {
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.heading-block .before-heading {
+  margin-bottom: 7px;
+}
+.before-heading {
+  display: block;
+  margin: 0 0 5px;
+  font-size: 1rem;
+  font-family: 'PT Serif', serif;
+  font-style: italic;
+  font-weight: 400;
+  color: #999;
+}
+.col-padding {
+  padding: 4rem;
+}
+
+.grid-item > img,
+.grid-item .grid-inner > img {
+	width: 100%;
+	height: auto;
+	border-radius: 0;
+}
+
+.grid-1 > .grid-item {
+	width: 100%;
+}
+
+.grid-2 > .grid-item {
+	width: 50%;
+}
+
+.grid-3 > .grid-item {
+	width: 33.333333%;
+}
+
+.grid-4 > .grid-item {
+	width: 25%;
+}
+
+.grid-5 > .grid-item {
+	width: 20%;
+}
+
+.grid-6 > .grid-item {
+	width: 16.666667%;
+}
+
+.grid-8 > .grid-item {
+	width: 12.50%;
+}
+
+.grid-10 > .grid-item {
+	width: 10%;
+}
+
+.grid-12 > .grid-item {
+	width: 8.333333%;
+}
+
+@media (min-width: 576px) {
+	.grid-sm-1 > .grid-item {
+		width: 100%;
+	}
+
+	.grid-sm-2 > .grid-item {
+		width: 50%;
+	}
+
+	.grid-sm-3 > .grid-item {
+		width: 33.333333%;
+	}
+
+	.grid-sm-4 > .grid-item {
+		width: 25%;
+	}
+
+	.grid-sm-5 > .grid-item {
+		width: 20%;
+	}
+
+	.grid-sm-6 > .grid-item {
+		width: 16.666667%;
+	}
+
+	.grid-sm-8 > .grid-item {
+		width: 12.50%;
+	}
+
+	.grid-sm-10 > .grid-item {
+		width: 10%;
+	}
+
+	.grid-sm-12 > .grid-item {
+		width: 8.333333%;
+	}
+}
+
+@media (min-width: 768px) {
+	.grid-md-1 > .grid-item {
+		width: 100%;
+	}
+
+	.grid-md-2 > .grid-item {
+		width: 50%;
+	}
+
+	.grid-md-3 > .grid-item {
+		width: 33.333333%;
+	}
+
+	.grid-md-4 > .grid-item {
+		width: 25%;
+	}
+
+	.grid-md-5 > .grid-item {
+		width: 20%;
+	}
+
+	.grid-md-6 > .grid-item {
+		width: 16.666667%;
+	}
+
+	.grid-md-8 > .grid-item {
+		width: 12.50%;
+	}
+
+	.grid-md-10 > .grid-item {
+		width: 10%;
+	}
+
+	.grid-md-12 > .grid-item {
+		width: 8.333333%;
+	}
+}
+
+@media (min-width: 992px) {
+	.grid-lg-1 > .grid-item {
+		width: 100%;
+	}
+
+	.grid-lg-2 > .grid-item {
+		width: 50%;
+	}
+
+	.grid-lg-3 > .grid-item {
+		width: 33.333333%;
+	}
+
+	.grid-lg-4 > .grid-item {
+		width: 25%;
+	}
+
+	.grid-lg-5 > .grid-item {
+		width: 20%;
+	}
+
+	.grid-lg-6 > .grid-item {
+		width: 16.666667%;
+	}
+
+	.grid-lg-8 > .grid-item {
+		width: 12.50%;
+	}
+
+	.grid-lg-10 > .grid-item {
+		width: 10%;
+	}
+
+	.grid-lg-12 > .grid-item {
+		width: 8.333333%;
+	}
+}
+
+@media (min-width: 1200px) {
+	.grid-xl-1 > .grid-item {
+		width: 100%;
+	}
+
+	.grid-xl-2 > .grid-item {
+		width: 50%;
+	}
+
+	.grid-xl-3 > .grid-item {
+		width: 33.333333%;
+	}
+
+	.grid-xl-4 > .grid-item {
+		width: 25%;
+	}
+
+	.grid-xl-5 > .grid-item {
+		width: 20%;
+	}
+
+	.grid-xl-6 > .grid-item {
+		width: 16.666667%;
+	}
+
+	.grid-xl-8 > .grid-item {
+		width: 12.50%;
+	}
+
+	.grid-xl-10 > .grid-item {
+		width: 10%;
+	}
+
+	.grid-xl-12 > .grid-item {
+		width: 8.333333%;
+	}
+}
+
+@media (min-width: 1400px) {
+	.grid-xxl-1 > .grid-item {
+		width: 100%;
+	}
+
+	.grid-xxl-2 > .grid-item {
+		width: 50%;
+	}
+
+	.grid-xxl-3 > .grid-item {
+		width: 33.333333%;
+	}
+
+	.grid-xxl-4 > .grid-item {
+		width: 25%;
+	}
+
+	.grid-xxl-5 > .grid-item {
+		width: 20%;
+	}
+
+	.grid-xxl-6 > .grid-item {
+		width: 16.666667%;
+	}
+
+	.grid-xxl-8 > .grid-item {
+		width: 12.50%;
+	}
+
+	.grid-xxl-10 > .grid-item {
+		width: 10%;
+	}
+
+	.grid-xxl-12 > .grid-item {
+		width: 8.333333%;
+	}
+}
+
+.clients-grid, .testimonials-grid {
+  position: relative;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+  list-style: none;
+  overflow: hidden;
+  }
+  .clients-grid .grid-item, .testimonials-grid .grid-item {
+  position: relative;
+  padding: 20px 0;
+  -webkit-backface-visibility: hidden;
+  }
+  .clients-grid .grid-item a { opacity: 0.6; }
+  body:not(.device-touch) .clients-grid .grid-item a {
+  -webkit-transition: all .5s ease;
+  -o-transition: all .5s ease;
+  transition: all .5s ease;
+  backface-visibility: hidden;
+  }
+  .clients-grid .grid-item a:hover { opacity: 1; }
+  .clients-grid .grid-item a,
+  .clients-grid .grid-item img {
+  display: block;
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+  }
+  .clients-grid .grid-item a img { width: 100%; }
+  .clients-grid .grid-item::before,
+  .clients-grid .grid-item::after,
+  .testimonials-grid .grid-item::before,
+  .testimonials-grid .grid-item::after {
+  content: '';
+  position: absolute;
+  }
+  .clients-grid .grid-item::before,
+  .testimonials-grid .grid-item::before {
+  height: 100%;
+  top: 0;
+  left: -1px;
+  border-left: 1px dashed #DDD;
+  }
+  .clients-grid .grid-item::after,
+  .testimonials-grid .grid-item::after {
+  width: 100%;
+  height: 0;
+  top: auto;
+  left: 0;
+  bottom: -1px;
+  border-bottom: 1px dashed #DDD;
+  }

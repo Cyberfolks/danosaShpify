@@ -1,7 +1,19 @@
 <div class="row m-2">
-    <div class="col-lg-6 center col-padding">
+    {%- comment -%}
+    <div class="col-lg-6 center col-padding " >
+        <div style="background: url({{ section.settings.single_image | img_url : 'master' }}) center center no-repeat; background-size: cover;">
+        </div>
+
+
         <img width="" height="" loading="lazy" src="{{ section.settings.single_image | img_url : 'master' }}" alt />
+        
     </div>
+    {%- endcomment -%}
+    <div class="col-lg-6 center col-padding" 
+    style="background: url({{ section.settings.single_image | img_url : 'master' }}) center center no-repeat; background-size: cover;">
+    </div>
+
+
     <div class="col-lg-6 center col-padding" style="background-color: #F5F5F5;">
         <div class="heading-block border-bottom-0">
             {% if section.settings.demo_tagline != blank %}
@@ -11,14 +23,15 @@
             <h3>{{ section.settings.demo_heading }}</h3>
             {% endif %}
         </div>
-        <div class="center bottommargin">
+        <div class="video-banner-center">
             {% assign youtubeId = section.settings.youtube_video_url | split: '?v=' %}
-            <div class="video-banner-block center">
+            <div class="video-banner-section center" style="margin: 0 auto;">
                 {% if section.settings.video_image != blank %}
                 <div class="video-banner">
                     <img width="" height="" loading="lazy" src="{{ section.settings.video_image | img_url : 'master' }}" alt />
                 </div>
                 {% endif %}
+  
                 <div class="video-banner-txt">
                     <div class="video-icon-txt">
                         <div class="video-play modal-toggle" data-val="video-popup--{{ youtubeId[1] }}">
@@ -30,14 +43,14 @@
                                 <path d="M44 28L20.75 40.9904L20.75 15.0096L44 28Z" fill="white" />
                             </svg>
                         </div>
-                        {% if block.settings.video_banner_text != blank %}
-                        <h2>{{ block.settings.video_banner_text }}</h2>
+                        {% if section.settings.video_banner_text != blank %}
+                        <p class="font_15" style="color: white; margin: 15px;">{{ section.settings.video_banner_text }}</p>
                         {% endif %}
                     </div>
                 </div>
             </div>
         </div>
-        <p class="lead mb-0">{{ section.settings.demo_desc }}</p>
+        <p class="mb-0 font_15">{{ section.settings.demo_desc }}</p>
     </div>
     {% assign youtubeId = section.settings.youtube_video_url | split: '?v=' %}
     <div class="modal_main" data-val="video-popup--{{ youtubeId[1] }}">
@@ -97,6 +110,17 @@
     },
     {
       "type": "text",
+      "id": "video_banner_text",
+      "label": "Video Banner Text",
+      "default": "Easily Understandable & Customizable."
+    },
+    {
+        "type": "header",
+        "content": "Other Text",
+        "info": "This is text fields for banner up and down text."
+      },
+    {
+      "type": "text",
       "id": "demo_tagline",
       "label": "Tagline",
       "default": "Easily Understandable & Customizable."
@@ -123,7 +147,160 @@
 {% endschema %}
 
 {% stylesheet %}
+.video-banner-section{
+    width: 70%;
+    position: relative;
+    margin: 0 auto;
+}
+.video-banner-center{
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+.modal_main .modal {
+    visibility: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    z-index: 99;
+    bottom: 0;
+    top: 0;
+    background:none;
+  }
+  .modal_main .modal_flex{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+  }
+  .modal_main .modal.is-visible {
+    visibility: visible;
+  }
+  body.is-visible {
+    overflow: hidden;
+    position: relative;
+    height: 100%;
+  }
+  .modal_main .modal-overlay {
+    display:block;
+    position: fixed;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: hsla(0, 0%, 0%, 0.5);
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s linear 0.3s, opacity 0.3s;
+  }
+  .modal_main .modal.is-visible .modal-overlay {
+    opacity: 1;
+    visibility: visible;
+    transition-delay: 0s;
+  }
+  .modal_main .modal-wrapper {
+    z-index: 9999;
+    width: 600px;
+    margin-left: 0;
+    background-color: #fff;
+    box-shadow: 0 0 1.5em hsla(0, 0%, 0%, 0.35);
+  }
+  .modal_main .modal-transition {
+    transition: all 0.3s 0.12s;
+    opacity: 0;
+    -webkit-transition: opacity .2s,-webkit-transform .4s ease;
+    transition: opacity .2s,-webkit-transform .4s ease;
+    -o-transition: transform .4s ease,opacity .2s;
+    transition: transform .4s ease,opacity .2s;
+    transition: transform .4s ease,opacity .2s,-webkit-transform .4s ease;
+    -webkit-transition-delay: .2s;
+    -o-transition-delay: .2s;
+    transition-delay: .2s;
+    -webkit-transform: translateY(80px);
+    -ms-transform: translateY(80px);
+    transform: translateY(80px);
+  }
+  .modal_main .modal.is-visible .modal-transition {
+    opacity: 1;
+    -webkit-transform: translateY(20px);
+    -ms-transform: translateY(20px);
+    transform: translateY(20px);
+    -webkit-transition: opacity .2s,-webkit-transform .6s ease;
+    transition: opacity .2s,-webkit-transform .6s ease;
+    -o-transition: transform .6s ease,opacity .2s;
+    transition: transform .6s ease,opacity .2s;
+    transition: transform .6s ease,opacity .2s,-webkit-transform .6s ease;
+  }
+  .modal_main .modal-header {
+    position: relative;
+    background-color: #fff;
+    box-shadow: 0 1px 2px hsla(0, 0%, 0%, 0.06);
+    border-bottom: 1px solid #e8e8e8;
+  }
+  .modal_main .modal-close-pop {
+    position: absolute;
+    top: -30px;
+    right: 0;
+    padding:0 0 15px;
+    color: #aaa;
+    background: none;
+    cursor:pointer;
+    border: 0;
+    -webkit-transition: opacity .2s,-webkit-transform .4s ease;
+    transition: opacity .2s,-webkit-transform .4s ease;
+  }
+
+  .modal_main .modal-close-pop:hover {
+    color: #777;
+  }
+  .modal_main .modal-heading {
+    font-size: 1.125em;
+    margin: 0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  .modal_main .modal-close-pop svg {
+    width: 15px;
+    height: 15px;
+    fill:#fff;
+  }
+  .modal_main .modal-close-pop:hover {
+    background: none;
+  }
+  .modal_main .modal-content > *:first-child {
+    margin-top: 0;
+  }
+  .modal_main .modal-content > *:last-child {
+    margin-bottom: 0;
+  }
+  .modal-body .modal-content .modal-img {
+    line-height: 0;
+  }
+  @media(min-width: 481px) and (max-width: 620px){
+    .modal_main .modal-wrapper{
+      width: 450px;
+    }
+  }
+  @media(max-width: 480px){
+    .modal_main .modal-wrapper{
+      width: 300px;
+    }
+  }
 {% endstylesheet %}
 
 {% javascript %}
+$(document).ready(function(){
+    $('.video-play').click(function(){
+      var video_ply = $(this).data('val');
+      $('.modal_main[data-val='+video_ply+'] .modal').addClass('is-visible');
+      $('body').addClass('is-visible');
+    });
+    $('.modal .modal-close-pop, .modal .modal-overlay').unbind().click(function(){            
+      $('.modal_main .modal').removeClass('is-visible');
+      $('body').removeClass('is-visible');
+    });
+  });
 {% endjavascript %}
+

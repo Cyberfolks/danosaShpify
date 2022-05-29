@@ -1,0 +1,121 @@
+<div class="container">
+    <div class="row">
+        {% for block in section.blocks %}
+            {% if block.settings.block_title != blank and block.settings.block_description != blank%}
+                <div class="col-lg-4 mb-5">
+                    <div class="heading-block fancy-title border-bottom-0 title-bottom-border">
+                        <h4>{{ block.settings.block_title }} <span>{{ block.settings.block_title2 }}</span></h4>
+                    </div>
+                    <p class="fancy-title-paragraph text-{{ block.settings.alignment }}">{{ block.settings.block_description }}</p>
+                </div>
+            {% endif %}
+        {% endfor %}
+    </div>
+</div>
+
+
+
+{% schema %}
+{
+  "name": "Fancy Blocks",
+  "settings": [],
+  "blocks": [
+    {
+      "type": "text",
+      "name": "Fancy Block",
+      "settings": [
+        {
+          "type": "text",
+          "id": "block_icon_svg",
+          "label": "Icon",
+          "default": "icon-line2-screen-desktop"
+        },
+        {
+          "type": "text",
+          "id": "block_title",
+          "label": "Title One",
+          "default": "Title"
+        },
+        {
+          "type": "text",
+          "id": "block_title2",
+          "label": "Title Two",
+          "default": "Title"
+        },
+        {
+          "type": "textarea",
+          "id": "block_description",
+          "label": "Description",
+          "default": "Description"
+        },
+        {
+        "type": "select",
+        "id": "alignment",
+        "label": "Description Alignment",
+        "options": [
+            {
+            "value": "justify",
+            "label": "Justify"
+            },
+            {
+            "value": "left",
+            "label": "Left"
+            },
+            {
+            "value": "center",
+            "label": "Center"
+            },
+            {
+            "value": "right",
+            "label": "Right"
+            }
+        ],
+        "default": "center"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Fancy Blocks"
+    }
+  ]
+}
+{% endschema %}
+  
+  {% stylesheet %}
+  
+    .fancy-title {
+        position: relative;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-align: center;
+        align-items: center;
+        margin-bottom: 2rem;
+    }
+    .border-bottom-0 {
+        border-bottom: 0 !important;
+    }
+    .fancy-title h4 {
+        font-size: 1.75rem !important;
+        font-weight: 700;
+    }
+    .fancy-title h4 span:not(.nocolor):not(.badge){
+        color: #1ABC9C;
+    }
+    .title-bottom-border h1, .title-bottom-border h2, .title-bottom-border h3, .title-bottom-border h4, .title-bottom-border h5, .title-bottom-border h6 {
+        width: 100%;
+        padding: 0 0 0.75rem;
+        border-bottom: 2px solid #1ABC9C;
+    }
+    .fancy-title-paragraph{
+        font-size: 15px;
+        font-weight: 500;
+        line-height: 1.8;
+        text-align: justify;
+    }
+    
+  {% endstylesheet %}
+  
+  {% javascript %}
+  {% endjavascript %}

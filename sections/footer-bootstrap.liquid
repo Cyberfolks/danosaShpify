@@ -1,3 +1,9 @@
+<link rel="stylesheet" href="{{ 'component-newsletter.css' | asset_url }}" media="print" onload="this.media='all'">
+<link rel="stylesheet" href="{{ 'disclosure.css' | asset_url }}" media="print" onload="this.media='all'">
+
+<noscript>{{ 'component-newsletter.css' | asset_url | stylesheet_tag }}</noscript>
+<noscript>{{ 'disclosure.css' | asset_url | stylesheet_tag }}</noscript>
+
 <footer id="footer" class="dark mt-5">
   <div class="container-fluid p-0">
     <!-- Footer Widgets
@@ -7,14 +13,14 @@
         <div class="col-lg-8">
           <div class="row col-mb-50">
             <div class="col-md-4">
-              <div class="widget clearfix">
+              <div class="widget clearfix footer_about">
                 <img width="" height="" loading="lazy"
                   src="{{ section.settings.footer_logo | img_url: 'master' }}"
                   alt="Image"
                   class="footer-logo"
                 />
                 <p>{{ section.settings.footer_heading }}</p>
-                <p>{{ section.settings.subtext }}</p>
+                {{ section.settings.subtext | class: 'font_15'}}
                 <div style="background: url({{ section.settings.footer_map_image | img_url: 'master' }}) no-repeat center center; background-size: 100%;">
                   <address style="font-size: 14px;">
                     <strong>Headquarters:</strong><br />
@@ -36,7 +42,7 @@
                 <ul>
                     {%- for link in section.settings.menu.links -%}
                         <li>
-                        <a href="{{ link.url }}" class="{% if link.active %}{% endif %}">
+                        <a href="{{ link.url }}" class="font_15 {% if link.active %}{% endif %}">
                         {{ link.title }}
                         </a>
                         </li>
@@ -51,7 +57,7 @@
                 <ul>
                     {%- for link in section.settings.menu2.links -%}
                         <li>
-                        <a href="{{ link.url }}" class="{% if link.active %}{% endif %}">
+                        <a href="{{ link.url }}" class="font_15 {% if link.active %}{% endif %}">
                         {{ link.title }}
                         </a>
                         </li>
@@ -193,7 +199,7 @@
     <div id="copyrights">
       <div class="container">
         <div class="row col-mb-30">
-          <div class="col-md-6 text-center text-md-start">
+          <div class="col-md-6 text-center text-md-start font_15">
             Copyrights &copy; {{ 'now' | date: "%Y" }} All Rights Reserved by {{ shop.name | link_to: routes.root_url }}.<br />
             <div class="copyright-links">
               <a href="{{ section.settings.term_page }}">Terms of Use</a> / <a href="{{ section.settings.privacy_page }}">Privacy Policy</a>
