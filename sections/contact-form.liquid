@@ -1,6 +1,6 @@
 {{ 'section-contact-form.css' | asset_url | stylesheet_tag }}
 <div class="contact-form-main">
-  <div class="contact-bg-banner" style="background-image: url({{ section.settings.contact_bg_banner | image_url : 'master' }})">
+  <div class="contact-bg-banner" style="background-image: url({{ section.settings.contact_bg_banner | img_url : 'master' }})">
     <div class="main-heading">
       <h2 class="heading">{{ section.settings.main_heading_title }}</h2>
     </div>
@@ -18,7 +18,7 @@
               <li class="email-icon-txt">
                 {% if section.settings.mail_img != blank %}
                 <span>
-                  <img width="" height="" loading="lazy" src="{{ section.settings.mail_img | image_url : 'master' }}" alt />
+                  <img width="" height="" loading="lazy" src="{{ section.settings.mail_img | img_url : 'master' }}" alt />
                 </span>
                 {% endif %}
                 <a href="{{ section.settings.mail_url }}" target="_blank">{{ section.settings.mail_txt }}</a>
@@ -26,7 +26,7 @@
               <li class="phone-icon-txt">
                 {% if section.settings.phone_img != blank %}
                 <span>
-                  <img width="" height="" loading="lazy" src="{{ section.settings.phone_img | image_url : 'master' }}" alt />
+                  <img width="" height="" loading="lazy" src="{{ section.settings.phone_img | img_url : 'master' }}" alt />
                 </span>
                 {% endif %}
                 <a href="{{ section.settings.phone_url }}" target="_blank">{{ section.settings.phone_txt }}</a>
@@ -34,7 +34,7 @@
               <li class="map-icon-txt">
                 {% if section.settings.map_img != blank %}
                 <span>
-                  <img width="" height="" loading="lazy" src="{{ section.settings.map_img | image_url : 'master' }}" alt />
+                  <img width="" height="" loading="lazy" src="{{ section.settings.map_img | img_url : 'master' }}" alt />
                 </span>
                 {% endif %}
                 <a href="{{ section.settings.map_url }}" target="_blank">{{ section.settings.map_txt }}</a>

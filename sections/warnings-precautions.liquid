@@ -10,7 +10,7 @@
           <div class="precautions-sub">
             {% if block.settings.image != blank %}
             <div class="precautions-img">
-              <img width="" height="" loading="lazy" src="{{ block.settings.image | image_url: 'master' }}" />
+              <img width="" height="" loading="lazy" src="{{ block.settings.image | img_url: 'master' }}" />
             </div>
             {% endif %}
             {% if block.settings.title != blank %}<h4 class="precautions-title">{{block.settings.title}}</h4>{% endif %}

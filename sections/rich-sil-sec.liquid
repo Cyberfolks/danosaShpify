@@ -8,7 +8,7 @@
         <div class="check-our-img">
           <div class="our-main-img">
           {% if block.settings.check_our_img != blank %}
-          <img width="" height="" loading="lazy" src="{{ block.settings.check_our_img | image_url : 'master' }}" alt />
+          <img width="" height="" loading="lazy" src="{{ block.settings.check_our_img | img_url : 'master' }}" alt />
           {% endif %}
           </div>
           <div class="check-our-icontent">
@@ -42,7 +42,7 @@
           </div>
           <div class="check-our-proimg">
             {% if block.settings.check_our_proimg != blank %}
-            <img width="" height="" loading="lazy" src="{{ block.settings.check_our_proimg | image_url : 'master' }}" alt />
+            <img width="" height="" loading="lazy" src="{{ block.settings.check_our_proimg | img_url : 'master' }}" alt />
             {% endif %}
           </div>
          <div class="check-our-icon check-block">

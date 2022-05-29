@@ -4,7 +4,7 @@
     <div class="video-banner-block">
       {% if block.settings.video_banner_img != blank %}
       <div class="video-banner">
-        <img width="" height="" loading="lazy" src="{{ block.settings.video_banner_img | image_url : 'master' }}" alt />
+        <img width="" height="" loading="lazy" src="{{ block.settings.video_banner_img | img_url : 'master' }}" alt />
       </div>
       {% endif %}
       <div class="video-banner-txt">

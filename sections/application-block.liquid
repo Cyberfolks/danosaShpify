@@ -4,8 +4,8 @@
       <div class="application-bg">
         {% if section.settings.desktop_bg != blank %}
         <div class="application-main-img">          
-          <img width="" height="" loading="lazy" src="{{ section.settings.desktop_bg | image_url: 'master' }}" class="desktop-banner" alt="">                
-          {% if section.settings.mobile_bg != blank %}<img width="" height="" loading="lazy" src="{{ section.settings.mobile_bg | image_url: 'master' }}" class="mobile-banner" alt="">{% endif %}         
+          <img width="" height="" loading="lazy" src="{{ section.settings.desktop_bg | img_url: 'master' }}" class="desktop-banner" alt="">                
+          {% if section.settings.mobile_bg != blank %}<img width="" height="" loading="lazy" src="{{ section.settings.mobile_bg | img_url: 'master' }}" class="mobile-banner" alt="">{% endif %}         
         </div>
         {% endif %}
         <div class="banner-content">
@@ -18,7 +18,7 @@
           <div class="application-sub">
             {% if block.settings.image != blank %}
             <div class="application-img">
-              <img width="" height="" loading="lazy" src="{{ block.settings.image | image_url: 'master' }}" />
+              <img width="" height="" loading="lazy" src="{{ block.settings.image | img_url: 'master' }}" />
             </div>
             {% endif %}
             <div class="application-details">

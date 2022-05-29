@@ -2,13 +2,13 @@
 
 <div class="container-fluid p-0 m-0 parallex-section">
     <div class="col-12 p-0 m-0">
-        <img width="" height="" loading="lazy" class="parallex-section-img" id="p_img" src="{{ section.settings.section_image | image_url: 'master' }}" />
+        <img width="" height="" loading="lazy" class="parallex-section-img" id="p_img" src="{{ section.settings.section_image | img_url: 'master' }}" />
     </div>
 </div>
 
 <div class="container-fluid parallax p-0 m-0">
     <div class="parallex-section-img" id="p_img"
-    style="background:linear-gradient(0deg, rgb(10 10 10 / 30%), rgb(9 1 6 / 30%)) 0px -579.357px, url({{ section.settings.section_image | image_url: 'master' }}); padding: 200px 0;" 
+    style="background:linear-gradient(0deg, rgb(10 10 10 / 30%), rgb(9 1 6 / 30%)) 0px -579.357px, url({{ section.settings.section_image | img_url: 'master' }}); padding: 200px 0;" 
     data-bottom-top="background-position:0px 0px;" 
     data-top-bottom="background-position:0px -800px;"
     >
@@ -23,7 +23,7 @@
 </div>
 </div>
   {%- endcomment -%}
-<section class="sections parallax" style="background-image: url({{ section.settings.section_image | image_url: 'master' }});"  data-parallax-speed="5">
+<section class="sections parallax" style="background-image: url({{ section.settings.section_image | img_url: 'master' }});"  data-parallax-speed="5">
         {%- if section.settings.position != blank -%}
             {%- if section.settings.position == 'center' -%}
             <div class="parallax-container text-center">

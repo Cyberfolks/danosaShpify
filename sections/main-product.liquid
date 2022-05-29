@@ -105,15 +105,15 @@
                             aria-controls="GalleryViewer-{{ section.id }}"
                             aria-describedby="Thumbnail-{{ section.id }}-0"
                             >
-                      <img width="" height="" loading="lazy" id="Thumbnail-{{ section.id }}-0" srcset="{% if featured_media.preview_image.width >= 54 %}{{ featured_media.preview_image | image_url: '54x' }} 54w,{% endif %}
-                                                                     {% if featured_media.preview_image.width >= 74 %}{{ featured_media.preview_image | image_url: '74x' }} 74w,{% endif %}
-                                                                     {% if featured_media.preview_image.width >= 104 %}{{ featured_media.preview_image | image_url: '104x' }} 104w,{% endif %}
-                                                                     {% if featured_media.preview_image.width >= 162 %}{{ featured_media.preview_image | image_url: '162x' }} 162w,{% endif %}
-                                                                     {% if featured_media.preview_image.width >= 208 %}{{ featured_media.preview_image | image_url: '208x' }} 208w,{% endif %}
-                                                                     {% if featured_media.preview_image.width >= 324 %}{{ featured_media.preview_image | image_url: '324x' }} 324w,{% endif %}
-                                                                     {% if featured_media.preview_image.width >= 416 %}{{ featured_media.preview_image | image_url: '416x' }} 416w,{% endif %},
-                                                                     {{ featured_media.preview_image | image_url: 'master' }} {{ media.preview_image.width }}w"
-                           src="{{ featured_media | image_url: '416x' }}"
+                      <img width="" height="" loading="lazy" id="Thumbnail-{{ section.id }}-0" srcset="{% if featured_media.preview_image.width >= 54 %}{{ featured_media.preview_image | img_url: '54x' }} 54w,{% endif %}
+                                                                     {% if featured_media.preview_image.width >= 74 %}{{ featured_media.preview_image | img_url: '74x' }} 74w,{% endif %}
+                                                                     {% if featured_media.preview_image.width >= 104 %}{{ featured_media.preview_image | img_url: '104x' }} 104w,{% endif %}
+                                                                     {% if featured_media.preview_image.width >= 162 %}{{ featured_media.preview_image | img_url: '162x' }} 162w,{% endif %}
+                                                                     {% if featured_media.preview_image.width >= 208 %}{{ featured_media.preview_image | img_url: '208x' }} 208w,{% endif %}
+                                                                     {% if featured_media.preview_image.width >= 324 %}{{ featured_media.preview_image | img_url: '324x' }} 324w,{% endif %}
+                                                                     {% if featured_media.preview_image.width >= 416 %}{{ featured_media.preview_image | img_url: '416x' }} 416w,{% endif %},
+                                                                     {{ featured_media.preview_image | img_url: 'master' }} {{ media.preview_image.width }}w"
+                           src="{{ featured_media | img_url: '416x' }}"
                            sizes="(min-width: {{ settings.page_width }}px) calc(({{ settings.page_width | minus: 100 | times: media_width | round }} - 4rem) / 4), (min-width: 990px) calc(({{ media_width | times: 100 }}vw - 4rem) / 4), (min-width: 750px) calc((100vw - 15rem) / 8), calc((100vw - 14rem) / 3)"
                            alt="{{ featured_media.alt | escape }}"
                            height="208"
@@ -149,13 +149,13 @@
                             aria-describedby="Thumbnail-{{ section.id }}-{{ forloop.index }}"
                             >
                       <img width="" height="" loading="lazy" id="Thumbnail-{{ section.id }}-{{ forloop.index }}"
-                           srcset="{% if media.preview_image.width >= 59 %}{{ media.preview_image | image_url: '59x' }} 59x,{% endif %}
-                                   {% if media.preview_image.width >= 118 %}{{ media.preview_image | image_url: '118x' }} 118w,{% endif %}
-                                   {% if media.preview_image.width >= 84 %}{{ media.preview_image | image_url: '84x' }} 84w,{% endif %}
-                                   {% if media.preview_image.width >= 168 %}{{ media.preview_image | image_url: '168x' }} 168w,{% endif %}
-                                   {% if media.preview_image.width >= 130 %}{{ media.preview_image | image_url: '130x' }} 130w,{% endif %}
-                                   {% if media.preview_image.width >= 260 %}{{ media.preview_image | image_url: '260x' }} 260w{% endif %}"
-                           src="{{ media | image_url: '84x84' }}"
+                           srcset="{% if media.preview_image.width >= 59 %}{{ media.preview_image | img_url: '59x' }} 59x,{% endif %}
+                                   {% if media.preview_image.width >= 118 %}{{ media.preview_image | img_url: '118x' }} 118w,{% endif %}
+                                   {% if media.preview_image.width >= 84 %}{{ media.preview_image | img_url: '84x' }} 84w,{% endif %}
+                                   {% if media.preview_image.width >= 168 %}{{ media.preview_image | img_url: '168x' }} 168w,{% endif %}
+                                   {% if media.preview_image.width >= 130 %}{{ media.preview_image | img_url: '130x' }} 130w,{% endif %}
+                                   {% if media.preview_image.width >= 260 %}{{ media.preview_image | img_url: '260x' }} 260w{% endif %}"
+                           src="{{ media | img_url: '84x84' }}"
                            sizes="(min-width: 1200px) calc((1200px - 19.5rem) / 12), (min-width: 750px) calc((100vw - 16.5rem) / 8), calc((100vw - 8rem) / 5)"
                            alt="{{ media.alt | escape }}"
                            height="200"
@@ -716,15 +716,15 @@
                             aria-controls="GalleryViewer-{{ section.id }}"
                             aria-describedby="Thumbnail-{{ section.id }}-0"
                             >
-                      <img width="" height="" loading="lazy" id="Thumbnail-{{ section.id }}-0" srcset="{% if featured_media.preview_image.width >= 54 %}{{ featured_media.preview_image | image_url: '54x' }} 54w,{% endif %}
-                                                                     {% if featured_media.preview_image.width >= 74 %}{{ featured_media.preview_image | image_url: '74x' }} 74w,{% endif %}
-                                                                     {% if featured_media.preview_image.width >= 104 %}{{ featured_media.preview_image | image_url: '104x' }} 104w,{% endif %}
-                                                                     {% if featured_media.preview_image.width >= 162 %}{{ featured_media.preview_image | image_url: '162x' }} 162w,{% endif %}
-                                                                     {% if featured_media.preview_image.width >= 208 %}{{ featured_media.preview_image | image_url: '208x' }} 208w,{% endif %}
-                                                                     {% if featured_media.preview_image.width >= 324 %}{{ featured_media.preview_image | image_url: '324x' }} 324w,{% endif %}
-                                                                     {% if featured_media.preview_image.width >= 416 %}{{ featured_media.preview_image | image_url: '416x' }} 416w,{% endif %},
-                                                                     {{ featured_media.preview_image | image_url: 'master' }} {{ media.preview_image.width }}w"
-                           src="{{ featured_media | image_url: '416x' }}"
+                      <img width="" height="" loading="lazy" id="Thumbnail-{{ section.id }}-0" srcset="{% if featured_media.preview_image.width >= 54 %}{{ featured_media.preview_image | img_url: '54x' }} 54w,{% endif %}
+                                                                     {% if featured_media.preview_image.width >= 74 %}{{ featured_media.preview_image | img_url: '74x' }} 74w,{% endif %}
+                                                                     {% if featured_media.preview_image.width >= 104 %}{{ featured_media.preview_image | img_url: '104x' }} 104w,{% endif %}
+                                                                     {% if featured_media.preview_image.width >= 162 %}{{ featured_media.preview_image | img_url: '162x' }} 162w,{% endif %}
+                                                                     {% if featured_media.preview_image.width >= 208 %}{{ featured_media.preview_image | img_url: '208x' }} 208w,{% endif %}
+                                                                     {% if featured_media.preview_image.width >= 324 %}{{ featured_media.preview_image | img_url: '324x' }} 324w,{% endif %}
+                                                                     {% if featured_media.preview_image.width >= 416 %}{{ featured_media.preview_image | img_url: '416x' }} 416w,{% endif %},
+                                                                     {{ featured_media.preview_image | img_url: 'master' }} {{ media.preview_image.width }}w"
+                           src="{{ featured_media | img_url: '416x' }}"
                            sizes="(min-width: {{ settings.page_width }}px) calc(({{ settings.page_width | minus: 100 | times: media_width | round }} - 4rem) / 4), (min-width: 990px) calc(({{ media_width | times: 100 }}vw - 4rem) / 4), (min-width: 750px) calc((100vw - 15rem) / 8), calc((100vw - 14rem) / 3)"
                            alt="{{ featured_media.alt | escape }}"
                            height="208"
@@ -760,13 +760,13 @@
                             aria-describedby="Thumbnail-{{ section.id }}-{{ forloop.index }}"
                             >
                       <img width="" height="" loading="lazy" id="Thumbnail-{{ section.id }}-{{ forloop.index }}"
-                           srcset="{% if media.preview_image.width >= 59 %}{{ media.preview_image | image_url: '59x' }} 59x,{% endif %}
-                                   {% if media.preview_image.width >= 118 %}{{ media.preview_image | image_url: '118x' }} 118w,{% endif %}
-                                   {% if media.preview_image.width >= 84 %}{{ media.preview_image | image_url: '84x' }} 84w,{% endif %}
-                                   {% if media.preview_image.width >= 168 %}{{ media.preview_image | image_url: '168x' }} 168w,{% endif %}
-                                   {% if media.preview_image.width >= 130 %}{{ media.preview_image | image_url: '130x' }} 130w,{% endif %}
-                                   {% if media.preview_image.width >= 260 %}{{ media.preview_image | image_url: '260x' }} 260w{% endif %}"
-                           src="{{ media | image_url: '84x84' }}"
+                           srcset="{% if media.preview_image.width >= 59 %}{{ media.preview_image | img_url: '59x' }} 59x,{% endif %}
+                                   {% if media.preview_image.width >= 118 %}{{ media.preview_image | img_url: '118x' }} 118w,{% endif %}
+                                   {% if media.preview_image.width >= 84 %}{{ media.preview_image | img_url: '84x' }} 84w,{% endif %}
+                                   {% if media.preview_image.width >= 168 %}{{ media.preview_image | img_url: '168x' }} 168w,{% endif %}
+                                   {% if media.preview_image.width >= 130 %}{{ media.preview_image | img_url: '130x' }} 130w,{% endif %}
+                                   {% if media.preview_image.width >= 260 %}{{ media.preview_image | img_url: '260x' }} 260w{% endif %}"
+                           src="{{ media | img_url: '84x84' }}"
                            sizes="(min-width: 1200px) calc((1200px - 19.5rem) / 12), (min-width: 750px) calc((100vw - 16.5rem) / 8), calc((100vw - 8rem) / 5)"
                            alt="{{ media.alt | escape }}"
                            height="200"
@@ -910,7 +910,7 @@
                   <li>
                     <div class="check-icon-img">
                       {% if section.settings.check_our_svg_1 != blank %}
-                      <img width="" height="" loading="lazy" src="{{ section.settings.check_our_svg_1 | image_url : '33x' }}" alt />
+                      <img width="" height="" loading="lazy" src="{{ section.settings.check_our_svg_1 | img_url : '33x' }}" alt />
                       {% endif %}
                       {% if section.settings.check_our_txt_1 != blank %}
                       <h3>{{ section.settings.check_our_txt_1 }}</h3>
@@ -920,7 +920,7 @@
                   <li>
                     <div class="check-icon-img">
                       {% if section.settings.check_our_svg_2 != blank %}
-                      <img width="" height="" loading="lazy" src="{{ section.settings.check_our_svg_2 | image_url : '33x' }}" alt />
+                      <img width="" height="" loading="lazy" src="{{ section.settings.check_our_svg_2 | img_url : '33x' }}" alt />
                       {% endif %}
                       {% if section.settings.check_our_txt_2 != blank %}
                       <h3>{{ section.settings.check_our_txt_2 }}</h3>
@@ -930,7 +930,7 @@
                   <li>
                     <div class="check-icon-img">
                       {% if section.settings.check_our_svg_3 != blank %}
-                      <img width="" height="" loading="lazy" src="{{ section.settings.check_our_svg_3 | image_url : '33x' }}" alt />
+                      <img width="" height="" loading="lazy" src="{{ section.settings.check_our_svg_3 | img_url : '33x' }}" alt />
                       {% endif %}
                       {% if section.settings.check_our_txt_3 != blank %}
                       <h3>{{ section.settings.check_our_txt_3 }}</h3>
@@ -940,7 +940,7 @@
                   <li>
                     <div class="check-icon-img">
                       {% if section.settings.check_our_svg_4 != blank %}
-                      <img width="" height="" loading="lazy" src="{{ section.settings.check_our_svg_4 | image_url : '33x' }}" alt />
+                      <img width="" height="" loading="lazy" src="{{ section.settings.check_our_svg_4 | img_url : '33x' }}" alt />
                       {% endif %}
                       {% if section.settings.check_our_txt_4 != blank %}
                       <h3>{{ section.settings.check_our_txt_4 }}</h3>
@@ -950,7 +950,7 @@
                   <li>
                     <div class="check-icon-img">
                       {% if section.settings.check_our_svg_5 != blank %}
-                      <img width="" height="" loading="lazy" src="{{ section.settings.check_our_svg_5 | image_url : '33x' }}" alt />
+                      <img width="" height="" loading="lazy" src="{{ section.settings.check_our_svg_5 | img_url : '33x' }}" alt />
                       {% endif %}
                       {% if section.settings.check_our_txt_5 != blank %}
                       <h3>{{ section.settings.check_our_txt_5 }}</h3>
@@ -1097,7 +1097,7 @@ customElements.define('product-modal', ProductModal);
     {% if seo_media -%}
       {%- assign media_size = seo_media.preview_image.width | append: 'x' -%}
       "image": [
-        {{ seo_media | image_url: media_size | prepend: "https:" | json }}
+        {{ seo_media | img_url: media_size | prepend: "https:" | json }}
       ],
     {%- endif %}
     "description": {{ product.description | strip_html | json }},

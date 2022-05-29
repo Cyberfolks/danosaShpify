@@ -1,6 +1,6 @@
 <div class="row m-2">
     <div class="col-lg-6 center col-padding">
-        <img width="" height="" loading="lazy" src="{{ section.settings.single_image | image_url : 'master' }}" alt />
+        <img width="" height="" loading="lazy" src="{{ section.settings.single_image | img_url : 'master' }}" alt />
     </div>
     <div class="col-lg-6 center col-padding" style="background-color: #F5F5F5;">
         <div class="heading-block border-bottom-0">
@@ -16,7 +16,7 @@
             <div class="video-banner-block center">
                 {% if section.settings.video_image != blank %}
                 <div class="video-banner">
-                    <img width="" height="" loading="lazy" src="{{ section.settings.video_image | image_url : 'master' }}" alt />
+                    <img width="" height="" loading="lazy" src="{{ section.settings.video_image | img_url : 'master' }}" alt />
                 </div>
                 {% endif %}
                 <div class="video-banner-txt">
