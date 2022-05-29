@@ -9,10 +9,10 @@
     "colors_background_2": "#F3F3F3",
     "type_header_font": "poppins_n4",
     "type_body_font": "poppins_n4",
-    "social_twitter_link": "https://twitter.com/shopify",
-    "social_facebook_link": "https://facebook.com/shopify",
-    "social_instagram_link": "http://instagram.com/shopify",
-    "favicon": "shopify://shop_images/favicon.png",
+    "social_twitter_link": "https:\/\/twitter.com\/shopify",
+    "social_facebook_link": "https:\/\/facebook.com\/shopify",
+    "social_instagram_link": "http:\/\/instagram.com\/shopify",
+    "favicon": "shopify:\/\/shop_images\/favicon.png",
     "sections": {
       "announcement-bar": {
         "type": "announcement-bar",
@@ -23,7 +23,7 @@
         "type": "header",
         "settings": {
           "color_scheme": "background-2",
-          "logo": "shopify://shop_images/logo.png",
+          "logo": "shopify:\/\/shop_images\/logo.png",
           "logo_width": 100,
           "logo_position": "middle-left",
           "menu": "main-menu",
@@ -46,7 +46,7 @@
             "type": "text",
             "settings": {
               "heading": "",
-              "subtext": "<p><a href=\"info@richport.com\">info@richport.com</a></p>"
+              "subtext": "<p><a href=\"info@richport.com\">info@richport.com<\/a><\/p>"
             }
           }
         },
@@ -78,7 +78,7 @@
             "type": "text",
             "settings": {
               "heading": "",
-              "subtext": "<p><a href=\"mailto:info@richport.com\" target=\"_blank\">info@richport.com</a></p>"
+              "subtext": "<p><a href=\"mailto:info@richport.com\" target=\"_blank\">info@richport.com<\/a><\/p>"
             }
           }
         },
@@ -94,6 +94,32 @@
           "enable_country_selector": false,
           "enable_language_selector": false,
           "payment_enable": false
+        }
+      },
+      "footer-bootstrap": {
+        "type": "footer-bootstrap",
+        "settings": {
+          "heading_footer": "Heading",
+          "subtext": "<p>Share store details, promotions, or brand content with your customers.<\/p>",
+          "footer_map_image": "shopify:\/\/shop_images\/world-map.png",
+          "footer_logo": "shopify:\/\/shop_images\/footer-widget-logo.png",
+          "heading_links": "Quick links",
+          "menu": "footer",
+          "heading_links_two": "Quick links",
+          "menu2": "footer",
+          "footer_email_address": "support@danosapr.com",
+          "footer_number": "+1000000000",
+          "footer_address": "<p>House #, Street #, City , State, Country.<\/p>",
+          "client_number_enable": true,
+          "client_number_heading": "Clients",
+          "client_number": 300,
+          "project_number_enable": true,
+          "project_number_heading": "Projects",
+          "project_number": 300,
+          "newsletter_enable": false,
+          "newsletter_heading": "Subscribe to our emails",
+          "privacy_page": "",
+          "term_page": ""
         }
       }
     },
