@@ -1,0 +1,39 @@
+<div class="main-banner mar-btm-48">
+    <div class="main-subbanner">
+      {% if section.settings.main_banner_img != blank %}
+      <img width="" height="" loading="lazy" src="{{ section.settings.main_banner_img | img_url : 'master' }}" class="desktop-banner" alt />
+      {% endif %}
+       {% if section.settings.main_banner_mimg != blank %}
+      <img width="" height="" loading="lazy" src="{{ section.settings.main_banner_mimg | img_url : 'master' }}" class="mobile-banner" alt />
+      {% endif %}
+    </div>
+  </div>
+  {% schema %}
+  {
+    "name": "Single Page Banner",
+    "settings": [
+      {
+        "type": "image_picker",
+        "id": "main_banner_img",
+        "label": "Single Page Banner Desktop Image"
+      },
+      {
+        "type": "image_picker",
+        "id": "main_banner_mimg",
+        "label": "Single Page Banner Mobile Image"
+      }
+    ],
+    "presets": [
+      {
+        "name": "Single Page Banner"
+      }
+    ]
+  }
+  {% endschema %}
+  
+  {% stylesheet %}
+  {% endstylesheet %}
+  
+  {% javascript %}
+  {% endjavascript %}
+  

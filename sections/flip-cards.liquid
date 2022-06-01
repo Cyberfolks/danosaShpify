@@ -1,0 +1,148 @@
+<div class="container" style="margin: {{section.settings.margin}}px auto !important;">
+  <div class="heading-block topmargin-lg center animate__animated animate__bounce animate__delay-3s">
+      <h4>{{section.settings.cards_title}}</h4>
+      <span class="mx-auto font_15">{{section.settings.cards_desc}}</span>
+  </div>
+  <div class="row grid-container">
+      {% for block in section.blocks %}
+          <div class="col-lg-4 mb-4">
+              <div class="flip-card top-to-bottom"> 
+                  <div class="flip-card-front dark" style="background-image: url({{ block.settings.front_image | img_url : 'master' }});">
+                      <div class="flip-card-inner">
+                          <div class="card bg-transparent border-0 text-center">
+                              <div class="card-body">
+                                  <h3 class="card-title mb-2">{{ block.settings.front_heading }}</h3>
+                                  <span class="fst-italic">{{ block.settings.front_description }}</span> 
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                  
+                  <div class="flip-card-back"
+                      style="background-image: url({{ block.settings.back_image | img_url : 'master' }});">
+                      <div class="flip-card-inner text-center">
+                          <p class="mb-2 text-white">{{ block.settings.back_description }}</p>
+                          {% if block.settings.button_url != blank %}
+                              <a href="{{ block.settings.button_url }}" class="btn btn-outline-light mt-2">{{ block.settings.button_text }}</a>
+                          {% endif %}
+                          <!-- <button type="button" ></button> -->
+                      </div>
+                  </div>
+              </div>
+          </div>
+          {% endfor %}
+  </div>
+</div>
+
+
+
+
+{% schema %}
+{
+  "name": "Flip Cards",
+  "settings": [
+  {
+      "type": "checkbox",
+      "id": "heading_enable",
+      "default": true,
+      "label": "Want to show Heading?"
+    },
+  {
+    "type": "text",
+    "id": "cards_title",
+    "label": "Heading",
+    "default": "Section Heading."
+  },
+  {
+    "type": "textarea",
+    "id": "cards_desc",
+    "label": "Description",
+    "default": "Please add description"
+  },
+  {
+    "type": "range",
+    "id": "margin",
+    "min": 0,
+    "max": 100,
+    "step": 1,
+    "unit": "px",
+    "label": "Margins",
+    "default": 0
+    }
+  ],
+  "blocks": [
+  {
+    "type": "text",
+    "name": "Flip Card",
+    "settings": [
+    {
+      "type": "image_picker",
+      "id": "front_image",
+      "label": "Card Front Image"
+    },
+    {
+      "type": "text",
+      "id": "front_heading",
+      "label": "Card Title",
+      "default": "Card Title"
+    },
+    {
+      "type": "text",
+      "id": "front_description",
+      "label": "Short Description",
+      "default": "Card Short Description"
+    },
+    {
+      "type": "header",
+      "content": "Card Back Side Data",
+      "info": "Please Put Back side content."
+    },
+    {
+      "type": "image_picker",
+      "id": "back_image",
+      "label": "Card Back Image"
+    },
+    {
+      "type": "textarea",
+      "id": "back_description",
+      "label": "Back Description",
+      "default": "Card Long Description"
+    },
+    {
+      "type": "text",
+      "id": "button_text",
+      "label": "Button Text",
+      "default": "Read More"
+    },
+    {
+      "type": "text",
+      "id": "button_url",
+      "label": "Button Url"
+    }
+    ]
+  }
+  ],
+  "presets": [{"name": "Flip Cards"}]
+}
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+$(document).ready(function(){
+  var dataHeightXl= $('[data-height-xl]');
+  var body = $('body');
+  console.log('dataHeightXl', dataHeightXl.length);
+  if( dataHeightXl.length > 0 ) {
+      dataHeightXl.each( function(){
+          let element = $(this);
+          let elementHeight = element.attr('data-height-xl');
+          console.log('element', element, elementHeight);
+    if( body.hasClass('device-xs') ) {
+      //if( elementHeight != '' ) { element.css( 'height', elementHeight ); }
+    }
+  });
+}
+})
+{% endjavascript %}

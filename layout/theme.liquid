@@ -34,6 +34,8 @@
     <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js" defer="defer"></script>
     <script src="{{ 'global.js' | asset_url }}" defer="defer"></script>
     <script src="{{ 'simple.parallax.js' | asset_url }}" defer="defer"></script>
+    <script src="{{ 'counter.js' | asset_url }}" defer="defer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" defer="defer"></script>
     {{ content_for_header }}
 
     {%- liquid
@@ -103,6 +105,7 @@
     font-family: var(--font-body-family);
     font-style: var(--font-body-style);
     font-weight: var(--font-body-weight);
+    overflow: hidden;
     }
 
     @media screen and (min-width: 750px) {

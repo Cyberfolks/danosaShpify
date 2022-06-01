@@ -1,0 +1,58 @@
+
+<div class="container" style="margin: {{section.settings.margin}}px auto !important;">
+    {%- comment -%}
+    animate__animated animate__fadeInLeft animate__delay-2s
+    {%- endcomment -%}
+      <div class="col-12">
+          {% if section.settings.paragraph_heading != blank %}
+              <div class="heading-block center">
+                  <h4 class="paragraph-heading">{{ section.settings.paragraph_heading }}</h4>
+              </div>
+          {% endif %}
+              {{ section.settings.paragraph_desc }}
+      </div>
+  </div>
+</div>
+
+{% schema %}
+{
+"name": "Full Width Paragraph",
+"settings": [
+  {
+    "type": "text",
+    "id": "paragraph_heading",
+    "label": "Heading"
+  },
+  {
+    "type": "richtext",
+    "id": "paragraph_desc",
+    "label": "Description"
+  },
+  {
+    "type": "range",
+    "id": "margin",
+    "min": 0,
+    "max": 100,
+    "step": 1,
+    "unit": "px",
+    "label": "Margins",
+    "default": 0
+    }
+],
+"presets": [
+  {
+    "name": "Full Width Paragraph"
+  }
+]
+}
+{% endschema %}
+
+{% stylesheet %}
+.paragraph-heading{
+  font-size:15px !important;
+}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}
+

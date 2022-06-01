@@ -1,4 +1,4 @@
-<div class="row m-2">
+<div class="row m-2" style="margin: {{section.settings.margin}}px auto !important;">
     {%- comment -%}
     <div class="col-lg-6 center col-padding " >
         <div style="background: url({{ section.settings.single_image | img_url : 'master' }}) center center no-repeat; background-size: cover;">
@@ -12,8 +12,6 @@
     <div class="col-lg-6 center col-padding" 
     style="background: url({{ section.settings.single_image | img_url : 'master' }}) center center no-repeat; background-size: cover;">
     </div>
-
-
     <div class="col-lg-6 center col-padding" style="background-color: #F5F5F5;">
         <div class="heading-block border-bottom-0">
             {% if section.settings.demo_tagline != blank %}
@@ -136,7 +134,17 @@
       "id": "demo_desc",
       "label": "Description",
       "default": "Democracy inspire breakthroughs, Rosa Parks; inspiration raise awareness natural resources. Governance impact transformative donation philanthropy, respect reproductive."
-    }
+    },
+    {
+      "type": "range",
+      "id": "margin",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "label": "Margins",
+      "default": 0
+      }
   ],
   "presets": [
     {

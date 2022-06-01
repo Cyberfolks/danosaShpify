@@ -1,8 +1,14 @@
-<div class="container">
+<div class="container" style="margin: {{section.settings.margin}}px auto !important;">
+    {% if section.settings.heading_enable %}
+        <div class="heading-block topmargin-lg center animate__animated animate__bounce animate__delay-3s">
+        <h4>{{section.settings.main_title}}</h4>
+        <span class="mx-auto font_15">{{section.settings.main_description}}</span>
+        </div>
+    {% endif %} 
     <div class="row">
         {% for block in section.blocks %}
             {% if block.settings.block_title != blank and block.settings.block_description != blank%}
-                <div class="col-lg-4 mb-5">
+                <div class="col-lg-4 mb-5 animate__animated animate__zoomInDown animate__delay-3s">
                     <div class="heading-block fancy-title border-bottom-0 title-bottom-border">
                         <h4>{{ block.settings.block_title }} <span>{{ block.settings.block_title2 }}</span></h4>
                     </div>
@@ -18,7 +24,34 @@
 {% schema %}
 {
   "name": "Fancy Blocks",
-  "settings": [],
+  "settings": [
+  {
+    "type": "checkbox",
+    "id": "heading_enable",
+    "default": true,
+    "label": "Want to show Heading?"
+  },
+  {
+    "type": "text",
+    "id": "main_title",
+    "label": "Title"
+  },
+  {
+    "type": "textarea",
+    "id": "main_description",
+    "label": "Description"
+  },
+  {
+    "type": "range",
+    "id": "margin",
+    "min": 0,
+    "max": 100,
+    "step": 1,
+    "unit": "px",
+    "label": "Margins",
+    "default": 0
+  }
+  ],
   "blocks": [
     {
       "type": "text",

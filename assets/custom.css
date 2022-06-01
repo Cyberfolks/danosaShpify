@@ -11,6 +11,17 @@
   src: url('Poppins-Black.ttf');
 }
 
+p {
+ font-size: 15px; 
+}
+span {
+ font-size: 15px; 
+}
+
+.heading-block span{
+  font-size: 15px; 
+}
+
 
 body{
   letter-spacing: 0;
@@ -105,12 +116,13 @@ img{
 }
 .def-btn {
   cursor: pointer;
-  border: none;
-  background: #3f51b5;
+  border: 1px solid white;
+  border-radius: 50px;
+  background: transparent;
   color: #ffffff;
   font-size: 24px;
-  letter-spacing: 3px;
-  text-transform: uppercase;
+  /* letter-spacing: 3px; */
+  /* text-transform: uppercase; */
   font-family: 'Poppins';
   line-height: 1;
   padding: 8px 37px;
@@ -189,6 +201,7 @@ img{
 .main-menu-desktop .header-logo{
   width: 15%;
   padding: 0 15px;
+  margin: auto 0;
 }
 .main-menu-desktop .header__icons{
   justify-content: flex-end;
@@ -255,7 +268,7 @@ img{
   top: 0;
 }
 .body-space .main-body {
-  margin-top: 122px;
+/*   margin-top: 122px; */
 }
 .shopify-section-header-sticky .header-main-wrapper.header-wrapper{
   position: fixed;
@@ -948,8 +961,8 @@ a.link.link--text.list-menu__item.list-menu__item--link.list-menu__item--active:
 }
 @media (min-width:1200px) and (max-width:1399px){
   .main-banner-subcontent h2{
-    font-size: 56px;
-    margin-bottom: 25px;
+    font-size: 45px;
+    margin-bottom: 20px;
   }
   .main-banner-subcontent p{
     margin-bottom: 25px;
@@ -1049,15 +1062,15 @@ a.link.link--text.list-menu__item.list-menu__item--link.list-menu__item--active:
     margin-top: 100px;
   }
   .main-banner-subcontent h2{
-    font-size: 48px;
-    margin-bottom: 20px;
+    font-size: 38px;
+    margin-bottom: 15px;
   }
   .main-banner-subcontent p{
     margin-bottom: 20px;
     text-align: center;
   }
   .def-btn.main-banner-btn {
-    padding: 16px 36px;
+    padding: 4px 43px;
   }
   .shipping-with-content ul li .shipping-with-sub{
     max-width: 190px;
@@ -1242,7 +1255,7 @@ a.link.link--text.list-menu__item.list-menu__item--link.list-menu__item--active:
     padding-left: 20px;
   }
   .main-banner-subcontent h2{
-    font-size: 40px;
+    font-size: 20px;
     margin-bottom: 10px;
   }
   .main-banner-subcontent p{
@@ -1255,7 +1268,7 @@ a.link.link--text.list-menu__item.list-menu__item--link.list-menu__item--active:
     margin-top: 120px;
   }
   .def-btn.main-banner-btn {
-    padding: 16px 36px;
+    padding: 4px 25px;
   }
   .shipping-with-content ul li .shipping-with-sub{
     max-width: 190px;
@@ -1467,6 +1480,7 @@ a.link.link--text.list-menu__item.list-menu__item--link.list-menu__item--active:
     width: 30%;
     text-align: left;
     z-index: 1;
+    margin: auto 0;
   }
   .shipping-with-img,
   .shipping-with-content,
@@ -1491,8 +1505,8 @@ a.link.link--text.list-menu__item.list-menu__item--link.list-menu__item--active:
     max-width: 66px;
   }
   .main-banner-subcontent h2{
-    font-size: 46px;
-    margin-bottom: 20px;
+    font-size: 20px;
+    margin-bottom: 0px;
   }
   .main-banner-subcontent p{
     margin-bottom: 10px;
@@ -1502,11 +1516,12 @@ a.link.link--text.list-menu__item.list-menu__item--link.list-menu__item--active:
   .main-banner-subcontent{
     max-width: 100%;
     margin: 0 auto;
-    margin-top: 70px;
+    margin-top: 30px;
     text-align: center;
   }
   .def-btn.main-banner-btn {
-    padding: 26px 73px;
+    padding: 2px 16px;
+    font-size: 12px;
   }
   .logo-icon-sub ul{
     margin: 0;
@@ -2779,29 +2794,47 @@ textarea.field__input:hover{
 .active-facets{
   margin-bottom: 10px;
 }
+.card-title{
+  font-size: 20px;
+}
 @media(min-width: 992px) and (max-width: 1199px){
   .card-wrapper .card.card--product img{
     min-height: 270px;
+  }
+  .card-title{
+    font-size: 20px;
   }
 }
 @media(min-width: 768px) and (max-width: 991px){
   .card-wrapper .card.card--product img{
     min-height: 280px;
   }
+  .card-title{
+    font-size: 30px;
+  }
 }
 @media(min-width: 576px) and (max-width: 767px){
   .card-wrapper .card.card--product img{
     min-height: 350px;
+  }
+  .card-title{
+    font-size: 20px;
   }
 }
 @media(min-width: 481px) and (max-width: 575px){
   .card-wrapper .card.card--product img{
     min-height: 265px;
   }
+  .card-title{
+    font-size: 20px;
+  }
 }
 @media(max-width: 480px){
   .card-wrapper .card.card--product img{
     min-height: 220px;
+  }
+  .card-title{
+    font-size: 20px;
   }
 }
 
@@ -2842,10 +2875,10 @@ textarea.field__input:hover{
 
 .heading-block h2 { font-size: 30px; }
 
-.heading-block h3 { font-size: 1.75rem; }
+.heading-block h3 { font-size: 25px; }
 
 .heading-block h4 {
-	font-size: 1.25rem;
+	font-size: 20px;
 	font-weight: 700;
 }
 
@@ -2873,12 +2906,12 @@ textarea.field__input:hover{
 	}
 }
 
-.heading-block h1 + span { font-size: 1.5rem; }
+.heading-block h1 + span { font-size: 32px; }
 
-.heading-block h2 + span { font-size: 1.25rem; }
+.heading-block h2 + span { font-size: 30px; }
 
 .heading-block h3 + span,
-.heading-block h4 + span { font-size: 1.25rem; }
+.heading-block h4 + span { font-size: 20px; }
 
 .heading-block::after {
 	content: '';
@@ -2971,6 +3004,7 @@ textarea.field__input:hover{
   top: 0;
   left: 0;
   width: 100%;
+  /* max-width: 500px; */
   height: 500px;
   background-color: rgba(0,0,0,0.6);
   color: #eee;
@@ -3785,7 +3819,7 @@ body.modal-open {
   overflow: visible;
 }
 .heading-block.center > span, .heading-block.text-center > span, .center .heading-block > span, .text-center .heading-block > span {
-  max-width: 700px;
+  /* max-width: 700px; */
   margin-left: auto;
   margin-right: auto;
 }
@@ -4094,3 +4128,154 @@ body.modal-open {
   bottom: -1px;
   border-bottom: 1px dashed #DDD;
   }
+  
+/* ----------------------------------------------------------------
+	Flip Cards
+-----------------------------------------------------------------*/
+.grid-container {
+  -webkit-transition: height .4s ease;
+  -o-transition: height .4s ease;
+  transition: height .4s ease;
+}
+.grid-container, .grid-inner {
+  position: relative;
+  overflow: hidden;
+}
+
+.flip-card {
+	-webkit-transform-style: preserve-3d;
+	transform-style: preserve-3d;
+	-webkit-perspective: 1000px;
+	perspective: 1000px;
+}
+
+.flip-card-front,
+.flip-card-back {
+	background-size: cover;
+	background-position: center;
+	-webkit-transition: -webkit-transform 0.7s cubic-bezier(0.4, 0.2, 0.2, 1);
+	transition: -webkit-transform 0.7s cubic-bezier(0.4, 0.2, 0.2, 1);
+	-o-transition: transform 0.7s cubic-bezier(0.4, 0.2, 0.2, 1);
+	transition: transform 0.7s cubic-bezier(0.4, 0.2, 0.2, 1);
+	transition: transform 0.7s cubic-bezier(0.4, 0.2, 0.2, 1),
+	-webkit-transform 0.7s cubic-bezier(0.4, 0.2, 0.2, 1);
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+	width: 100%;
+	height: 280px;
+	border-radius: 6px;
+	color: #FFF;
+	font-size: 1.5rem;
+}
+
+.flip-card-back { background-color: #666; }
+
+.flip-card:hover .flip-card-front,
+.flip-card:hover .flip-card-back {
+	-webkit-transition: -webkit-transform 0.7s cubic-bezier(0.4, 0.2, 0.2, 1);
+	transition: -webkit-transform 0.7s cubic-bezier(0.4, 0.2, 0.2, 1);
+	-o-transition: transform 0.7s cubic-bezier(0.4, 0.2, 0.2, 1);
+	transition: transform 0.7s cubic-bezier(0.4, 0.2, 0.2, 1);
+	transition: transform 0.7s cubic-bezier(0.4, 0.2, 0.2, 1),
+	-webkit-transform 0.7s cubic-bezier(0.4, 0.2, 0.2, 1);
+}
+
+.flip-card-front.no-after::after,
+.flip-card-back.no-after::after { content: none }
+
+.flip-card-front::after,
+.flip-card-back::after {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 1;
+	width: 100%;
+	height: 100%;
+	content: "";
+	display: block;
+	opacity: 0.6;
+	background-color: #000;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+	border-radius: 6px;
+}
+
+.flip-card-back {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+}
+
+.flip-card-inner {
+	-webkit-transform: translateY(-50%) translateZ(60px) scale(0.94);
+	transform: translateY(-50%) translateZ(60px) scale(0.94);
+	top: 50%;
+	position: absolute;
+	left: 0;
+	width: 100%;
+	padding: 2rem;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	outline: 1px solid transparent;
+	-webkit-perspective: inherit;
+	perspective: inherit;
+	z-index: 2;
+}
+
+.flip-card-back {
+	-webkit-transform: rotateY(180deg);
+	transform: rotateY(180deg);
+	-webkit-transform-style: preserve-3d;
+	transform-style: preserve-3d;
+}
+
+.flip-card-front,
+.flip-card:hover .flip-card-back {
+	-webkit-transform: rotateY(0deg);
+	transform: rotateY(0deg);
+	-webkit-transform-style: preserve-3d;
+	transform-style: preserve-3d;
+}
+
+.flip-card:hover .flip-card-front {
+	-webkit-transform: rotateY(-180deg);
+	transform: rotateY(-180deg);
+	-webkit-transform-style: preserve-3d;
+	transform-style: preserve-3d;
+}
+
+.top-to-bottom .flip-card-back {
+	-webkit-transform: rotateX(180deg);
+	transform: rotateX(180deg);
+	-webkit-transform-style: preserve-3d;
+	transform-style: preserve-3d;
+}
+
+.top-to-bottom .flip-card-front,
+.top-to-bottom:hover .flip-card-back {
+	-webkit-transform: rotateX(0deg);
+	transform: rotateX(0deg);
+	-webkit-transform-style: preserve-3d;
+	transform-style: preserve-3d;
+}
+
+.top-to-bottom:hover .flip-card-front {
+	-webkit-transform: rotateX(-180deg);
+	transform: rotateX(-180deg);
+	-webkit-transform-style: preserve-3d;
+	transform-style: preserve-3d;
+}
+
+.flip-card-inner span {
+	font-size: 18px;
+	line-height: 20px;
+	font-weight: 300;
+}
+
+.flip-card-inner p {
+	position: relative;
+	font-size: 1rem;
+	margin-bottom: 0;
+	color: rgba(255, 255, 255, 0.7);
+}

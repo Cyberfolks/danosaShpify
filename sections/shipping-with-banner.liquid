@@ -1,53 +1,12 @@
-{% comment %}
-
-<div class="shipping-with-banner mar-btm-67">
-  <div class="shipping-with-main">
-    <div class="shipping-with-img">
-      {% if section.settings.shipping_with_img != blank %}
-      <img width="" height="" loading="lazy" src="{{ section.settings.shipping_with_img | img_url : 'master' }}" alt />
-      {% endif %}
+<div class="container" style="margin: {{section.settings.margin}}px auto !important;">
+  {% if section.settings.heading_enable %}
+    <div class="heading-block topmargin-lg center animate__animated animate__bounce animate__delay-3s">
+      <h4>{{section.settings.main_heading}}</h4>
+      <span class="mx-auto font_15">{{section.settings.main_des}}</span>
     </div>
-    <div class="shipping-with-content">
-      <div class="main-heading">
-        <h2>{{ section.settings.main_heading }}</h2>
-      </div>
-      <ul>
-        {% for block in section.blocks %}
-        <li>
-          <div class="shipping-with-sub">
-            {% if block.settings.shipp_icon_svg != blank %}
-            {{ block.settings.shipp_icon_svg }}
-            {% endif %}
-            {% if block.settings.shipp_icon_txt != blank %}
-            <h3>{{ block.settings.shipp_icon_txt }}</h3>
-            {% endif %}
-          </div>
-        </li>
-        {% endfor %}
-      </ul>
-    </div>
-  </div>
-</div>
-{% endcomment %}
-<div class="container">
-  <div class="heading-block topmargin-lg center animate__animated animate__bounce animate__delay-3s">
-    <h4>ALL UNDER ONE ROOF!</h4>
-    <span class="mx-auto font_15">We provide customized solutions and advice to each of our clients.</span>
-  </div>
+  {% endif %} 
   <div class="row">
     {% for block in section.blocks %}
-    {% comment %}
-      <div class="col-4">
-        {% if block.settings.shipp_icon_svg != blank %}
-        {{ block.settings.shipp_icon_svg }}
-        {% endif %}
-        {% if block.settings.shipp_icon_txt != blank %}
-          <h3>{{ block.settings.shipp_icon_txt }}</h3>
-        {% endif %}
-      </div>
-      icon-line2-screen-desktop
-      animate__animated animate__fadeInRight animate__delay-3s
-      {% endcomment %} 
       <div class="col-md-6 col-lg-4 center animate__animated animate__zoomInDown animate__delay-3s ">
         <i style="margin-bottom: 15px; float: unset !important; font-size: 40px;" 
         class="i-plain color i-large inline-block {% if block.settings.shipp_icon_svg != blank %}{{ block.settings.shipp_icon_svg }}{% else %}icon-line2-screen-desktop{% endif %}"></i>
@@ -70,10 +29,31 @@
       "label": "Shipp Banner Image"
     },
     {
-      "type": "html",
+      "type": "checkbox",
+      "id": "heading_enable",
+      "default": true,
+      "label": "Want to show Heading?"
+    },
+    {
+      "type": "text",
       "id": "main_heading",
       "label": "Main Heading"
-    }
+    },
+    {
+      "type": "textarea",
+      "id": "main_des",
+      "label": "Main Description"
+    },
+    {
+      "type": "range",
+      "id": "margin",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "label": "Margins",
+      "default": 0
+      }
   ],
   "blocks": [
     {

@@ -1,0 +1,148 @@
+<div class="row clearfix align-items-stretch bottommargin-lg m-2" id="counter_box">
+    <div class="col-lg-3 col-md-6 dark center" style="background-color: #515875; padding: 87px">
+        <i class="i-plain i-xlarge mx-auto icon-line2-directions" style="color: white;"></i>
+        <div class="counter counter-lined">
+            <span class="box1" data-from="100" data-to="{{ section.settings.box1_numbers }}" data-refresh-interval="50" data-speed="2000"></span>
+        </div>
+        <h5>{{ section.settings.box1 }}</h5>
+    </div>
+    <div class="col-lg-3 col-md-6 dark center " style="background-color: #576F9E;padding: 87px">
+        <i class="i-plain i-xlarge mx-auto icon-line2-graph" style="color: white;"></i>
+        <div class="counter counter-lined">
+            <span class="box2" data-from="3000" data-to="{{ section.settings.box2_numbers }}" data-refresh-interval="100" data-speed="2500"></span>
+        </div>
+        <h5>{{ section.settings.box2 }}</h5>
+    </div>
+    <div class="col-lg-3 col-md-6 dark center " style="background-color: #6697B9;padding: 87px">
+        <i class="i-plain i-xlarge mx-auto icon-line2-layers" style="color: white;"></i>
+        <div class="counter counter-lined">
+            <span class="box3" data-from="10" data-to="{{ section.settings.box3_numbers }}" data-refresh-interval="25" data-speed="3500"></span>
+        </div>
+        <h5>{{ section.settings.box3 }}</h5>
+    </div>
+    <div class="col-lg-3 col-md-6 dark center " style="background-color: #88C3D8;padding: 87px">
+        <i class="i-plain i-xlarge mx-auto icon-line2-clock" style="color: white;"></i>
+        <div class="counter counter-lined">
+            <span class="box4" data-from="60" data-to="{{ section.settings.box4_numbers }}" data-refresh-interval="30" data-speed="2700"></span>
+        </div>
+        <h5>{{ section.settings.box4 }}</h5>
+    </div>
+</div>
+
+
+{% schema %}
+
+{
+"name": "Counter Boxes",
+"settings": [
+{
+"type": "header",
+"content": "Box 01",
+"info": "Box One Numbers"
+},
+{
+"type": "text",
+"id": "box1",
+"label": "Box One Heading",
+"default": "Projects"
+},
+{
+"type": "number",
+"id": "box1_numbers",
+"label": "Box One Numbers",
+"default": 300
+},
+{
+"type": "header",
+"content": "Box 02",
+"info": "Box Two Numbers"
+},
+{
+"type": "text",
+"id": "box2",
+"label": "Box Two Heading",
+"default": "Projects"
+},
+{
+"type": "number",
+"id": "box2_numbers",
+"label": "Box Two Numbers",
+"default": 300
+},
+{
+"type": "header",
+"content": "Box 03",
+"info": "Box Three Numbers"
+},
+{
+"type": "text",
+"id": "box3",
+"label": "Box Three Heading",
+"default": "Projects"
+},
+{
+"type": "number",
+"id": "box3_numbers",
+"label": "Box Three Numbers",
+"default": 300
+},
+{
+"type": "header",
+"content": "Box 04",
+"info": "Box Four Numbers"
+},
+{
+"type": "text",
+"id": "box4",
+"label": "Box Four Heading",
+"default": "Projects"
+},
+{
+"type": "number",
+"id": "box4_numbers",
+"label": "Box Four Numbers",
+"default": 300
+},
+{
+"type": "range",
+"id": "margin",
+"min": 0,
+"max": 100,
+"step": 1,
+"unit": "px",
+"label": "Margins",
+"default": 0
+}
+],
+"presets": [
+{
+"name": "Counter Boxes"
+}
+]
+}
+{% endschema %}
+
+{% javascript %}
+$(document).ready(function(){
+    var sections = $('#counter_box');
+    var counted = false;
+    $(window).scroll(function () {
+        var currentScroll = $(this).scrollTop();
+        var currentSection;
+        sections.each(function () {
+            var divPosition = $(this).offset().top;
+            if (divPosition - 400 < currentScroll) {
+                currentSection = $(this);
+            }
+            if (currentSection && !counted) {
+                counted = true;
+                $('.box1').countTo();
+                $('.box2').countTo();
+                $('.box3').countTo();
+                $('.box4').countTo();
+            }
+        })
+
+    });
+});
+{% endjavascript %}

@@ -1,9 +1,11 @@
-<div class="container clearfix">
+<div class="container clearfix" style="margin: {{section.settings.margin}}px auto !important;">
     <div class="clear"></div>
-    <div class="heading-block center">
-        <h4>{{section.settings.grids_title}}</h4>
-        <span class="mx-auto font_15">{{section.settings.grids_des}}</span>
-    </div>
+    {% if section.settings.heading_enable %}
+        <div class="heading-block center">
+            <h4>{{section.settings.grids_title}}</h4>
+            <span class="mx-auto font_15">{{section.settings.grids_des}}</span>
+        </div>
+    {% endif %} 
     <ul class="clients-grid grid-2 grid-sm-3 grid-md-6 mb-0">
         {% for block in section.blocks %}
             {% if block.settings.client_url != blank and block.settings.client_logo != blank%}
@@ -21,6 +23,12 @@
 "name": "Clients Grid",
 "settings": [
     {
+        "type": "checkbox",
+        "id": "heading_enable",
+        "default": true,
+        "label": "Want to show Heading?"
+    },
+    {
         "type": "text",
         "id": "grids_title",
         "label": "Title",
@@ -31,6 +39,16 @@
         "id": "grids_des",
         "label": "Description",
         "default": "We provide customized solutions and advice to each of our clients."
+    },
+    {
+    "type": "range",
+    "id": "margin",
+    "min": 0,
+    "max": 100,
+    "step": 1,
+    "unit": "px",
+    "label": "Margins",
+    "default": 0
     }
 ],
 "blocks": [
